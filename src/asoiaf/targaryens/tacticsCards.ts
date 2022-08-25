@@ -85,8 +85,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-qom-t3.png',
     imageUrlBack: '',
   },
-  Counterplot: {
-    name: 'Counterplot',
+  'Counterplot - Daenerys Targaryen': {
+    name: 'Counterplot - Daenerys Targaryen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-qom-t4.png',
     imageUrlBack: '',
