@@ -32,11 +32,13 @@ try {
       return;
     }
 
-    const command = message.content.startsWith(COMMAND_PREFIX)
+    let command = message.content.startsWith(COMMAND_PREFIX)
       ? message.content.substring(COMMAND_PREFIX.length).trim()
       : message.content.substring(SHORT_COMMAND_PREFIX.length).trim();
 
     console.log(`Received command: ${command}`);
+
+    command = command.replace(/’/g, "'");
 
     if (command === '') {
       message.channel.send('In the Game of Thrones, you specify a search parameter or you die. There is no middle ground.');
