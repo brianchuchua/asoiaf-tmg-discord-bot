@@ -1,0 +1,192 @@
+import { CardData, CardTypes } from '../types';
+
+const cardData: CardData = {
+  'Intrigue And Subterfuge': {
+    name: 'Intrigue And Subterfuge',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-t1.png',
+    imageUrlBack: '',
+  },
+  'A Lannister Pays His Debts': {
+    name: 'A Lannister Pays His Debts',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-t2.png',
+    imageUrlBack: '',
+  },
+  'Hear Me Roar!': {
+    name: 'Hear Me Roar!',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-t3.png',
+    imageUrlBack: '',
+  },
+  Bribery: {
+    name: 'Bribery',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-t4.png',
+    imageUrlBack: '',
+  },
+  'Counterplot - Lannister': {
+    name: 'Counterplot - Lannister',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-t5.png',
+    imageUrlBack: '',
+  },
+  'Fealty To The Crown': {
+    name: 'Fealty To The Crown',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-t6.png',
+    imageUrlBack: '',
+  },
+  'Subjugation Of Power': {
+    name: 'Subjugation Of Power',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-t7.png',
+    imageUrlBack: '',
+  },
+  "Kingslayer's Renown": {
+    name: "Kingslayer's Renown",
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-jaime-lannister-tk-t1.png',
+    imageUrlBack: '',
+  },
+  "Kingslayer's Prowess": {
+    name: "Kingslayer's Prowess",
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-jaime-lannister-tk-t2.png',
+    imageUrlBack: '',
+  },
+  "Kingslayer's Infamy": {
+    name: "Kingslayer's Infamy",
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-jaime-lannister-tk-t3.png',
+    imageUrlBack: '',
+  },
+  'You Will Obey Me!': {
+    name: 'You Will Obey Me!',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-joffrey-baratheon-fohn-t1.png',
+    imageUrlBack: '',
+  },
+  'Traitors! I Will Have Their Heads!': {
+    name: 'Traitors! I Will Have Their Heads!',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-joffrey-baratheon-fohn-t2.png',
+    imageUrlBack: '',
+  },
+  'I Am The King!': {
+    name: 'I Am The King!',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-joffrey-baratheon-fohn-t3.png',
+    imageUrlBack: '',
+  },
+  'False Agenda': {
+    name: 'False Agenda',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tyrion-lannister-h-t1.png',
+    imageUrlBack: '',
+  },
+  'Cunning Ploy - Tyrion Lannister': {
+    name: 'Cunning Ploy - Tyrion Lannister',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tyrion-lannister-h-t2.png',
+    imageUrlBack: '',
+  },
+  'Intercept Orders - Tyrion Lannister': {
+    name: 'Intercept Orders - Tyrion Lannister',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tyrion-lannister-h-t3.png',
+    imageUrlBack: '',
+  },
+  'Exploit Weakness - Tywin Lannister': {
+    name: 'Exploit Weakness - Tywin Lannister',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tywin-lannister-locr-t1.png',
+    imageUrlBack: '',
+  },
+  'Broken Resolve': {
+    name: 'Broken Resolve',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tywin-lannister-locr-t2.png',
+    imageUrlBack: '',
+  },
+  'Issue Commands - Tywin Lannister': {
+    name: 'Issue Commands - Tywin Lannister',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tywin-lannister-locr-t3.png',
+    imageUrlBack: '',
+  },
+  'Overrun - Gregor Clegane': {
+    name: 'Overrun - Gregor Clegane',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-gregor-clegane-tm-t1.png',
+    imageUrlBack: '',
+  },
+  'Assault Orders - Gregor Clegane': {
+    name: 'Assault Orders - Gregor Clegane',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-gregor-clegane-tm-t2.png',
+    imageUrlBack: '',
+  },
+  'Price Of Failure - Gregor Clegane': {
+    name: 'Price Of Failure - Gregor Clegane',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-gregor-clegane-tm-t3.png',
+    imageUrlBack: '',
+  },
+  'Mercy Of The Mother': {
+    name: 'Mercy Of The Mother',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh-t1.png',
+    imageUrlBack: '',
+  },
+  'Protection Of The Father': {
+    name: 'Protection Of The Father',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh-t2.png',
+    imageUrlBack: '',
+  },
+  'Wrath Of The Warrior': {
+    name: 'Wrath Of The Warrior',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh-t3.png',
+    imageUrlBack: '',
+  },
+  'Predictable Maneuvers - Kevan Lannister': {
+    name: 'Predictable Maneuvers - Kevan Lannister',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-kevan-lannister-potr-t1.png',
+    imageUrlBack: '',
+  },
+  'Seeing Their Flaws - Kevan Lannister': {
+    name: 'Seeing Their Flaws - Kevan Lannister',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-kevan-lannister-potr-t2.png',
+    imageUrlBack: '',
+  },
+  'Wealth Of The Rock': {
+    name: 'Wealth Of The Rock',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-kevan-lannister-potr-t3.png',
+    imageUrlBack: '',
+  },
+  'Charismatic Leadership': {
+    name: 'Charismatic Leadership',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-addam-marbrand-cotcw-t1.png',
+    imageUrlBack: '',
+  },
+  'Lash Out - Addam Marbrand': {
+    name: 'Lash Out - Addam Marbrand',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-addam-marbrand-cotcw-t2.png',
+    imageUrlBack: '',
+  },
+  'Valiant Example': {
+    name: 'Valiant Example',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-addam-marbrand-cotcw-t3.png',
+    imageUrlBack: '',
+  },
+};
+
+export default cardData;

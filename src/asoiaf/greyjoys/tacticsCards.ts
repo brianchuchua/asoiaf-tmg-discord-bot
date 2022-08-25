@@ -1,0 +1,192 @@
+import { CardData, CardTypes } from '../types';
+
+const cardData: CardData = {
+  'We Do Not Sow': {
+    name: 'We Do Not Sow',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t1.png',
+    imageUrlBack: '',
+  },
+  'What Is Dead May Never Die': {
+    name: 'What Is Dead May Never Die',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t2.png',
+    imageUrlBack: '',
+  },
+  "The Kraken's Wrath": {
+    name: "The Kraken's Wrath",
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t3.png',
+    imageUrlBack: '',
+  },
+  'The Iron Price': {
+    name: 'The Iron Price',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t4.png',
+    imageUrlBack: '',
+  },
+  'Finger Dance': {
+    name: 'Finger Dance',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t5.png',
+    imageUrlBack: '',
+  },
+  'Bless With Stone, Bless With Steel': {
+    name: 'Bless With Stone, Bless With Steel',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t7.png',
+    imageUrlBack: '',
+  },
+  'Raiding Call': {
+    name: 'Raiding Call',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t6.png',
+    imageUrlBack: '',
+  },
+  'Ironborn Mettle': {
+    name: 'Ironborn Mettle',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-asha-greyjoy-tkd-t1.png',
+    imageUrlBack: '',
+  },
+  'Raider Bravery': {
+    name: 'Raider Bravery',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-asha-greyjoy-tkd-t2.png',
+    imageUrlBack: '',
+  },
+  'War Cry - Asha Greyjoy': {
+    name: 'War Cry - Asha Greyjoy',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-asha-greyjoy-tkd-t3.png',
+    imageUrlBack: '',
+  },
+  'Rush Of Aggression': {
+    name: 'Rush Of Aggression',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-victarion-greyjoy-tic-t1.png',
+    imageUrlBack: '',
+  },
+  'Assault Orders - Victarion Greyjoy': {
+    name: 'Assault Orders - Victarion Greyjoy',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-victarion-greyjoy-tic-t2.png',
+    imageUrlBack: '',
+  },
+  'Sustained Assault - Victarion Greyjoy': {
+    name: 'Sustained Assault - Victarion Greyjoy',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-victarion-greyjoy-tic-t3.png',
+    imageUrlBack: '',
+  },
+  'Acceptable Sacrifices': {
+    name: 'Acceptable Sacrifices',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-balon-greyjoy-tkk-t1.png',
+    imageUrlBack: '',
+  },
+  'Price Of Failure': {
+    name: 'Price Of Failure',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-balon-greyjoy-tkk-t2.png',
+    imageUrlBack: '',
+  },
+  'The Old Way': {
+    name: 'The Old Way',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-balon-greyjoy-tkk-t3.png',
+    imageUrlBack: '',
+  },
+  "Iron's Endurance": {
+    name: "Iron's Endurance",
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-erik-ironmaker-ab-t1.png',
+    imageUrlBack: '',
+  },
+  "Gold's Allure": {
+    name: "Gold's Allure",
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-erik-ironmaker-ab-t2.png',
+    imageUrlBack: '',
+  },
+  "Steel's Might": {
+    name: "Steel's Might",
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-erik-ironmaker-ab-t3.png',
+    imageUrlBack: '',
+  },
+  'Devious Methods': {
+    name: 'Devious Methods',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-euron-greyjoy-lrop-t1.png',
+    imageUrlBack: '',
+  },
+  'Cunning Ploy - Euron Greyjoy': {
+    name: 'Cunning Ploy - Euron Greyjoy',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-euron-greyjoy-lrop-t2.png',
+    imageUrlBack: '',
+  },
+  'Mind Games': {
+    name: 'Mind Games',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-euron-greyjoy-lrop-t3.png',
+    imageUrlBack: '',
+  },
+  'Opportunist - Theon Greyjoy': {
+    name: 'Opportunist - Theon Greyjoy',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-theon-greyjoy-pow-t1.png',
+    imageUrlBack: '',
+  },
+  'Diversion Tactics - Theon Greyjoy': {
+    name: 'Diversion Tactics - Theon Greyjoy',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-theon-greyjoy-pow-t2.png',
+    imageUrlBack: '',
+  },
+  'Stark Exposure': {
+    name: 'Stark Exposure',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-theon-greyjoy-pow-t3.png',
+    imageUrlBack: '',
+  },
+  'Coordination Tactics - Dagmer Cleftjaw': {
+    name: 'Coordination Tactics - Dagmer Cleftjaw',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-dagmer-cleftjaw-maa-t1.png',
+    imageUrlBack: '',
+  },
+  'Knowledge Paid In Iron': {
+    name: 'Knowledge Paid In Iron',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-dagmer-cleftjaw-maa-t2.png',
+    imageUrlBack: '',
+  },
+  'Lust For Glory': {
+    name: 'Lust For Glory',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-dagmer-cleftjaw-maa-t3.png',
+    imageUrlBack: '',
+  },
+  'Lash Out - Baelor Blacktyde': {
+    name: 'Lash Out - Baelor Blacktyde',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-baelor-blacktyde-lob-t1.png',
+    imageUrlBack: '',
+  },
+  'Blacktyde Resentment': {
+    name: 'Blacktyde Resentment',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-baelor-blacktyde-lob-t2.png',
+    imageUrlBack: '',
+  },
+  'Blacktyde Conviction': {
+    name: 'Blacktyde Conviction',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-baelor-blacktyde-lob-t3.png',
+    imageUrlBack: '',
+  },
+};
+
+export default cardData;

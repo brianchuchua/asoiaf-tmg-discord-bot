@@ -1,0 +1,37 @@
+{
+  "name": "asoiaf-tmg-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for A Song of Ice and Fire: The Miniatures Game",
+  "main": "src/index.ts",
+  "author": "Brian Chuchua",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node -r dotenv/config src/index.ts",
+    "start": "node -r dotenv/config dist/index.js",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "18.7.9",
+    "@typescript-eslint/eslint-plugin": "5.33.1",
+    "@typescript-eslint/parser": "5.33.1",
+    "eslint": "8.22.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "3.5.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.30.1",
+    "prettier": "2.7.1",
+    "prettier-plugin-organize-imports": "3.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "@sentry/node": "7.11.1",
+    "@sentry/tracing": "7.11.1",
+    "discord.js": "14.2.0",
+    "dotenv": "16.0.1",
+    "eslint-plugin-import": "2.26.0"
+  }
+}
