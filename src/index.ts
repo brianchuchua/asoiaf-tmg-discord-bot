@@ -1,6 +1,7 @@
 import * as Sentry from '@sentry/node';
 import { ChannelType, Client, GatewayIntentBits } from 'discord.js';
 import CardData from './asoiaf/data';
+import { cardTypeCommands, CardTypes, TYPE_PREFIX } from './asoiaf/types';
 
 Sentry.init({
   dsn: 'https://994d8a85b8ec4807bf6984afe7ca44b7@o128795.ingest.sentry.io/6686260',
@@ -8,8 +9,8 @@ Sentry.init({
 });
 
 try {
-  const COMMAND_PREFIX = '!asoiaf';
-  const SHORT_COMMAND_PREFIX = '!a';
+  const COMMAND_PREFIX = process.env.NODE_ENV === 'production' ? '!asoiaf' : '!devtest';
+  const SHORT_COMMAND_PREFIX = process.env.NODE_ENV === 'production' ? '!a' : '!d';
 
   const discord = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
@@ -49,6 +50,17 @@ try {
       message.channel.send(`Available commands: \`!asoiaf [search parameter]\`
 _(Available shorthand: \`!a [search parameter]\`)_
 
+You can also search by card type: \`!asoiaf [search parameter] t:[card type]\`
+
+Available card types:
+
+- \`t:commander\` _(shorthand: \`t:cm\`, \`t:c\`)_
+- \`t:combatunit\` _(shorthand: \`t:cu\`)_
+- \`t:attachment\` _(shorthand: \`t:a\`)_
+- \`t:noncombatunit\` _(shorthand: \`t:ncu\`, \`t:nc\`, \`t:n\`)_
+- \`t:opponentattachment\` _(shorthand: \`t:oa\`, \`t:o\`)_
+- \`t:tacticscard\` _(shorthand: \`t:tactics\`, \`t:tactic\`, \`t:tc\`, \`t:t\`)_
+
 To report typos, missing cards, or missing artwork, please go here:
 https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues
     `);
@@ -61,6 +73,9 @@ https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues
       return;
     }
 
+    // #############################################################################################
+    // # Nickname nonsense starts here -- I'll move it to a separate file once it gets out of hand #
+    // #############################################################################################
     if (command.toLowerCase().includes('friendzone') || command.toLowerCase().includes('friend zone')) {
       const serFriendZone = Object.values(CardData).filter((card) => card.name.toLowerCase().includes('jorah mormont - the exiled knight'));
 
@@ -108,9 +123,46 @@ https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues
         return;
       }
     }
+    // ###########################################################################################
+    // # Nickname nonsense ends here -- I'll move it to a separate file once it gets out of hand #
+    // ###########################################################################################
+
+    let type = command.split(' ').find((word) => word.startsWith(TYPE_PREFIX));
+    let cardType = CardTypes.None;
+    if (type) {
+      command = command.replace(type, '').trim();
+      type = type.replace(TYPE_PREFIX, '').trim();
+      Object.keys(cardTypeCommands).forEach((key) => {
+        cardTypeCommands[key as CardTypes]?.forEach((cardTypeCommand) => {
+          if (cardTypeCommand === type) {
+            cardType = key as CardTypes;
+          }
+        });
+      });
+      if (cardType === CardTypes.None) {
+        message.channel.send(`Unknown card type received: "${type}"
+
+Available card types:
+
+- \`t:commander\` _(shorthand: \`t:cm\`, \`t:c\`)_
+- \`t:combatunit\` _(shorthand: \`t:cu\`)_
+- \`t:attachment\` _(shorthand: \`t:a\`)_
+- \`t:noncombatunit\` _(shorthand: \`t:ncu\`, \`t:nc\`, \`t:n\`)_
+- \`t:opponentattachment\` _(shorthand: \`t:oa\`, \`t:o\`)_
+- \`t:tacticscard\` _(shorthand: \`t:tactics\`, \`t:tactic\`, \`t:tc\`, \`t:t\`)_
+`);
+        return;
+      }
+    }
 
     let exactMatchFound = false;
     let cards = Object.values(CardData).filter((card) => {
+      if (
+        (cardType === CardTypes.Commander && !card.isCommander) ||
+        (cardType !== CardTypes.None && cardType !== CardTypes.Commander && card.type !== cardType)
+      ) {
+        return false;
+      }
       const isExactMatch = card.name.toLowerCase() === command.toLowerCase();
       if (isExactMatch) {
         exactMatchFound = true;
@@ -125,11 +177,21 @@ https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues
       return includesAllWords;
     });
 
+    let ofTypeMessage = null;
+    if (cardType === CardTypes.None) {
+      ofTypeMessage = '';
+    } else if (cardType === CardTypes.Commander) {
+      ofTypeMessage = `_(of sub-type Commander)_ `;
+    } else {
+      ofTypeMessage = `_(of type ${cardType})_ `;
+    }
+
     if (exactMatchFound) {
       cards = cards.filter((card) => card.name.toLowerCase() === command.toLowerCase());
     }
     if (cards.length === 0) {
-      message.channel.send(`No cards found containing the search: "${command}".`);
+      const noCardsMessage = `No cards ${ofTypeMessage}found containing the search: "${command}".`;
+      message.channel.send(noCardsMessage);
       return;
     }
     if (cards.length > 1) {
@@ -139,9 +201,15 @@ https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues
       const cardCount = cards.length;
       const cardCountString = cardCount === 1 ? 'card' : 'cards';
       const andMore = cardCount > MAX_CARDS ? `\n- _(...and ${cardCount - MAX_CARDS} more)_` : '';
-      message.channel.send(
-        `Found ${cardCount} ${cardCountString} containing the search: "${command}" -- please be more specific. Cards found: \n\n- ${cardNames}${andMore}`
-      );
+      if (command === '') {
+        message.channel.send(
+          `Found ${cardCount} ${cardCountString} ${ofTypeMessage}-- please be more specific. Cards found: \n\n- ${cardNames}${andMore}`
+        );
+      } else {
+        message.channel.send(
+          `Found ${cardCount} ${cardCountString} ${ofTypeMessage}containing the search: "${command}" -- please be more specific. Cards found: \n\n- ${cardNames}${andMore}`
+        );
+      }
       return;
     }
     const card = cards[0];

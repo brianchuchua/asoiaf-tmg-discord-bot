@@ -30,6 +30,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-daario-naharis-sc.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-daario-naharis-sc-back.png',
+    isCommander: true,
   },
   'Dreadfort Captain': {
     name: 'Dreadfort Captain',
@@ -72,12 +73,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-ramsay-snow-tbob.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-ramsay-snow-tbob-back.png',
+    isCommander: true,
   },
   'Roose Bolton - The Leech Lord': {
     name: 'Roose Bolton - The Leech Lord',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-roose-bolton-tll.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-roose-bolton-tll-back.png',
+    isCommander: true,
   },
   'Stormcrow Lieutenant (Neutral)': {
     name: 'Stormcrow Lieutenant (Neutral)',
@@ -102,6 +105,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-vargo-hoat-tgoh.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-vargo-hoat-tgoh-back.png',
+    isCommander: true,
   },
 };
 

@@ -12,12 +12,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-oc.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-oc-back.png',
+    isCommander: true,
   },
   'Brynden Tully - The Blackfish': {
     name: 'Brynden Tully - The Blackfish',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-tb.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-tb-back.png',
+    isCommander: true,
   },
   'Brynden Tully - Unyielding Knight': {
     name: 'Brynden Tully - Unyielding Knight',
@@ -48,6 +50,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-eddard-stark-low.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-eddard-stark-low-back.png',
+    isCommander: true,
   },
   'Greatjon Umber - Fierce Bannerman': {
     name: 'Greatjon Umber - Fierce Bannerman',
@@ -60,12 +63,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-greatjon-umber-lolh.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-greatjon-umber-lolh-back.png',
+    isCommander: true,
   },
   'Howland Reed - Lord of the Crannogs': {
     name: 'Howland Reed - Lord of the Crannogs',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-howland-reed-lotc.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-howland-reed-lotc-back.png',
+    isCommander: true,
   },
   'Jojen Reed - Greensight': {
     name: 'Jojen Reed - Greensight',
@@ -84,6 +89,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-maege-mormont-lobi.png',
     imageUrlBack: '', // TODO: Look into why this image isn't available on ASOIAFBuilder
+    isCommander: true,
   },
   'Maege Mormont - The She-Bear': {
     name: 'Maege Mormont - The She-Bear',
@@ -109,12 +115,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-osha-sg.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-osha-sg.png',
+    isCommander: true,
   },
   'Rickard Karstark - Lord of Karhold': {
     name: 'Rickard Karstark - Lord of Karhold',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-rickard-karstark-lok.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-rickard-karstark-lok-back.png',
+    isCommander: true,
   },
   'Rickard Karstark - Vengeful Bannerman': {
     name: 'Rickard Karstark - Vengeful Bannerman',
@@ -133,6 +141,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-robb-stark-twl.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-robb-stark-twl-back.png',
+    isCommander: true,
   },
   'Robb Stark - The Young Wolf': {
     name: 'Robb Stark - The Young Wolf',
@@ -145,6 +154,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-rodrik-cassel-maa.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-rodrik-cassel-maa-back.png',
+    isCommander: true,
   },
   'Sworn Sword Captain': {
     name: 'Sworn Sword Captain',

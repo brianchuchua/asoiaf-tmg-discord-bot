@@ -6,6 +6,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-addam-marbrand-cotcw.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-addam-marbrand-cotcw-back.png',
+    isCommander: true,
   },
   'Addam Marbrand - Trusted Bannerman': {
     name: 'Addam Marbrand - Trusted Bannerman',
@@ -66,6 +67,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-gregor-clegane-tm.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-gregor-clegane-tm-back.png',
+    isCommander: true,
   },
   'Guard Captain': {
     name: 'Guard Captain',
@@ -78,12 +80,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh-back.png',
+    isCommander: true,
   },
   'Jaime Lannister - The Kingslayer': {
     name: 'Jaime Lannister - The Kingslayer',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-jaime-lannister-tk.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-jaime-lannister-tk-back.png',
+    isCommander: true,
   },
   'Jaime Lannister - Kingsguard': {
     name: 'Jaime Lannister - Kingsguard',
@@ -102,12 +106,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-joffrey-baratheon-fohn.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-joffrey-baratheon-fohn-back.png',
+    isCommander: true,
   },
   'Kevan Lannister - Protector Of The Realm': {
     name: 'Kevan Lannister - Protector Of The Realm',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-kevan-lannister-potr.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-kevan-lannister-potr-back.png',
+    isCommander: true,
   },
   'Mandon Moore - Kingsguard': {
     name: 'Mandon Moore - Kingsguard',
@@ -156,6 +162,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tyrion-lannister-h.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tyrion-lannister-h-back.png',
+    isCommander: true,
   },
   'Tyrion Lannister - The Giant Of Lannister': {
     name: 'Tyrion Lannister - The Giant Of Lannister',
@@ -168,6 +175,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tywin-lannister-locr.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tywin-lannister-locr-back.png',
+    isCommander: true,
   },
 };
 

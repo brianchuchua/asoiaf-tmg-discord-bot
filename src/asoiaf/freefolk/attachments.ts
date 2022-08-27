@@ -36,6 +36,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-harma-vc.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-harma-vc-back.png',
+    isCommander: true,
   },
   "Harma's Bannerman": {
     name: "Harma's Bannerman",
@@ -60,12 +61,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-cotg.png',
     imageUrlBack: '',
+    isCommander: true,
   },
   'Mance Rayder - King Beyond The Wall': {
     name: 'Mance Rayder - King Beyond The Wall',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mance-rayder-kbtw.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mance-rayder-kbtw-back.png',
+    isCommander: true,
   },
   'Raid Leader': {
     name: 'Raid Leader',
@@ -84,6 +87,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-rattleshirt-tlob.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-rattleshirt-tlob-back.png',
+    isCommander: true,
   },
   Skinchanger: {
     name: 'Skinchanger',
@@ -102,12 +106,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-styr-mot.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-styr-mot-back.png',
+    isCommander: true,
   },
   'The Great Walrus - Lord Of The Frozen Shore': {
     name: 'The Great Walrus - Lord Of The Frozen Shore',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-the-great-walrus-lotfs.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-the-great-walrus-lotfs-back.png',
+    isCommander: true,
   },
   'The Great Walrus - Steeled Through Ice And Snow': {
     name: 'The Great Walrus - Steeled Through Ice And Snow',
@@ -126,6 +132,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-the-weeper-hb.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-the-weeper-hb-back.png',
+    isCommander: true,
   },
   'Tormund Giantsbane - Tall-Talker, Horn-Blower, Breaker Of Ice': {
     name: 'Tormund Giantsbane - Tall-Talker, Horn-Blower, Breaker Of Ice',
@@ -138,12 +145,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-tormund-giantsbane-t.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-tormund-giantsbane-t-back.png',
+    isCommander: true,
   },
   'Varamyr Sixskins': {
     name: 'Varamyr Sixskins',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-varamyr-sixskins-ms-rules.png',
     imageUrlBack: '',
+    isCommander: true,
   },
   'Walrus Clan Chieftain': {
     name: 'Walrus Clan Chieftain',

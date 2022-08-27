@@ -6,6 +6,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-andrew-estermont-fotkm.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-andrew-estermont-fotkm-back.png',
+    isCommander: true,
   },
   'Andrew Estermont - True Loyalist': {
     name: 'Andrew Estermont - True Loyalist',
@@ -24,6 +25,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-axell-florent-fotqm.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-axell-florent-fotqm-back.png',
+    isCommander: true,
   },
   'Brienne - The Blue': {
     name: 'Brienne - The Blue',
@@ -36,12 +38,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-cortnay-penrose-cose.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-cortnay-penrose-cose-back.png',
+    isCommander: true,
   },
   'Davos Seaworth - Hero Of Blackwater': {
     name: 'Davos Seaworth - Hero Of Blackwater',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-davos-seaworth-hob.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-davos-seaworth-hob-back.png',
+    isCommander: true,
   },
   'Davos Seaworth - Onion Knight': {
     name: 'Davos Seaworth - Onion Knight',
@@ -66,6 +70,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-eldon-estermont-log.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-eldon-estermont-log-back.png',
+    isCommander: true,
   },
   "Loras Tyrell - King's Squire": {
     name: "Loras Tyrell - King's Squire",
@@ -78,6 +83,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-loras-tyrell-tkof.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-loras-tyrell-tkof-back.png',
+    isCommander: true,
   },
   'Master Warden': {
     name: 'Master Warden',
@@ -102,12 +108,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-lpots.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-lpots-back.png',
+    isCommander: true,
   },
   'Renly Baratheon - The Charismatic Heir': {
     name: 'Renly Baratheon - The Charismatic Heir',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-tch.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-tch-back.png',
+    isCommander: true,
   },
   'Stag Knight Noble': {
     name: 'Stag Knight Noble',
@@ -120,12 +128,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-totk.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-totk-back.png',
+    isCommander: true,
   },
   'Stannis Baratheon - The Rightful Heir': {
     name: 'Stannis Baratheon - The Rightful Heir',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-trh.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-trh-back.png',
+    isCommander: true,
   },
   'Thorn Watch Sentinel': {
     name: 'Thorn Watch Sentinel',

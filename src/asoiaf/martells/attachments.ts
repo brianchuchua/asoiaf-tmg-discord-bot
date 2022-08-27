@@ -12,6 +12,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-oberyn-martell-pod.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-oberyn-martell-pod-back.png',
+    isCommander: true,
   },
   'Oberyn Martell - Red Viper': {
     name: 'Oberyn Martell - Red Viper',

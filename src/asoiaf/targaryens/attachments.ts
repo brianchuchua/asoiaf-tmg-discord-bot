@@ -6,12 +6,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-barristan-selmy-tb.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-barristan-selmy-tb-back.png',
+    isCommander: true,
   },
   'Belwas - The Strong': {
     name: 'Belwas - The Strong',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-belwas-ts.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-belwas-ts-back.png',
+    isCommander: true,
   },
   'Belwas - Veteran Pit-Fighter': {
     name: 'Belwas - Veteran Pit-Fighter',
@@ -30,18 +32,21 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daario-naharis-sc.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daario-naharis-sc-back.png',
+    isCommander: true,
   },
   'Daenerys Targaryen - Mother of Dragons': {
     name: 'Daenerys Targaryen - Mother of Dragons',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-mod.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-mod-back.png',
+    isCommander: true,
   },
   'Daenerys Targaryen - Queen of Meereen': {
     name: 'Daenerys Targaryen - Queen of Meereen',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-qom.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-qom-back.png',
+    isCommander: true,
   },
   'Grey Worm - Freed By The Dragon': {
     name: 'Grey Worm - Freed By The Dragon',
@@ -54,6 +59,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-grey-worm-uc.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-grey-worm-uc-back.png',
+    isCommander: true,
   },
   'Haggo - Bloodrider': {
     name: 'Haggo - Bloodrider',
@@ -84,12 +90,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-wt.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-wt-back.png',
+    isCommander: true,
   },
-  'Khal Drogo - The Great Kha': {
-    name: 'Khal Drogo - The Great Kha',
+  'Khal Drogo - The Great Khal': {
+    name: 'Khal Drogo - The Great Khal',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-khal-drogo-tgk.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-khal-drogo-tgk-back.png',
+    isCommander: true,
   },
   'Outrider Ko': {
     name: 'Outrider Ko',

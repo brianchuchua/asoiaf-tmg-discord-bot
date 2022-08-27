@@ -18,6 +18,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-asha-greyjoy-tkd.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/hg-asha-greyjoy-tkd-back.png',
+    isCommander: true,
   },
   'Baelor Blacktyde - Captain Of The Nightflyer': {
     name: 'Baelor Blacktyde - Captain Of The Nightflyer',
@@ -30,12 +31,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-baelor-blacktyde-lob.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/hg-baelor-blacktyde-lob-back.png',
+    isCommander: true,
   },
   'Balon Greyjoy - The Kraken King': {
     name: 'Balon Greyjoy - The Kraken King',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-balon-greyjoy-tkk.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/hg-balon-greyjoy-tkk-back.png',
+    isCommander: true,
   },
   'Dagmer Cleftjaw - Captain Of The Foamdrinker': {
     name: 'Dagmer Cleftjaw - Captain Of The Foamdrinker',
@@ -48,6 +51,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-dagmer-cleftjaw-maa.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/hg-dagmer-cleftjaw-maa-back.png',
+    isCommander: true,
   },
   'Drowned Prophet': {
     name: 'Drowned Prophet',
@@ -60,6 +64,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-erik-ironmaker-ab.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/hg-erik-ironmaker-ab-back.png',
+    isCommander: true,
   },
   "Euron Greyjoy - Crow's Eye": {
     name: "Euron Greyjoy - Crow's Eye",
@@ -72,6 +77,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-euron-greyjoy-lrop.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/hg-euron-greyjoy-lrop-back.png',
+    isCommander: true,
   },
   "Moqorro - Slave Of R'hllor": {
     name: "Moqorro - Slave Of R'hllor",
@@ -114,6 +120,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-theon-greyjoy-pow.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/hg-theon-greyjoy-pow-back.png',
+    isCommander: true,
   },
   'Victarion Greyjoy - Master Of The Iron Victory': {
     name: 'Victarion Greyjoy - Master Of The Iron Victory',
@@ -126,6 +133,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-victarion-greyjoy-tic.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/hg-victarion-greyjoy-tic-back.png',
+    isCommander: true,
   },
   Warsworn: {
     name: 'Warsworn',

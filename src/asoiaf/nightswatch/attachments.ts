@@ -6,6 +6,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-alliser-thorne-maa.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-alliser-thorne-maa-back.png',
+    isCommander: true,
   },
   'Alister Thorne - Vindictive Overseer': {
     name: 'Alister Thorne - Vindictive Overseer',
@@ -18,12 +19,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-btw.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-btw-back.png',
+    isCommander: true,
   },
   'Benjen Stark - First Ranger': {
     name: 'Benjen Stark - First Ranger',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-fr.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-fr-back.png',
+    isCommander: true,
   },
   'Benjen Stark - Wolf Of The Wall': {
     name: 'Benjen Stark - Wolf Of The Wall',
@@ -48,6 +51,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-cotter-pyke-ec.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-cotter-pyke-ec-back.png',
+    isCommander: true,
   },
   'Cotter Pyke - Ironborn Brother': {
     name: 'Cotter Pyke - Ironborn Brother',
@@ -60,6 +64,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-donal-noye-docb.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-donal-noye-docb-back.png',
+    isCommander: true,
   },
   'Eddison Tollett - Dolorous Edd': {
     name: 'Eddison Tollett - Dolorous Edd',
@@ -84,12 +89,14 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jeor-mormont-9lc.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jeor-mormont-9lc-back.png',
+    isCommander: true,
   },
   'Jon Snow - 998th Lord Commander': {
     name: 'Jon Snow - 998th Lord Commander',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jon-snow-9lc.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jon-snow-9lc-back.png',
+    isCommander: true,
   },
   'Jon Snow - "Lord Snow"': {
     name: 'Jon Snow - "Lord Snow"',
@@ -102,6 +109,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-othell-yarwyck-fb.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-othell-yarwyck-fb-back.png',
+    isCommander: true,
   },
   'Othell Yarwyck - Spotter': {
     name: 'Othell Yarwyck - Spotter',
@@ -162,6 +170,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-ser-denys-mallister-stc.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-ser-denys-mallister-stc-back.png',
+    isCommander: true,
   },
   'Watch Captain': {
     name: 'Watch Captain',

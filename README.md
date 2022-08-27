@@ -24,6 +24,20 @@ You can also use `!a` as a shorthand.
 
 Example: `!a Lyanna Mormont`
 
+You can also search by card type: `!asoiaf [search parameter] t:[card type]`
+
+Available card types:
+
+- `t:commander` _(shorthand: `t:cm, t:c`)_
+- `t:combatunit` _(shorthand: `t:cu`)_
+- `t:attachment` _(shorthand: `t:a`)_
+- `t:noncombatunit` _(shorthand: `t:ncu`, `t:nc`, `t:n`)_
+- `t:opponentattachment` _(shorthand: `t:oa`, `t:o`)_
+- `t:tacticscard` _(shorthand: `t:tactics`, `t:tactic`, `t:tc`, `t:t`)_
+
+Example: `!a Eddard t:a` for all attachments that include "Eddard" in their name
+
+
 ## Issues
 
 To report issues (out of date or missing cards, typos, or any other bugs), please go to the Issues tab and click "New issue".
