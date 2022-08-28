@@ -1,56 +1,56 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'We Do Not Sow': {
-    name: 'We Do Not Sow',
+  'We Do Not Sow - Greyjoy': {
+    name: 'We Do Not Sow - Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t1.png',
     imageUrlBack: '',
   },
-  'What Is Dead May Never Die': {
-    name: 'What Is Dead May Never Die',
+  'What Is Dead May Never Die - Greyjoy': {
+    name: 'What Is Dead May Never Die - Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t2.png',
     imageUrlBack: '',
   },
-  "The Kraken's Wrath": {
-    name: "The Kraken's Wrath",
+  "The Kraken's Wrath - Greyjoy": {
+    name: "The Kraken's Wrath - Greyjoy",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t3.png',
     imageUrlBack: '',
   },
-  'The Iron Price': {
-    name: 'The Iron Price',
+  'The Iron Price - Greyjoy': {
+    name: 'The Iron Price - Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t4.png',
     imageUrlBack: '',
   },
-  'Finger Dance': {
-    name: 'Finger Dance',
+  'Finger Dance - Greyjoy': {
+    name: 'Finger Dance - Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t5.png',
     imageUrlBack: '',
   },
-  'Bless With Stone, Bless With Steel': {
-    name: 'Bless With Stone, Bless With Steel',
+  'Bless With Stone, Bless With Steel - Greyjoy': {
+    name: 'Bless With Stone, Bless With Steel - Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t7.png',
     imageUrlBack: '',
   },
-  'Raiding Call': {
-    name: 'Raiding Call',
+  'Raiding Call - Greyjoy': {
+    name: 'Raiding Call - Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-t6.png',
     imageUrlBack: '',
   },
-  'Ironborn Mettle': {
-    name: 'Ironborn Mettle',
+  'Ironborn Mettle - Asha Greyjoy': {
+    name: 'Ironborn Mettle - Asha Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-asha-greyjoy-tkd-t1.png',
     imageUrlBack: '',
   },
-  'Raider Bravery': {
-    name: 'Raider Bravery',
+  'Raider Bravery - Asha Greyjoy': {
+    name: 'Raider Bravery - Asha Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-asha-greyjoy-tkd-t2.png',
     imageUrlBack: '',
@@ -61,8 +61,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-asha-greyjoy-tkd-t3.png',
     imageUrlBack: '',
   },
-  'Rush Of Aggression': {
-    name: 'Rush Of Aggression',
+  'Rush Of Aggression - Victarion Greyjoy': {
+    name: 'Rush Of Aggression - Victarion Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-victarion-greyjoy-tic-t1.png',
     imageUrlBack: '',
@@ -79,44 +79,44 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-victarion-greyjoy-tic-t3.png',
     imageUrlBack: '',
   },
-  'Acceptable Sacrifices': {
-    name: 'Acceptable Sacrifices',
+  'Acceptable Sacrifices - Balon Greyjoy': {
+    name: 'Acceptable Sacrifices - Balon Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-balon-greyjoy-tkk-t1.png',
     imageUrlBack: '',
   },
-  'Price Of Failure': {
-    name: 'Price Of Failure',
+  'Price Of Failure - Balon Greyjoy': {
+    name: 'Price Of Failure - Balon Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-balon-greyjoy-tkk-t2.png',
     imageUrlBack: '',
   },
-  'The Old Way': {
-    name: 'The Old Way',
+  'The Old Way - Balon Greyjoy': {
+    name: 'The Old Way - Balon Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/hg-balon-greyjoy-tkk-t3.png',
     imageUrlBack: '',
   },
-  "Iron's Endurance": {
-    name: "Iron's Endurance",
+  "Iron's Endurance - Erik Ironmaker": {
+    name: "Iron's Endurance - Erik Ironmaker",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-erik-ironmaker-ab-t1.png',
     imageUrlBack: '',
   },
-  "Gold's Allure": {
-    name: "Gold's Allure",
+  "Gold's Allure - Erik Ironmaker": {
+    name: "Gold's Allure - Erik Ironmaker",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-erik-ironmaker-ab-t2.png',
     imageUrlBack: '',
   },
-  "Steel's Might": {
-    name: "Steel's Might",
+  "Steel's Might - Erik Ironmaker": {
+    name: "Steel's Might - Erik Ironmaker",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-erik-ironmaker-ab-t3.png',
     imageUrlBack: '',
   },
-  'Devious Methods': {
-    name: 'Devious Methods',
+  'Devious Methods - Euron Greyjoy': {
+    name: 'Devious Methods - Euron Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-euron-greyjoy-lrop-t1.png',
     imageUrlBack: '',
@@ -127,8 +127,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-euron-greyjoy-lrop-t2.png',
     imageUrlBack: '',
   },
-  'Mind Games': {
-    name: 'Mind Games',
+  'Mind Games - Euron Greyjoy': {
+    name: 'Mind Games - Euron Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-euron-greyjoy-lrop-t3.png',
     imageUrlBack: '',
@@ -145,8 +145,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-theon-greyjoy-pow-t2.png',
     imageUrlBack: '',
   },
-  'Stark Exposure': {
-    name: 'Stark Exposure',
+  'Stark Exposure - Theon Greyjoy': {
+    name: 'Stark Exposure - Theon Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-theon-greyjoy-pow-t3.png',
     imageUrlBack: '',
@@ -157,14 +157,14 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-dagmer-cleftjaw-maa-t1.png',
     imageUrlBack: '',
   },
-  'Knowledge Paid In Iron': {
-    name: 'Knowledge Paid In Iron',
+  'Knowledge Paid In Iron - Dagmer Cleftjaw': {
+    name: 'Knowledge Paid In Iron - Dagmer Cleftjaw',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-dagmer-cleftjaw-maa-t2.png',
     imageUrlBack: '',
   },
-  'Lust For Glory': {
-    name: 'Lust For Glory',
+  'Lust For Glory - Dagmer Cleftjaw': {
+    name: 'Lust For Glory - Dagmer Cleftjaw',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-dagmer-cleftjaw-maa-t3.png',
     imageUrlBack: '',
@@ -175,14 +175,14 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-baelor-blacktyde-lob-t1.png',
     imageUrlBack: '',
   },
-  'Blacktyde Resentment': {
-    name: 'Blacktyde Resentment',
+  'Blacktyde Resentment - Baelor Blacktyde': {
+    name: 'Blacktyde Resentment - Baelor Blacktyde',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-baelor-blacktyde-lob-t2.png',
     imageUrlBack: '',
   },
-  'Blacktyde Conviction': {
-    name: 'Blacktyde Conviction',
+  'Blacktyde Conviction - Baelor Blacktyde': {
+    name: 'Blacktyde Conviction - Baelor Blacktyde',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hg-baelor-blacktyde-lob-t3.png',
     imageUrlBack: '',

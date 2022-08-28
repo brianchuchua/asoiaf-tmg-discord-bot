@@ -1,8 +1,8 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  Overrun: {
-    name: 'Overrun',
+  'Overrun - Targaryen': {
+    name: 'Overrun - Targaryen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-t1.png',
     imageUrlBack: '',
@@ -19,38 +19,38 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-t3.png',
     imageUrlBack: '',
   },
-  'Fire and Blood': {
-    name: 'Fire and Blood',
+  'Fire and Blood - Targaryen': {
+    name: 'Fire and Blood - Targaryen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-t4.png',
     imageUrlBack: '',
   },
-  'Field Control': {
-    name: 'Field Control',
+  'Field Control - Targaryen': {
+    name: 'Field Control - Targaryen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-t5.png',
     imageUrlBack: '',
   },
-  'Unstoppable Advance': {
-    name: 'Unstoppable Advance',
+  'Unstoppable Advance - Targaryen': {
+    name: 'Unstoppable Advance - Targaryen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-t6.png',
     imageUrlBack: '',
   },
-  'Blood of the Dragon': {
-    name: 'Blood of the Dragon',
+  'Blood of the Dragon - Targaryen': {
+    name: 'Blood of the Dragon - Targaryen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-t7.png',
     imageUrlBack: '',
   },
-  'Addrivat!': {
-    name: 'Addrivat!',
+  'Addrivat! - Khal Drogo': {
+    name: 'Addrivat! - Khal Drogo',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-khal-drogo-tgk-t1.png',
     imageUrlBack: '',
   },
-  'Lead by Example': {
-    name: 'Lead by Example',
+  'Lead by Example - Khal Drogo': {
+    name: 'Lead by Example - Khal Drogo',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-khal-drogo-tgk-t2.png',
     imageUrlBack: '',
@@ -67,26 +67,26 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-khal-drogo-tgk-t4.png',
     imageUrlBack: '',
   },
-  'Targaryen Supremacy': {
-    name: 'Targaryen Supremacy',
+  'Targaryen Supremacy - Daenerys Targaryen (Queen of Meereen)': {
+    name: 'Targaryen Supremacy - Daenerys Targaryen (Queen of Meereen)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-qom-t1.png',
     imageUrlBack: '',
   },
-  'Subjugation of Power': {
-    name: 'Subjugation of Power',
+  'Subjugation of Power - Daenerys Targaryen (Queen of Meereen)': {
+    name: 'Subjugation of Power - Daenerys Targaryen (Queen of Meereen)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-qom-t2.png',
     imageUrlBack: '',
   },
-  'Remorseless Examples - Daenerys Targaryen': {
-    name: 'Remorseless Examples - Daenerys Targaryen',
+  'Remorseless Examples - Daenerys Targaryen (Queen of Meereen)': {
+    name: 'Remorseless Examples - Daenerys Targaryen (Queen of Meereen)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-qom-t3.png',
     imageUrlBack: '',
   },
-  'Counterplot - Daenerys Targaryen': {
-    name: 'Counterplot - Daenerys Targaryen',
+  'Counterplot - Daenerys Targaryen (Queen of Meereen)': {
+    name: 'Counterplot - Daenerys Targaryen (Queen of Meereen)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-qom-t4.png',
     imageUrlBack: '',
@@ -97,44 +97,44 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-barristan-selmy-tb-t1.png',
     imageUrlBack: '',
   },
-  'Combat Prowess': {
-    name: 'Combat Prowess',
+  'Combat Prowess - Barristan Selmy': {
+    name: 'Combat Prowess - Barristan Selmy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-barristan-selmy-tb-t2.png',
     imageUrlBack: '',
   },
-  'Legendary Boldness': {
-    name: 'Legendary Boldness',
+  'Legendary Boldness - Barristan Selmy': {
+    name: 'Legendary Boldness - Barristan Selmy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-barristan-selmy-tb-t3.png',
     imageUrlBack: '',
   },
-  'Victory Comes Hard': {
-    name: 'Victory Comes Hard',
+  'Victory Comes Hard - Barristan Selmy': {
+    name: 'Victory Comes Hard - Barristan Selmy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-barristan-selmy-tb-t4.png',
     imageUrlBack: '',
   },
-  'Dracarys!': {
-    name: 'Dracarys!',
+  'Dracarys! - Daenerys Targaryen (Mother Of Dragons)': {
+    name: 'Dracarys! - Daenerys Targaryen (Mother Of Dragons)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-mod-t1.png',
     imageUrlBack: '',
   },
-  "Dragon's Flight": {
-    name: "Dragon's Flight",
+  "Dragon's Flight - Daenerys Targaryen (Mother Of Dragons)": {
+    name: "Dragon's Flight - Daenerys Targaryen (Mother Of Dragons)",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-mod-t2.png',
     imageUrlBack: '',
   },
-  'Promise of Fire': {
-    name: 'Promise of Fire',
+  'Promise of Fire - Daenerys Targaryen (Mother Of Dragons)': {
+    name: 'Promise of Fire - Daenerys Targaryen (Mother Of Dragons)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-mod-t3.png',
     imageUrlBack: '',
   },
-  'Fire Made Flesh': {
-    name: 'Fire Made Flesh',
+  'Fire Made Flesh - Daenerys Targaryen (Mother Of Dragons)': {
+    name: 'Fire Made Flesh - Daenerys Targaryen (Mother Of Dragons)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daenerys-targaryen-mod-t4.png',
     imageUrlBack: '',
@@ -145,14 +145,14 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-grey-worm-uc-t1.png',
     imageUrlBack: '',
   },
-  'Battle Endurance': {
-    name: 'Battle Endurance',
+  'Battle Endurance - Grey Worm': {
+    name: 'Battle Endurance - Grey Worm',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-grey-worm-uc-t2.png',
     imageUrlBack: '',
   },
-  'Retribution of The Dragon': {
-    name: 'Retribution of The Dragon',
+  'Retribution of The Dragon - Grey Worm': {
+    name: 'Retribution of The Dragon - Grey Worm',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-grey-worm-uc-t3.png',
     imageUrlBack: '',
@@ -181,8 +181,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daario-naharis-sc-t3.png',
     imageUrlBack: '',
   },
-  'Hasty Offense': {
-    name: 'Hasty Offense',
+  'Hasty Offense - Daario Naharis (Targaryen)': {
+    name: 'Hasty Offense - Daario Naharis (Targaryen)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-daario-naharis-sc-t4.png',
     imageUrlBack: '',
@@ -193,32 +193,32 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-belwas-ts-t1.png',
     imageUrlBack: '',
   },
-  'Expert Parry': {
-    name: 'Expert Parry',
+  'Expert Parry - Belwas': {
+    name: 'Expert Parry - Belwas',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-belwas-ts-t2.png',
     imageUrlBack: '',
   },
-  'Good Dying': {
-    name: 'Good Dying',
+  'Good Dying - Belwas': {
+    name: 'Good Dying - Belwas',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-belwas-ts-t3.png',
     imageUrlBack: '',
   },
-  'Count the Cuts': {
-    name: 'Count the Cuts',
+  'Count the Cuts - Belwas': {
+    name: 'Count the Cuts - Belwas',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-belwas-ts-t4.png',
     imageUrlBack: '',
   },
-  Marshal: {
-    name: 'Marshal',
+  'Marshal - Jorah Mormont': {
+    name: 'Marshal - Jorah Mormont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-wt-t1.png',
     imageUrlBack: '',
   },
-  Betrayal: {
-    name: 'Betrayal',
+  'Betrayal - Jorah Mormont': {
+    name: 'Betrayal - Jorah Mormont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-wt-t2.png',
     imageUrlBack: '',
@@ -229,8 +229,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-wt-t3.png',
     imageUrlBack: '',
   },
-  'Feinting Manuever': {
-    name: 'Feinting Manuever',
+  'Feinting Maneuver - Jorah Mormont': {
+    name: 'Feinting Maneuver - Jorah Mormont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-wt-t4.png',
     imageUrlBack: '',

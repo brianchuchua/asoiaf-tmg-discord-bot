@@ -1,14 +1,14 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  "Winter's Might": {
-    name: "Winter's Might",
+  "Winter's Might - Stark": {
+    name: "Winter's Might - Stark",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-t1.png',
     imageUrlBack: '',
   },
-  'Northern Ferocity': {
-    name: 'Northern Ferocity',
+  'Northern Ferocity - Stark': {
+    name: 'Northern Ferocity - Stark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-t2.png',
     imageUrlBack: '',
@@ -19,8 +19,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-t3.png',
     imageUrlBack: '',
   },
-  'The North Remembers': {
-    name: 'The North Remembers',
+  'The North Remembers - Stark': {
+    name: 'The North Remembers - Stark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-t4.png',
     imageUrlBack: '',
@@ -37,8 +37,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-t6.png',
     imageUrlBack: '',
   },
-  'Winter Is Coming': {
-    name: 'Winter Is Coming',
+  'Winter Is Coming - Stark': {
+    name: 'Winter Is Coming - Stark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-t7.png',
     imageUrlBack: '',
@@ -61,8 +61,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-robb-stark-twl-t3.png',
     imageUrlBack: '',
   },
-  'Berserker Tactics': {
-    name: 'Berserker Tactics',
+  'Berserker Tactics - Greatjon Umber': {
+    name: 'Berserker Tactics - Greatjon Umber',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-greatjon-umber-lolh-t1.png',
     imageUrlBack: '',
@@ -73,44 +73,44 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-greatjon-umber-lolh-t2.png',
     imageUrlBack: '',
   },
-  'Last Stand': {
-    name: 'Last Stand',
+  'Last Stand - Greatjon Umber': {
+    name: 'Last Stand - Greatjon Umber',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-greatjon-umber-lolh-t3.png',
     imageUrlBack: '',
   },
-  'Ride-By Attack - Brynden Tully': {
-    name: 'Ride-By Attack - Brynden Tully',
+  'Ride-By Attack - Brynden Tully (Outrider Commander)': {
+    name: 'Ride-By Attack - Brynden Tully (Outrider Commander)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-oc-t1.png',
     imageUrlBack: '',
   },
-  'Ride Them Down!': {
-    name: 'Ride Them Down!',
+  'Ride Them Down! - Brynden Tully (Outrider Commander)': {
+    name: 'Ride Them Down! - Brynden Tully (Outrider Commander)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-oc-t2.png',
     imageUrlBack: '',
   },
-  'Marshal - Brynden Tully': {
-    name: 'Marshal - Brynden Tully',
+  'Marshal - Brynden Tully (Outrider Commander)': {
+    name: 'Marshal - Brynden Tully (Outrider Commander)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-oc-t3.png',
     imageUrlBack: '',
   },
-  'Crannog Traps': {
-    name: 'Crannog Traps',
+  'Crannog Traps - Howland Reed': {
+    name: 'Crannog Traps - Howland Reed',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-howland-reed-lotc-t1.png',
     imageUrlBack: '',
   },
-  'Bog Devil Ambush': {
-    name: 'Bog Devil Ambush',
+  'Bog Devil Ambush - Howland Reed': {
+    name: 'Bog Devil Ambush - Howland Reed',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-howland-reed-lotc-t2.png',
     imageUrlBack: '',
   },
-  'The Threat Unseen': {
-    name: 'The Threat Unseen',
+  'The Threat Unseen - Howland Reed': {
+    name: 'The Threat Unseen - Howland Reed',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-howland-reed-lotc-t3.png',
     imageUrlBack: '',
@@ -127,74 +127,74 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-rodrik-cassel-maa-t2.png',
     imageUrlBack: '',
   },
-  'Press The Advantage': {
-    name: 'Press The Advantage',
+  'Press The Advantage - Rodrik Cassel': {
+    name: 'Press The Advantage - Rodrik Cassel',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-rodrik-cassel-maa-t3.png',
     imageUrlBack: '',
   },
-  'Northern Defiance': {
-    name: 'Northern Defiance',
+  'Northern Defiance - Eddard Stark': {
+    name: 'Northern Defiance - Eddard Stark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-eddard-stark-low-t1.png',
     imageUrlBack: '',
   },
-  'Lead By Example': {
-    name: 'Lead By Example',
+  'Lead By Example - Eddard Stark': {
+    name: 'Lead By Example - Eddard Stark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-eddard-stark-low-t2.png',
     imageUrlBack: '',
   },
-  'Fury For The Fallen': {
-    name: 'Fury For The Fallen',
+  'Fury For The Fallen - Eddard Stark': {
+    name: 'Fury For The Fallen - Eddard Stark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-eddard-stark-low-t3.png',
     imageUrlBack: '',
   },
-  'Set For Charge': {
-    name: 'Set For Charge',
+  'Set For Charge - Brynden Tully (The Blackfish)': {
+    name: 'Set For Charge - Brynden Tully (The Blackfish)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-tb-t1.png',
     imageUrlBack: '',
   },
-  'Refuse To Yield': {
-    name: 'Refuse To Yield',
+  'Refuse To Yield - Brynden Tully (The Blackfish)': {
+    name: 'Refuse To Yield - Brynden Tully (The Blackfish)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-tb-t2.png',
     imageUrlBack: '',
   },
-  'War Cry - Brynden Tully': {
-    name: 'War Cry - Brynden Tully',
+  'War Cry - Brynden Tully (The Blackfish)': {
+    name: 'War Cry - Brynden Tully (The Blackfish)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-brynden-tully-tb-t3.png',
     imageUrlBack: '',
   },
-  Taunt: {
-    name: 'Taunt',
+  'Taunt - Rickard Karstark': {
+    name: 'Taunt - Rickard Karstark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-rickard-karstark-lok-t1.png',
     imageUrlBack: '',
   },
-  'A Need For Vengeance': {
-    name: 'A Need For Vengeance',
+  'A Need For Vengeance - Rickard Karstark': {
+    name: 'A Need For Vengeance - Rickard Karstark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-rickard-karstark-lok-t2.png',
     imageUrlBack: '',
   },
-  'Karstark Retribution': {
-    name: 'Karstark Retribution',
+  'Karstark Retribution - Rickard Karstark': {
+    name: 'Karstark Retribution - Rickard Karstark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-rickard-karstark-lok-t3.png',
     imageUrlBack: '',
   },
-  'Here We Stand!': {
-    name: 'Here We Stand!',
+  'Here We Stand! - Maege Mormont': {
+    name: 'Here We Stand! - Maege Mormont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-maege-mormont-lobi-t1.png',
     imageUrlBack: '',
   },
-  'Support Of Bear Island': {
-    name: 'Support Of Bear Island',
+  'Support Of Bear Island - Maege Mormont': {
+    name: 'Support Of Bear Island - Maege Mormont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-maege-mormont-lobi-t2.png',
     imageUrlBack: '',

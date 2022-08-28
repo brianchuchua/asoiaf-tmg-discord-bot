@@ -1,92 +1,92 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'The Sword in the Darkness': {
-    name: 'The Sword in the Darkness',
+  "The Sword in the Darkness - Night's Watch": {
+    name: "The Sword in the Darkness - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-t1.png',
     imageUrlBack: '',
   },
-  'the Fire That Burns Against The Cold': {
-    name: 'the Fire That Burns Against The Cold',
+  "the Fire That Burns Against The Cold - Night's Watch": {
+    name: "the Fire That Burns Against The Cold - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-t2.png',
     imageUrlBack: '',
   },
-  'The Shield of the Realms of Men': {
-    name: 'The Shield of the Realms of Men',
+  "The Shield of the Realms of Men - Night's Watch": {
+    name: "The Shield of the Realms of Men - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-t3.png',
     imageUrlBack: '',
   },
-  'The Watcher on the Wall': {
-    name: 'The Watcher on the Wall',
+  "The Watcher on the Wall - Night's Watch": {
+    name: "The Watcher on the Wall - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-t4.png',
     imageUrlBack: '',
   },
-  'The Light That Brings The Dawn': {
-    name: 'The Light That Brings The Dawn',
+  "The Light That Brings The Dawn - Night's Watch": {
+    name: "The Light That Brings The Dawn - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-t5.png',
     imageUrlBack: '',
   },
-  'Take The Black': {
-    name: 'Take The Black',
+  "Take The Black - Night's Watch": {
+    name: "Take The Black - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-t6.png',
     imageUrlBack: '',
   },
-  'And Now His Watch Has Ended': {
-    name: 'And Now His Watch Has Ended',
+  "And Now His Watch Has Ended - Night's Watch": {
+    name: "And Now His Watch Has Ended - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-t7.png',
     imageUrlBack: '',
   },
-  'And Now My Watch Begins': {
-    name: 'And Now My Watch Begins',
+  'And Now My Watch Begins - Jeor Mormont': {
+    name: 'And Now My Watch Begins - Jeor Mormont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jeor-mormont-9lc-t1.png',
     imageUrlBack: '',
   },
-  'Live And Die At My Post': {
-    name: 'Live And Die At My Post',
+  'Live And Die At My Post - Jeor Mormont': {
+    name: 'Live And Die At My Post - Jeor Mormont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jeor-mormont-9lc-t2.png',
     imageUrlBack: '',
   },
-  'Night Gathers': {
-    name: 'Night Gathers',
+  'Night Gathers - Jeor Mormont': {
+    name: 'Night Gathers - Jeor Mormont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jeor-mormont-9lc-t3.png',
     imageUrlBack: '',
   },
-  'Honed Enhancement': {
-    name: 'Honed Enhancement',
+  'Honed Enhancement - Othell Yarwyck': {
+    name: 'Honed Enhancement - Othell Yarwyck',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-othell-yarwyck-fb-t1.png',
     imageUrlBack: '',
   },
-  'Rapid Consutrction': {
-    name: 'Rapid Consutrction',
+  'Rapid Construction - Othell Yarwyck': {
+    name: 'Rapid Construction - Othell Yarwyck',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-othell-yarwyck-fb-t2.png',
     imageUrlBack: '',
   },
-  'Serrated Enhancement': {
-    name: 'Serrated Enhancement',
+  'Serrated Enhancement - Othell Yarwyck': {
+    name: 'Serrated Enhancement - Othell Yarwyck',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-othell-yarwyck-fb-t3.png',
     imageUrlBack: '',
   },
-  'Defensive Formation': {
-    name: 'Defensive Formation',
+  'Defensive Formation - Donal Noye': {
+    name: 'Defensive Formation - Donal Noye',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-donal-noye-docb-t1.png',
     imageUrlBack: '',
   },
-  'Refuse to Yield': {
-    name: 'Refuse to Yield',
+  'Refuse to Yield - Donal Noye': {
+    name: 'Refuse to Yield - Donal Noye',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-donal-noye-docb-t2.png',
     imageUrlBack: '',
@@ -115,56 +115,56 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-alliser-thorne-maa-t3.png',
     imageUrlBack: '',
   },
-  'It Shall Not End Until My Death!': {
-    name: 'It Shall Not End Until My Death!',
+  'It Shall Not End Until My Death! - Jon Snow': {
+    name: 'It Shall Not End Until My Death! - Jon Snow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jon-snow-9lc-t1.png',
     imageUrlBack: '',
   },
-  'Stand United, Brothers!': {
-    name: 'Stand United, Brothers!',
+  'Stand United, Brothers! - Jon Snow': {
+    name: 'Stand United, Brothers! - Jon Snow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jon-snow-9lc-t2.png',
     imageUrlBack: '',
   },
-  'For the Watch!': {
-    name: 'For the Watch!',
+  'For the Watch! - Jon Snow': {
+    name: 'For the Watch! - Jon Snow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-jon-snow-9lc-t3.png',
     imageUrlBack: '',
   },
   'Hit And Run - Benjen Stark': {
-    name: 'Hit And Run - Benjen Stark',
+    name: 'Hit And Run - Benjen Stark (First Ranger)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-fr-t1.png',
     imageUrlBack: '',
   },
-  'Lying In Wait': {
-    name: 'Lying In Wait',
+  'Lying In Wait - Benjen Stark': {
+    name: 'Lying In Wait - Benjen Stark (First Ranger)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-fr-t2.png',
     imageUrlBack: '',
   },
-  "Hunter's Insight - First Ranger": {
-    name: "Hunter's Insight - First Ranger",
+  "Hunter's Insight - Benjen Stark (First Ranger)": {
+    name: "Hunter's Insight - Benjen Stark (First Ranger)",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-fr-t3.png',
     imageUrlBack: '',
   },
-  "Hunter's Insight - Beyond The Wall": {
-    name: "Hunter's Insight - Beyond The Wall",
+  "Hunter's Insight - Benjen Stark (Beyond The Wall)": {
+    name: "Hunter's Insight - Benjen Stark (Beyond The Wall)",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-btw-t1.png',
     imageUrlBack: '',
   },
-  'Marshal - Benjen Stark': {
-    name: 'Marshal - Benjen Stark',
+  'Marshal - Benjen Stark (Beyond The Wall)': {
+    name: 'Marshal - Benjen Stark (Beyond The Wall)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-btw-t2.png',
     imageUrlBack: '',
   },
-  'Ride-By-Attack - Benjen Stark': {
-    name: 'Ride-By-Attack - Benjen Stark',
+  'Ride-By-Attack - Benjen Stark (Beyond The Wall)': {
+    name: 'Ride-By-Attack - Benjen Stark (Beyond The Wall)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-benjen-stark-btw-t3.png',
     imageUrlBack: '',
@@ -175,8 +175,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-cotter-pyke-ec-t1.png',
     imageUrlBack: '',
   },
-  'Pyke Aggression': {
-    name: 'Pyke Aggression',
+  'Pyke Aggression - Cotter Pyke': {
+    name: 'Pyke Aggression - Cotter Pyke',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-cotter-pyke-ec-t2.png',
     imageUrlBack: '',
@@ -199,8 +199,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-ser-denys-mallister-stc-t2.png',
     imageUrlBack: '',
   },
-  'Tempered By Duty': {
-    name: 'Tempered By Duty',
+  'Tempered By Duty - Ser Denys Mallister': {
+    name: 'Tempered By Duty - Ser Denys Mallister',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-ser-denys-mallister-stc-t3.png',
     imageUrlBack: '',

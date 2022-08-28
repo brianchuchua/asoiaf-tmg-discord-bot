@@ -1,20 +1,20 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'Ours is the Fury!': {
-    name: 'Ours is the Fury!',
+  'Ours is the Fury! - Baratheon': {
+    name: 'Ours is the Fury! - Baratheon',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-t1.png',
     imageUrlBack: '',
   },
-  'Oath of Duty': {
-    name: 'Oath of Duty',
+  'Oath of Duty - Baratheon': {
+    name: 'Oath of Duty - Baratheon',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-t2.png',
     imageUrlBack: '',
   },
-  "Stag's Wit": {
-    name: "Stag's Wit",
+  "Stag's Wit - Baratheon": {
+    name: "Stag's Wit - Baratheon",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-t3.png',
     imageUrlBack: '',
@@ -31,98 +31,98 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-t5.png',
     imageUrlBack: '',
   },
-  'Baratheon Conviction': {
-    name: 'Baratheon Conviction',
+  'Baratheon Conviction - Baratheon': {
+    name: 'Baratheon Conviction - Baratheon',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-t6.png',
     imageUrlBack: '',
   },
-  'Baratheon Justice': {
-    name: 'Baratheon Justice',
+  'Baratheon Justice - Baratheon': {
+    name: 'Baratheon Justice - Baratheon',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-t7.png',
     imageUrlBack: '',
   },
-  'Wealth and Charisma': {
-    name: 'Wealth and Charisma',
+  'Wealth and Charisma - Renly Baratheon (The Charismatic Heir)': {
+    name: 'Wealth and Charisma - Renly Baratheon (The Charismatic Heir)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-tch-t1.png',
     imageUrlBack: '',
   },
-  'Younger, Bolder, and Far More Comely': {
-    name: 'Younger, Bolder, and Far More Comely',
+  'Younger, Bolder, and Far More Comely - Renly Baratheon (The Charismatic Heir)': {
+    name: 'Younger, Bolder, and Far More Comely - Renly Baratheon (The Charismatic Heir)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-tch-t2.png',
     imageUrlBack: '',
   },
-  'They Will Make Me King!': {
-    name: 'They Will Make Me King!',
+  'They Will Make Me King! - Renly Baratheon (The Charismatic Heir)': {
+    name: 'They Will Make Me King! - Renly Baratheon (The Charismatic Heir)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-tch-t3.png',
     imageUrlBack: '',
   },
-  'Will of the One True King': {
-    name: 'Will of the One True King',
+  'Will of the One True King - Stannis Baratheon (The Rightful Heir)': {
+    name: 'Will of the One True King - Stannis Baratheon (The Rightful Heir)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-trh-t1.png',
     imageUrlBack: '',
   },
-  'Harsh Conditions': {
-    name: 'Harsh Conditions',
+  'Harsh Conditions - Stannis Baratheon (The Rightful Heir)': {
+    name: 'Harsh Conditions - Stannis Baratheon (The Rightful Heir)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-trh-t2.png',
     imageUrlBack: '',
   },
-  'Tactical Approach - Stannis': {
-    name: 'Tactical Approach - Stannis',
+  'Tactical Approach - Stannis Baratheon (The Rightful Heir)': {
+    name: 'Tactical Approach - Stannis Baratheon (The Rightful Heir)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-trh-t3.png',
     imageUrlBack: '',
   },
-  'Inexplicable Return': {
-    name: 'Inexplicable Return',
+  'Inexplicable Return - Renly Baratheon (Lord Paramount)': {
+    name: 'Inexplicable Return - Renly Baratheon (Lord Paramount)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-lpots-t1.png',
     imageUrlBack: '',
   },
-  'Hidden Affairs': {
-    name: 'Hidden Affairs',
+  'Hidden Affairs - Renly Baratheon (Lord Paramount)': {
+    name: 'Hidden Affairs - Renly Baratheon (Lord Paramount)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-lpots-t2.png',
     imageUrlBack: '',
   },
-  "In His Brothers' Shadows": {
-    name: "In His Brothers' Shadows",
+  "In His Brothers' Shadows - Renly Baratheon (Lord Paramount)": {
+    name: "In His Brothers' Shadows - Renly Baratheon (Lord Paramount)",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-renly-baratheon-lpots-t3.png',
     imageUrlBack: '',
   },
-  'Loved by the Smallfolk': {
-    name: 'Loved by the Smallfolk',
+  'Loved by the Smallfolk - Loras Tyrell': {
+    name: 'Loved by the Smallfolk - Loras Tyrell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-loras-tyrell-tkof-t1.png',
     imageUrlBack: '',
   },
-  Overgrowth: {
-    name: 'Overgrowth',
+  'Overgrowth - Loras Tyrell': {
+    name: 'Overgrowth - Loras Tyrell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-loras-tyrell-tkof-t2.png',
     imageUrlBack: '',
   },
-  'Growing Strong': {
-    name: 'Growing Strong',
+  'Growing Strong - Loras Tyrell': {
+    name: 'Growing Strong - Loras Tyrell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-loras-tyrell-tkof-t3.png',
     imageUrlBack: '',
   },
-  '"Everything"': {
-    name: '"Everything"',
+  '"Everything" - Davos Seaworth': {
+    name: '"Everything" - Davos Seaworth',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-davos-seaworth-hob-t1.png',
     imageUrlBack: '',
   },
-  'Fealty to The Crown': {
-    name: 'Fealty to The Crown',
+  'Fealty to The Crown - Davos Seaworth': {
+    name: 'Fealty to The Crown - Davos Seaworth',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-davos-seaworth-hob-t2.png',
     imageUrlBack: '',
@@ -133,14 +133,14 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-davos-seaworth-hob-t3.png',
     imageUrlBack: '',
   },
-  'Flea Bottom Tricks': {
-    name: 'Flea Bottom Tricks',
+  'Flea Bottom Tricks - Davos Seaworth': {
+    name: 'Flea Bottom Tricks - Davos Seaworth',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-davos-seaworth-hob-t4.png',
     imageUrlBack: '',
   },
-  'Hefty Random': {
-    name: 'Hefty Random',
+  'Hefty Random - Eldon Estermont': {
+    name: 'Hefty Random - Eldon Estermont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-eldon-estermont-log-t1.png',
     imageUrlBack: '',
@@ -175,38 +175,38 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-cortnay-penrose-cose-t3.png',
     imageUrlBack: '',
   },
-  "In R'hllor's Name": {
-    name: "In R'hllor's Name",
+  "In R'hllor's Name - Stannis Baratheon (The One True King)": {
+    name: "In R'hllor's Name - Stannis Baratheon (The One True King)",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-totk-t1.png',
     imageUrlBack: '',
   },
-  'Test of Faith': {
-    name: 'Test of Faith',
+  'Test of Faith - Stannis Baratheon (The One True King)': {
+    name: 'Test of Faith - Stannis Baratheon (The One True King)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-totk-t2.png',
     imageUrlBack: '',
   },
-  'Azor Ahai!': {
-    name: 'Azor Ahai!',
+  'Azor Ahai! - Stannis Baratheon (The One True King)': {
+    name: 'Azor Ahai! - Stannis Baratheon (The One True King)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-stannis-baratheon-totk-t3.png',
     imageUrlBack: '',
   },
-  'Fiery Charge': {
-    name: 'Fiery Charge',
+  'Fiery Charge - Axell Florent': {
+    name: 'Fiery Charge - Axell Florent',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-axell-florent-fotqm-t1.png',
     imageUrlBack: '',
   },
-  "R'hllor's Wrath": {
-    name: "R'hllor's Wrath",
+  "R'hllor's Wrath - Axell Florent": {
+    name: "R'hllor's Wrath - Axell Florent",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-axell-florent-fotqm-t2.png',
     imageUrlBack: '',
   },
-  'Fiery Resolve': {
-    name: 'Fiery Resolve',
+  'Fiery Resolve - Axell Florent': {
+    name: 'Fiery Resolve - Axell Florent',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-axell-florent-fotqm-t3.png',
     imageUrlBack: '',
@@ -217,8 +217,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-andrew-estermont-fotkm-t1.png',
     imageUrlBack: '',
   },
-  'Reckless Fury': {
-    name: 'Reckless Fury',
+  'Reckless Fury - Andrew Estermont': {
+    name: 'Reckless Fury - Andrew Estermont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-andrew-estermont-fotkm-t2.png',
     imageUrlBack: '',

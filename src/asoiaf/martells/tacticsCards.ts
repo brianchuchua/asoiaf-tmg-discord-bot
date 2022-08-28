@@ -7,26 +7,26 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-t1.png',
     imageUrlBack: '',
   },
-  'Dune Tactics': {
-    name: 'Dune Tactics',
+  'Dune Tactics - Martell': {
+    name: 'Dune Tactics - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-t2.png',
     imageUrlBack: '',
   },
-  'Rhoynish Vengeance': {
-    name: 'Rhoynish Vengeance',
+  'Rhoynish Vengeance - Martell': {
+    name: 'Rhoynish Vengeance - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-t3.png',
     imageUrlBack: '',
   },
-  'Rising Temperatures': {
-    name: 'Rising Temperatures',
+  'Rising Temperatures - Martell': {
+    name: 'Rising Temperatures - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-t4.png',
     imageUrlBack: '',
   },
-  'Sand Diplomacy': {
-    name: 'Sand Diplomacy',
+  'Sand Diplomacy - Martell': {
+    name: 'Sand Diplomacy - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-t5.png',
     imageUrlBack: '',
@@ -37,20 +37,20 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-t6.png',
     imageUrlBack: '',
   },
-  'Unbowed, Unbent, Unbroken': {
-    name: 'Unbowed, Unbent, Unbroken',
+  'Unbowed, Unbent, Unbroken - Martell': {
+    name: 'Unbowed, Unbent, Unbroken - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-t7.png',
     imageUrlBack: '',
   },
-  "Viper's Infamy": {
-    name: "Viper's Infamy",
+  "Viper's Infamy - Oberyn Martell": {
+    name: "Viper's Infamy - Oberyn Martell",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-oberyn-martell-pod-t1.png',
     imageUrlBack: '',
   },
-  'Unexpected Exhaustion': {
-    name: 'Unexpected Exhaustion',
+  'Unexpected Exhaustion - Oberyn Martell': {
+    name: 'Unexpected Exhaustion - Oberyn Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-oberyn-martell-pod-t2.png',
     imageUrlBack: '',
@@ -79,8 +79,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-areo-hotah-cotg-t3.png',
     imageUrlBack: '',
   },
-  'Desert Preparation': {
-    name: 'Desert Preparation',
+  'Desert Preparation - Obara Sand': {
+    name: 'Desert Preparation - Obara Sand',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-obara-sand-es-t1.png',
     imageUrlBack: '',
@@ -109,8 +109,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-harmen-uller-loh-t2.png',
     imageUrlBack: '',
   },
-  'Spiteful Truce': {
-    name: 'Spiteful Truce',
+  'Spiteful Truce - Harmen Uller': {
+    name: 'Spiteful Truce - Harmen Uller',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-harmen-uller-loh-t3.png',
     imageUrlBack: '',

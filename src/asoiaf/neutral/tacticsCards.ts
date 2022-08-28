@@ -19,14 +19,14 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-t3.png',
     imageUrlBack: '',
   },
-  'Worth the Risk': {
-    name: 'Worth the Risk',
+  'Worth the Risk - Neutral': {
+    name: 'Worth the Risk - Neutral',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-t4.png',
     imageUrlBack: '',
   },
-  'Meticulous Planning': {
-    name: 'Meticulous Planning',
+  'Meticulous Planning - Neutral': {
+    name: 'Meticulous Planning - Neutral',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-t5.png',
     imageUrlBack: '',
@@ -37,14 +37,14 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-t6.png',
     imageUrlBack: '',
   },
-  'Spoils of War': {
-    name: 'Spoils of War',
+  'Spoils of War - Neutral': {
+    name: 'Spoils of War - Neutral',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-t7.png',
     imageUrlBack: '',
   },
-  'Our Blades Are Sharp': {
-    name: 'Our Blades Are Sharp',
+  'Our Blades Are Sharp - Ramsay Snow': {
+    name: 'Our Blades Are Sharp - Ramsay Snow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-ramsay-snow-tbob-t1.png',
     imageUrlBack: '',
@@ -55,8 +55,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-ramsay-snow-tbob-t2.png',
     imageUrlBack: '',
   },
-  'Sadistic Games': {
-    name: 'Sadistic Games',
+  'Sadistic Games - Ramsay Snow': {
+    name: 'Sadistic Games - Ramsay Snow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-ramsay-snow-tbob-t3.png',
     imageUrlBack: '',
@@ -79,14 +79,14 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-daario-naharis-sc-t3.png',
     imageUrlBack: '',
   },
-  "The Crippler's Infamy": {
-    name: "The Crippler's Infamy",
+  "The Crippler's Infamy - Vargo Hoat": {
+    name: "The Crippler's Infamy - Vargo Hoat",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-vargo-hoat-tgoh-t1.png',
     imageUrlBack: '',
   },
-  'Careless Aggression': {
-    name: 'Careless Aggression',
+  'Careless Aggression - Vargo Hoat': {
+    name: 'Careless Aggression - Vargo Hoat',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-vargo-hoat-tgoh-t2.png',
     imageUrlBack: '',
@@ -97,20 +97,20 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-vargo-hoat-tgoh-t3.png',
     imageUrlBack: '',
   },
-  'A Flayed Man has No Secrets': {
-    name: 'A Flayed Man has No Secrets',
+  'A Flayed Man has No Secrets - Roose Bolton': {
+    name: 'A Flayed Man has No Secrets - Roose Bolton',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-roose-bolton-tll-t1.png',
     imageUrlBack: '',
   },
-  'Fear Keeps A Man Alive': {
-    name: 'Fear Keeps A Man Alive',
+  'Fear Keeps A Man Alive - Roose Bolton': {
+    name: 'Fear Keeps A Man Alive - Roose Bolton',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-roose-bolton-tll-t2.png',
     imageUrlBack: '',
   },
-  'Whispered Threats': {
-    name: 'Whispered Threats',
+  'Whispered Threats - Roose Bolton': {
+    name: 'Whispered Threats - Roose Bolton',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-roose-bolton-tll-t3.png',
     imageUrlBack: '',

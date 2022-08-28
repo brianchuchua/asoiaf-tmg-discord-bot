@@ -1,8 +1,8 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'Regroup and Reform': {
-    name: 'Regroup and Reform',
+  'Regroup and Reform - Freefolk': {
+    name: 'Regroup and Reform - Freefolk',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-t1.png',
     imageUrlBack: '',
@@ -13,8 +13,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-t2.png',
     imageUrlBack: '',
   },
-  "There's Too Many!": {
-    name: "There's Too Many!",
+  "There's Too Many! - Freefolk": {
+    name: "There's Too Many! - Freefolk",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-t3.png',
     imageUrlBack: '',
@@ -25,20 +25,20 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-t4.png',
     imageUrlBack: '',
   },
-  'Overwhelming Assault': {
-    name: 'Overwhelming Assault',
+  'Overwhelming Assault - Freefolk': {
+    name: 'Overwhelming Assault - Freefolk',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-t5.png',
     imageUrlBack: '',
   },
-  'Surrounded and Exposed': {
-    name: 'Surrounded and Exposed',
+  'Surrounded and Exposed - Freefolk': {
+    name: 'Surrounded and Exposed - Freefolk',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-t6.png',
     imageUrlBack: '',
   },
-  'The Endless Horde': {
-    name: 'The Endless Horde',
+  'The Endless Horde - Freefolk': {
+    name: 'The Endless Horde - Freefolk',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-t7.png',
     imageUrlBack: '',
@@ -49,8 +49,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-tormund-giantsbane-t-t1.png',
     imageUrlBack: '',
   },
-  'Counter Assault': {
-    name: 'Counter Assault',
+  'Counter Assault - Tormund Giantsbane': {
+    name: 'Counter Assault - Tormund Giantsbane',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-tormund-giantsbane-t-t2.png',
     imageUrlBack: '',
@@ -67,14 +67,14 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-styr-mot-t1.png',
     imageUrlBack: '',
   },
-  'Thenn Defiance': {
-    name: 'Thenn Defiance',
+  'Thenn Defiance - Styr': {
+    name: 'Thenn Defiance - Styr',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-styr-mot-t2.png',
     imageUrlBack: '',
   },
-  "Styr's Vengeance": {
-    name: "Styr's Vengeance",
+  "Styr's Vengeance - Styr": {
+    name: "Styr's Vengeance - Styr",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-styr-mot-t3.png',
     imageUrlBack: '',
@@ -103,8 +103,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-harma-vc-t1.png',
     imageUrlBack: '',
   },
-  'Feinting Maneuver': {
-    name: 'Feinting Maneuver',
+  'Feinting Maneuver - Harma': {
+    name: 'Feinting Maneuver - Harma',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-harma-vc-t2.png',
     imageUrlBack: '',
@@ -115,26 +115,26 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-harma-vc-t3.png',
     imageUrlBack: '',
   },
-  'Bloody Trophies': {
-    name: 'Bloody Trophies',
+  'Bloody Trophies - Rattleshirt': {
+    name: 'Bloody Trophies - Rattleshirt',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-rattleshirt-tlob-t1.png',
     imageUrlBack: '',
   },
-  'Weapon Trophies': {
-    name: 'Weapon Trophies',
+  'Weapon Trophies - Rattleshirt': {
+    name: 'Weapon Trophies - Rattleshirt',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-rattleshirt-tlob-t2.png',
     imageUrlBack: '',
   },
-  'Armor Trophies': {
-    name: 'Armor Trophies',
+  'Armor Trophies - Rattleshirt': {
+    name: 'Armor Trophies - Rattleshirt',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-rattleshirt-tlob-t3.png',
     imageUrlBack: '',
   },
-  'Wildling Diplomacy': {
-    name: 'Wildling Diplomacy',
+  'Wildling Diplomacy - Mance Rayder': {
+    name: 'Wildling Diplomacy - Mance Rayder',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mance-rayder-kbtw-t1.png',
     imageUrlBack: '',
@@ -145,56 +145,56 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mance-rayder-kbtw-t2.png',
     imageUrlBack: '',
   },
-  'The Long Plan': {
-    name: 'The Long Plan',
+  'The Long Plan - Mance Rayder': {
+    name: 'The Long Plan - Mance Rayder',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mance-rayder-kbtw-t3.png',
     imageUrlBack: '',
   },
-  'Shrug It Off': {
-    name: 'Shrug It Off',
+  'Shrug It Off - Mag The Mighty': {
+    name: 'Shrug It Off - Mag The Mighty',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t1.png',
     imageUrlBack: '',
   },
-  Trample: {
-    name: 'Trample',
+  'Trample - Mag The Mighty': {
+    name: 'Trample - Mag The Mighty',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t2.png',
     imageUrlBack: '',
   },
-  Enrage: {
-    name: 'Enrage',
+  'Enrage - Mag The Mighty': {
+    name: 'Enrage - Mag The Mighty',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t3.png',
     imageUrlBack: '',
   },
-  "Chieftain's Orders": {
-    name: "Chieftain's Orders",
+  "Chieftain's Orders - Mag The Mighty": {
+    name: "Chieftain's Orders - Mag The Mighty",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t4.png',
     imageUrlBack: '',
   },
-  'Monsters From The North': {
-    name: 'Monsters From The North',
+  'Monsters From The North - Mag The Mighty': {
+    name: 'Monsters From The North - Mag The Mighty',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t5.png',
     imageUrlBack: '',
   },
-  'Last Of Their Kind': {
-    name: 'Last Of Their Kind',
+  'Last Of Their Kind - Mag The Mighty': {
+    name: 'Last Of Their Kind - Mag The Mighty',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t6.png',
     imageUrlBack: '',
   },
-  'Defiant Roar': {
-    name: 'Defiant Roar',
+  'Defiant Roar - Mag The Mighty': {
+    name: 'Defiant Roar - Mag The Mighty',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t7.png',
     imageUrlBack: '',
   },
-  'Hurl Boulder': {
-    name: 'Hurl Boulder',
+  'Hurl Boulder - Mag The Mighty': {
+    name: 'Hurl Boulder - Mag The Mighty',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t8.png',
     imageUrlBack: '',
@@ -205,8 +205,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t9.png',
     imageUrlBack: '',
   },
-  Blitz: {
-    name: 'Blitz',
+  'Blitz - Mag The Mighty': {
+    name: 'Blitz - Mag The Mighty',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-mag-the-mighty-t10.png',
     imageUrlBack: '',
@@ -217,32 +217,32 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-the-great-walrus-lotfs-t1.png',
     imageUrlBack: '',
   },
-  'Frozen Shore Resilience': {
-    name: 'Frozen Shore Resilience',
+  'Frozen Shore Resilience - The Great Walrus': {
+    name: 'Frozen Shore Resilience - The Great Walrus',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-the-great-walrus-lotfs-t2.png',
     imageUrlBack: '',
   },
-  "Walrus' Strength": {
-    name: "Walrus' Strength",
+  "Walrus' Strength - The Great Walrus": {
+    name: "Walrus' Strength - The Great Walrus",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-the-great-walrus-lotfs-t3.png',
     imageUrlBack: '',
   },
-  'Bonded Guardians': {
-    name: 'Bonded Guardians',
+  'Bonded Guardians - Varamyr Sixskins': {
+    name: 'Bonded Guardians - Varamyr Sixskins',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-varamyr-sixskins-ms-t1.png',
     imageUrlBack: '',
   },
-  'Bonded Command': {
-    name: 'Bonded Command',
+  'Bonded Command - Varamyr Sixskins': {
+    name: 'Bonded Command - Varamyr Sixskins',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-varamyr-sixskins-ms-t2.png',
     imageUrlBack: '',
   },
-  'Summon Companions': {
-    name: 'Summon Companions',
+  'Summon Companions - Varamyr Sixskins': {
+    name: 'Summon Companions - Varamyr Sixskins',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ff-varamyr-sixskins-ms-t3.png',
     imageUrlBack: '',
