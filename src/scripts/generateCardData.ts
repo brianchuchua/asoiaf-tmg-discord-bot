@@ -42,7 +42,7 @@ const generateCardData = () => {
       name: "${cardName}",
       type: CardTypes.${cardType},
       imageUrl: '${imageUrls[index]}',
-      imageUrlBack: '${cardType === 'TacticsCard' ? '' : imageUrls[index].replace('.png', '-back.png')}',
+      imageUrlBack: '${cardType === 'TacticsCard' ? '' : imageUrls[index].replace('.png', '-back.png').replace('.jpg', '-back.jpg')}',
     },
     `;
   });

@@ -50,7 +50,11 @@ try {
       message.channel.send(`Available commands: \`!asoiaf [search parameter]\`
 _(Available shorthand: \`!a [search parameter]\`)_
 
+Example: \`!a The Mountain That Rides\`
+
 You can also search by card type: \`!asoiaf [search parameter] t:[card type]\`
+
+Example: \`!a Eddard t:c\`
 
 Available card types:
 
@@ -60,9 +64,10 @@ Available card types:
 - \`t:noncombatunit\` _(shorthand: \`t:ncu\`, \`t:nc\`, \`t:n\`)_
 - \`t:opponentattachment\` _(shorthand: \`t:oa\`, \`t:o\`)_
 - \`t:tacticscard\` _(shorthand: \`t:tactics\`, \`t:tactic\`, \`t:tc\`, \`t:t\`)_
+- \`t:tacticszone\` _(shorthand: \`t:tz\`)_
+- \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
 
-To report typos, missing cards, or missing artwork, please go here:
-https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues
+To report typos, missing cards, or missing artwork, please go here: <https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues>
     `);
       return;
     }
@@ -150,6 +155,8 @@ Available card types:
 - \`t:noncombatunit\` _(shorthand: \`t:ncu\`, \`t:nc\`, \`t:n\`)_
 - \`t:opponentattachment\` _(shorthand: \`t:oa\`, \`t:o\`)_
 - \`t:tacticscard\` _(shorthand: \`t:tactics\`, \`t:tactic\`, \`t:tc\`, \`t:t\`)_
+- \`t:tacticszone\` _(shorthand: \`t:tz\`)_
+- \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
 `);
         return;
       }

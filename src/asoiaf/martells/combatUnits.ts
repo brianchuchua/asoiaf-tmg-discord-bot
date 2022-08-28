@@ -23,7 +23,7 @@ const cardData: CardData = {
     name: 'Sunspear Royal Guard',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-sunspear-royal-guard.png',
-    imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-sunspear-royal-guard-back.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-sunspear-royal-guard-back.png',
   },
 };
 

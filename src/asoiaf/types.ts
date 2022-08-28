@@ -6,6 +6,8 @@ export enum CardTypes {
   NonCombatUnit = 'Non-Combat Unit',
   OpponentAttachment = 'Opponent Attachment',
   TacticsCard = 'Tactics Card',
+  TacticsZone = 'Tactics Zone',
+  InformationCard = 'Information Card',
 }
 
 export const TYPE_PREFIX = 't:';
@@ -18,6 +20,8 @@ type CardTypeCommands = {
   [CardTypes.NonCombatUnit]: string[];
   [CardTypes.OpponentAttachment]: string[];
   [CardTypes.TacticsCard]: string[];
+  [CardTypes.TacticsZone]: string[];
+  [CardTypes.InformationCard]: string[];
 };
 
 export const cardTypeCommands: CardTypeCommands = {
@@ -27,6 +31,8 @@ export const cardTypeCommands: CardTypeCommands = {
   [CardTypes.NonCombatUnit]: ['noncombatunit', 'ncu', 'nc', 'n'],
   [CardTypes.OpponentAttachment]: ['opponentattachment', 'oa', 'o'],
   [CardTypes.TacticsCard]: ['tacticscard', 'tactics', 'tactic', 'tc', 't'],
+  [CardTypes.TacticsZone]: ['tacticszone', 'tz'],
+  [CardTypes.InformationCard]: ['informationcard', 'info', 'i'],
 };
 
 export interface Card {
