@@ -79,8 +79,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-joffrey-baratheon-fohn-t3.png',
     imageUrlBack: '',
   },
-  'False Agenda': {
-    name: 'False Agenda',
+  'False Agenda - Tyrion Lannister': {
+    name: 'False Agenda - Tyrion Lannister',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-tyrion-lannister-h-t1.png',
     imageUrlBack: '',

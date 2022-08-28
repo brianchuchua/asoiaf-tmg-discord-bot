@@ -36,7 +36,7 @@ const cardData: CardData = {
   'Areo Hotah - Dutiful Juggernaut': {
     name: 'Areo Hotah - Dutiful Juggernaut',
     type: CardTypes.Attachment,
-    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-areo-hotah-dj.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-areo-hotah-dj.jpg',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-areo-hotah-dj-back.png',
   },
   'Elia Sand - Sand Snake': {

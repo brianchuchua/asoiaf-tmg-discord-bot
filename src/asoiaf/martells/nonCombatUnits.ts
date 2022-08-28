@@ -23,8 +23,8 @@ const cardData: CardData = {
   'Oberyn Martell - Prince of Dorne': {
     name: 'Oberyn Martell - Prince of Dorne',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-doran-martell-pod.png',
-    imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-doran-martell-pod-back.png',
+    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-oberyn-martell-podn.png',
+    imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hm-oberyn-martell-podn-back.png',
   },
   "Tyene Sand - Septa's Daughter": {
     name: "Tyene Sand - Septa's Daughter",

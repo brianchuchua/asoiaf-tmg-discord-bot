@@ -127,8 +127,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-davos-seaworth-hob-t2.png',
     imageUrlBack: '',
   },
-  Parlay: {
-    name: 'Parlay',
+  'Parlay - Davos Seaworth': {
+    name: 'Parlay - Davos Seaworth',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-davos-seaworth-hob-t3.png',
     imageUrlBack: '',
