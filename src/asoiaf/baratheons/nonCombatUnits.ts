@@ -43,8 +43,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-melisandre-trw.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-melisandre-trw-back.png',
   },
-  'Olenna Tyrell - Olenna Tyrell': {
-    name: 'Olenna Tyrell - Olenna Tyrell',
+  'Olenna Tyrell - Queen of Thorns': {
+    name: 'Olenna Tyrell - Queen of Thorns',
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-olenna-tyrell-qot.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-olenna-tyrell-qot-back.png',
@@ -55,8 +55,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-selyse-and-shireen-qap.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-selyse-and-shireen-qap-back.png',
   },
-  'Shyra Errol - Landy Of Haystack Hall': {
-    name: 'Shyra Errol - Landy Of Haystack Hall',
+  'Shyra Errol - Lady Of Haystack Hall': {
+    name: 'Shyra Errol - Lady Of Haystack Hall',
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-shyra-errol-lohh.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-shyra-errol-lohh-back.png',

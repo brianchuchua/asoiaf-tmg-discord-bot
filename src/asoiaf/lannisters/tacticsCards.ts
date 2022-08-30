@@ -133,20 +133,20 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-gregor-clegane-tm-t3.png',
     imageUrlBack: '',
   },
-  'Mercy Of The Mother - High Sparrow': {
-    name: 'Mercy Of The Mother - High Sparrow',
+  'Mercy Of The Mother - The High Sparrow': {
+    name: 'Mercy Of The Mother - The High Sparrow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh-t1.png',
     imageUrlBack: '',
   },
-  'Protection Of The Father - High Sparrow': {
-    name: 'Protection Of The Father - High Sparrow',
+  'Protection Of The Father - The High Sparrow': {
+    name: 'Protection Of The Father - The High Sparrow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh-t2.png',
     imageUrlBack: '',
   },
-  'Wrath Of The Warrior - High Sparrow': {
-    name: 'Wrath Of The Warrior - High Sparrow',
+  'Wrath Of The Warrior - The High Sparrow': {
+    name: 'Wrath Of The Warrior - The High Sparrow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh-t3.png',
     imageUrlBack: '',

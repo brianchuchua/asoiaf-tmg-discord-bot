@@ -75,8 +75,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-guard-captain.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-guard-captain-back.png',
   },
-  'High Sparrow - His High Holiness': {
-    name: 'High Sparrow - His High Holiness',
+  'The High Sparrow - His High Holiness': {
+    name: 'The High Sparrow - His High Holiness',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-high-sparrow-hhh-back.png',

@@ -8,8 +8,8 @@ const cardData: CardData = {
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-alliser-thorne-maa-back.png',
     isCommander: true,
   },
-  'Alister Thorne - Vindictive Overseer': {
-    name: 'Alister Thorne - Vindictive Overseer',
+  'Alliser Thorne - Vindictive Overseer': {
+    name: 'Alliser Thorne - Vindictive Overseer',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-alliser-thorne-vo.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-alliser-thorne-vo-back.png',

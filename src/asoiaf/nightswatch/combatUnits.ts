@@ -49,8 +49,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-ranger-trackers.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-ranger-trackers-back.png',
   },
-  'Ranger Vanguard': {
-    name: 'Ranger Vanguard',
+  'Ranger Vanguards': {
+    name: 'Ranger Vanguards',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-ranger-vanguard.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/nw-ranger-vanguard-back.png',

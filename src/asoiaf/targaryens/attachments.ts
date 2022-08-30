@@ -67,8 +67,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-haggo-b.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-haggo-b-back.png',
   },
-  'Jorah Mormont - Pentient Betrayer': {
-    name: 'Jorah Mormont - Pentient Betrayer',
+  'Jorah Mormont - Penitent Betrayer': {
+    name: 'Jorah Mormont - Penitent Betrayer',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-pb.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-pb-back.png',
@@ -85,8 +85,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-tek.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-tek-back.png',
   },
-  'Jorah Mormont - Westeros Tactician': {
-    name: 'Jorah Mormont - Westeros Tactician',
+  'Jorah Mormont - Westerosi Tactician': {
+    name: 'Jorah Mormont - Westerosi Tactician',
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-wt.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/ht-jorah-mormont-wt-back.png',
