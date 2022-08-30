@@ -139,8 +139,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-davos-seaworth-hob-t4.png',
     imageUrlBack: '',
   },
-  'Hefty Random - Eldon Estermont': {
-    name: 'Hefty Random - Eldon Estermont',
+  'Hefty Ransom - Eldon Estermont': {
+    name: 'Hefty Ransom - Eldon Estermont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hb-eldon-estermont-log-t1.png',
     imageUrlBack: '',
