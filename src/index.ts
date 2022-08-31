@@ -73,9 +73,10 @@ Available card types:
 - \`t:tacticszone\` _(shorthand: \`t:tz\`)_
 - \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
 
-You can also just ask for the front or back of a card. 
-\`!asoiaf [search parameter] -front\` or \`!asoiaf [search parameter] -f\`
-\`!asoiaf [search parameter] -back\` or \`!asoiaf [search parameter] -b\`
+You can also just ask for the front or back of a card:
+
+\`!a [search parameter] -front\` or \`!a [search parameter] -f\`
+\`!a [search parameter] -back\` or \`!a [search parameter] -b\`
 
 To report bugs, typos, missing cards, or missing artwork, please go here: <https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues>
     `);
