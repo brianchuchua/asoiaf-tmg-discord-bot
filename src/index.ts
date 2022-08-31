@@ -11,6 +11,10 @@ Sentry.init({
 try {
   const COMMAND_PREFIX = process.env.NODE_ENV === 'production' ? '!asoiaf' : '!devtest';
   const SHORT_COMMAND_PREFIX = process.env.NODE_ENV === 'production' ? '!a' : '!d';
+  const FRONT_OF_CARD_FLAG = '-front';
+  const SHORT_FRONT_OF_CARD_FLAG = '-f';
+  const BACK_OF_CARD_FLAG = '-back';
+  const SHORT_BACK_OF_CARD_FLAG = '-b';
 
   const discord = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
@@ -68,6 +72,10 @@ Available card types:
 - \`t:tacticscard\` _(shorthand: \`t:tactics\`, \`t:tactic\`, \`t:tc\`, \`t:t\`)_
 - \`t:tacticszone\` _(shorthand: \`t:tz\`)_
 - \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
+
+You can also just ask for the front or back of a card. 
+\`!asoiaf [search parameter] -front\` or \`!asoiaf [search parameter] -f\`
+\`!asoiaf [search parameter] -back\` or \`!asoiaf [search parameter] -b\`
 
 To report bugs, typos, missing cards, or missing artwork, please go here: <https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues>
     `);
@@ -166,6 +174,22 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
       }
     }
 
+    let frontOnly = false;
+    let backOnly = false;
+    if (command.includes(FRONT_OF_CARD_FLAG)) {
+      frontOnly = true;
+      command = command.replace(FRONT_OF_CARD_FLAG, '').trim();
+    } else if (command.includes(SHORT_FRONT_OF_CARD_FLAG)) {
+      frontOnly = true;
+      command = command.replace(SHORT_FRONT_OF_CARD_FLAG, '').trim();
+    } else if (command.includes(BACK_OF_CARD_FLAG)) {
+      backOnly = true;
+      command = command.replace(BACK_OF_CARD_FLAG, '').trim();
+    } else if (command.includes(SHORT_BACK_OF_CARD_FLAG)) {
+      backOnly = true;
+      command = command.replace(SHORT_BACK_OF_CARD_FLAG, '').trim();
+    }
+
     let exactMatchFound = false;
     let cards = Object.values(CardData).filter((card) => {
       if (
@@ -225,9 +249,14 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
     }
     const card = cards[0];
 
-    message.channel.send(`${card.imageUrl}`);
-    if (card.imageUrlBack) {
+    if (!backOnly) {
+      message.channel.send(`${card.imageUrl}`);
+    }
+    if (card.imageUrlBack && !frontOnly) {
       message.channel.send(`${card.imageUrlBack}`);
+    }
+    if (backOnly && !card.imageUrlBack) {
+      message.channel.send(`A man has no back image for this card.`);
     }
   });
 } catch (error) {
