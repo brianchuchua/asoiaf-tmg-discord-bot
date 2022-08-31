@@ -42,7 +42,9 @@ try {
     command = command.replace(/’/g, "'");
 
     if (command === '') {
-      message.channel.send('In the Game of Thrones, you specify a search parameter or you die. There is no middle ground.');
+      message.channel.send(
+        'In the Game of Thrones, you specify a search parameter or you die. There is no middle ground.\n\n_(Tip: Try `!a help` to see a list of commands.)_'
+      );
       return;
     }
 
@@ -67,7 +69,7 @@ Available card types:
 - \`t:tacticszone\` _(shorthand: \`t:tz\`)_
 - \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
 
-To report typos, missing cards, or missing artwork, please go here: <https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues>
+To report bugs, typos, missing cards, or missing artwork, please go here: <https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues>
     `);
       return;
     }
@@ -157,6 +159,8 @@ Available card types:
 - \`t:tacticscard\` _(shorthand: \`t:tactics\`, \`t:tactic\`, \`t:tc\`, \`t:t\`)_
 - \`t:tacticszone\` _(shorthand: \`t:tz\`)_
 - \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
+
+_(Tip: Try \`!a help\` to see a list of commands.)_
 `);
         return;
       }
@@ -197,7 +201,7 @@ Available card types:
       cards = cards.filter((card) => card.name.toLowerCase() === command.toLowerCase());
     }
     if (cards.length === 0) {
-      const noCardsMessage = `No cards ${ofTypeMessage}found containing the search: "${command}".`;
+      const noCardsMessage = `No cards ${ofTypeMessage}found containing the search: "${command}". \n\n_(Tip: Try \`!a help\` to see a list of commands.)_`;
       message.channel.send(noCardsMessage);
       return;
     }
@@ -210,11 +214,11 @@ Available card types:
       const andMore = cardCount > MAX_CARDS ? `\n- _(...and ${cardCount - MAX_CARDS} more)_` : '';
       if (command === '') {
         message.channel.send(
-          `Found ${cardCount} ${cardCountString} ${ofTypeMessage}-- please be more specific. Cards found: \n\n- ${cardNames}${andMore}`
+          `Found ${cardCount} ${cardCountString} ${ofTypeMessage}-- please be more specific. Cards found: \n\n- ${cardNames}${andMore}\n\n_(Tip: Try \`!a help\` to see a list of commands.)_`
         );
       } else {
         message.channel.send(
-          `Found ${cardCount} ${cardCountString} ${ofTypeMessage}containing the search: "${command}" -- please be more specific. Cards found: \n\n- ${cardNames}${andMore}`
+          `Found ${cardCount} ${cardCountString} ${ofTypeMessage}containing the search: "${command}" -- please be more specific. Cards found: \n\n- ${cardNames}${andMore}\n\n_(Tip: Try \`!a help\` to see a list of commands.)_`
         );
       }
       return;
