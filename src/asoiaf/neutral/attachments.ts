@@ -56,8 +56,8 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-golden-company-officer.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-golden-company-officer-back.png',
   },
-  "Jaqen H'Ghar - Unamed": {
-    name: "Jaqen H'Ghar - Unamed",
+  "Jaqen H'ghar - Unnamed": {
+    name: "Jaqen H'ghar - Unnamed",
     type: CardTypes.Attachment,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-jaqen-hghar-u.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-jaqen-hghar-u-back.png',

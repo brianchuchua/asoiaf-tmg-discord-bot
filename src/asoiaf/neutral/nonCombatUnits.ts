@@ -1,8 +1,8 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'Jaqen Hghar - Follower Of The Red God': {
-    name: 'Jaqen Hghar - Follower Of The Red God',
+  "Jaqen H'ghar - Follower Of The Red God": {
+    name: "Jaqen H'ghar - Follower Of The Red God",
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-jaqen-hghar-fotrg.png',
     imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/n-jaqen-hghar-fotrg-back.png',
