@@ -143,6 +143,19 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
     // # Nickname nonsense ends here -- I'll move it to a separate file once it gets out of hand #
     // ###########################################################################################
 
+    // ##################################
+    // # Start special request nonsense #
+    // ##################################
+
+    if (command.toLowerCase().includes('darkstar')) {
+      message.channel.send('https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/darkstar.gif');
+      return;
+    }
+
+    // ################################
+    // # End special request nonsense #
+    // ################################
+
     let type = command.split(' ').find((word) => word.startsWith(TYPE_PREFIX));
     let cardType = CardTypes.None;
     if (type) {
