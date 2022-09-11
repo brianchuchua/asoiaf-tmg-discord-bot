@@ -246,7 +246,7 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
     if (cards.length > 1) {
       const MAX_CARDS = 10;
       const firstFewCards = cards.slice(0, MAX_CARDS);
-      const cardNames = firstFewCards.map((card) => `${card.name} _(${card.type})_`).join('\n- ');
+      const cardNames = firstFewCards.map((card) => `${card.name} _(Type: ${card.type})_`).join('\n- ');
       const cardCount = cards.length;
       const cardCountString = cardCount === 1 ? 'card' : 'cards';
       const andMore = cardCount > MAX_CARDS ? `\n- _(...and ${cardCount - MAX_CARDS} more)_` : '';
