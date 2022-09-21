@@ -15,6 +15,7 @@ try {
   const SHORT_FRONT_OF_CARD_FLAG = '-f';
   const BACK_OF_CARD_FLAG = '-back';
   const SHORT_BACK_OF_CARD_FLAG = '-b';
+  const ALL_COMMANDER_CARDS_FLAG = '-all';
 
   const discord = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent],
@@ -77,6 +78,11 @@ You can also just ask for the front or back of a card:
 
 \`!a [search parameter] -front\` or \`!a [search parameter] -f\`
 \`!a [search parameter] -back\` or \`!a [search parameter] -b\`
+
+You can also request every tactics card along with the commander.
+
+\`!a [search parameter] -all\`
+\`!a jaime -all\` will bring up Jaime's commander card and all of his tactics cards
 
 To report bugs, typos, missing cards, or missing artwork, please go here: <https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues>
     `);
@@ -190,6 +196,7 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
 
     let frontOnly = false;
     let backOnly = false;
+    let allCommanderTacticsCards = false;
     if (command.includes(FRONT_OF_CARD_FLAG)) {
       frontOnly = true;
       command = command.replace(FRONT_OF_CARD_FLAG, '').trim();
@@ -202,6 +209,12 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
     } else if (command.includes(SHORT_BACK_OF_CARD_FLAG)) {
       backOnly = true;
       command = command.replace(SHORT_BACK_OF_CARD_FLAG, '').trim();
+    }
+    if (command.includes(ALL_COMMANDER_CARDS_FLAG)) {
+      allCommanderTacticsCards = true;
+      command = command.replace(ALL_COMMANDER_CARDS_FLAG, '').trim();
+      cardType = CardTypes.Commander;
+      console.log(cardType);
     }
 
     let exactMatchFound = false;
@@ -270,6 +283,26 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
     }
     if (card.imageUrlBack && !frontOnly) {
       message.channel.send(`${card.imageUrlBack}`);
+    }
+    if (allCommanderTacticsCards) {
+      const commanderNameFragments = card.name.split(' - ');
+      const commanderNameFragment = commanderNameFragments[0];
+      let commanderTacticsCards = Object.values(CardData).filter(
+        (tacticsCard) => tacticsCard.name.includes(commanderNameFragment) && tacticsCard.type === CardTypes.TacticsCard
+      );
+      if (commanderTacticsCards.length > 4) {
+        const commanderNameFragment2 = commanderNameFragments[1] ?? '';
+        const commanderTacticsCards2 = commanderTacticsCards.filter(
+          (tacticsCard) => tacticsCard.name.includes(commanderNameFragment2) && tacticsCard.type === CardTypes.TacticsCard
+        );
+        if (commanderTacticsCards2.length > 0) {
+          commanderTacticsCards = commanderTacticsCards2;
+        }
+      }
+
+      commanderTacticsCards.forEach((commanderTacticsCard) => {
+        message.channel.send(`${commanderTacticsCard.imageUrl}`);
+      });
     }
     if (backOnly && !card.imageUrlBack) {
       message.channel.send(`A man has no back image for this card.`);

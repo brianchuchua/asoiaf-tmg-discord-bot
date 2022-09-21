@@ -43,20 +43,20 @@ const cardData: CardData = {
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-t7.png',
     imageUrlBack: '',
   },
-  "Kingslayer's Renown - Jamie Lannister": {
-    name: "Kingslayer's Renown - Jamie Lannister",
+  "Kingslayer's Renown - Jaime Lannister": {
+    name: "Kingslayer's Renown - Jaime Lannister",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-jaime-lannister-tk-t1.png',
     imageUrlBack: '',
   },
-  "Kingslayer's Prowess - Jamie Lannister": {
-    name: "Kingslayer's Prowess - Jamie Lannister",
+  "Kingslayer's Prowess - Jaime Lannister": {
+    name: "Kingslayer's Prowess - Jaime Lannister",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-jaime-lannister-tk-t2.png',
     imageUrlBack: '',
   },
-  "Kingslayer's Infamy - Jamie Lannister": {
-    name: "Kingslayer's Infamy - Jamie Lannister",
+  "Kingslayer's Infamy - Jaime Lannister": {
+    name: "Kingslayer's Infamy - Jaime Lannister",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-jaime-lannister-tk-t3.png',
     imageUrlBack: '',
