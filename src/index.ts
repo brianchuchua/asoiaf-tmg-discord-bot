@@ -281,7 +281,7 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
     if (!backOnly) {
       message.channel.send(`${card.imageUrl}`);
     }
-    if (card.imageUrlBack && !frontOnly) {
+    if (card.imageUrlBack && !frontOnly && !allCommanderTacticsCards) {
       message.channel.send(`${card.imageUrlBack}`);
     }
     if (allCommanderTacticsCards) {
