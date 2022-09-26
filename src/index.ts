@@ -1,12 +1,6 @@
-import * as Sentry from '@sentry/node';
 import { ChannelType, Client, GatewayIntentBits } from 'discord.js';
 import CardData from './asoiaf/data';
 import { cardTypeCommands, CardTypes, TYPE_PREFIX } from './asoiaf/types';
-
-Sentry.init({
-  dsn: 'https://994d8a85b8ec4807bf6984afe7ca44b7@o128795.ingest.sentry.io/6686260',
-  tracesSampleRate: 1.0,
-});
 
 try {
   const COMMAND_PREFIX = process.env.NODE_ENV === 'production' ? '!asoiaf' : '!devtest';
