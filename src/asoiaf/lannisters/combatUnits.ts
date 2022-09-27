@@ -70,8 +70,8 @@ const cardData: CardData = {
   Pyromancers: {
     name: 'Pyromancers',
     type: CardTypes.CombatUnit,
-    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-pyromancers.png',
-    imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hl-pyromancers-back.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-pyromancers.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-pyromancers-back.png',
   },
   'Red Cloaks': {
     name: 'Red Cloaks',
