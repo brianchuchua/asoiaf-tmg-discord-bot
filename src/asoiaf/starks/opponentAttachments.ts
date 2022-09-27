@@ -4,8 +4,8 @@ const cardData: CardData = {
   "Jaqen H'ghar - Mysterious Prisoner": {
     name: "Jaqen H'ghar - Mysterious Prisoner",
     type: CardTypes.OpponentAttachment,
-    imageUrl: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-jaqen-hghar-mp.png',
-    imageUrlBack: 'https://onthetablegaming.com/asoiaf-builder-images/asoiafbuilder2021/hs-jaqen-hghar-mp-back.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-jaqen-hghar-mp.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-jaqen-hghar-mp-back.png',
   },
 };
 
