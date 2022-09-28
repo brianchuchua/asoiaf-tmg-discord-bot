@@ -19,8 +19,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-champions-of-the-stag.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-champions-of-the-stag-back.png',
   },
-  'Dragonstone Noble': {
-    name: 'Dragonstone Noble',
+  'Dragonstone Noble (Solo Unit)': {
+    name: 'Dragonstone Noble (Solo Unit)',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-dragonstone-noble-solo.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-dragonstone-noble-solo-back.png',
