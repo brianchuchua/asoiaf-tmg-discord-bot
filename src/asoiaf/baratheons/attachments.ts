@@ -59,8 +59,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-devan-seaworth-ks.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-devan-seaworth-ks-back.png',
   },
-  'Dragonstone Noble': {
-    name: 'Dragonstone Noble',
+  'Dragonstone Noble (Attachment)': {
+    name: 'Dragonstone Noble (Attachment)',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-dragonstone-noble.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-dragonstone-noble-back.png',
