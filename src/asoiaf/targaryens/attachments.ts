@@ -135,6 +135,38 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-stormcrow-lieutenant.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-stormcrow-lieutenant-back.png',
   },
+  "Marselen - Mother's Men Commander": {
+    name: "Marselen - Mother's Men Commander",
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-back.jpg',
+    isCommander: true,
+  },
+  'Marselen - Unsullied Captain': {
+    name: 'Marselen - Unsullied Captain',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-uc.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-uc-back.jpg',
+  },
+  'Mirri Maz Duur - Resentful Healer': {
+    name: 'Mirri Maz Duur - Resentful Healer',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-rh.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-rh-back.jpg',
+  },
+  'Skahaz Mo Kandaq - Merciless Ghiscari': {
+    name: 'Skahaz Mo Kandaq - Merciless Ghiscari',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-skahaz-mo-kandaq-mg.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-skahaz-mo-kandaq-mg-back.jpg',
+  },
+  'Skahaz Mo Kandaq - The Shavepate': {
+    name: 'Skahaz Mo Kandaq - The Shavepate',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-skahaz-mo-kandaq-ts.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-skahaz-mo-kandaq-ts-back.jpg',
+    isCommander: true,
+  },
 };
 
 export default cardData;

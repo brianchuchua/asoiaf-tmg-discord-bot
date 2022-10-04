@@ -235,6 +235,54 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-jorah-mormont-wt-t4.png',
     imageUrlBack: '',
   },
+  'Devastating Impact - Marselen': {
+    name: 'Devastating Impact - Marselen',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t1.jpg',
+    imageUrlBack: '',
+  },
+  'Devotees Of The Dragon - Marselen': {
+    name: 'Devotees Of The Dragon - Marselen',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t2.jpg',
+    imageUrlBack: '',
+  },
+  'Supply Aid - Marselen': {
+    name: 'Supply Aid - Marselen',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t3.jpg',
+    imageUrlBack: '',
+  },
+  'War Cry - Marselen': {
+    name: 'War Cry - Marselen',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t4.jpg',
+    imageUrlBack: '',
+  },
+  'Keeping The Peace - Skahaz Mo Kandaq': {
+    name: 'Keeping The Peace - Skahaz Mo Kandaq',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-skahaz-mo-kandaq-ts-t1.jpg',
+    imageUrlBack: '',
+  },
+  "The Queen's Law - Skahaz Mo Kandaq": {
+    name: "The Queen's Law - Skahaz Mo Kandaq",
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-skahaz-mo-kandaq-ts-t2.jpg',
+    imageUrlBack: '',
+  },
+  'Eyes Of The Watch - Skahaz Mo Kandaq': {
+    name: 'Eyes Of The Watch - Skahaz Mo Kandaq',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-skahaz-mo-kandaq-ts-t3.jpg',
+    imageUrlBack: '',
+  },
+  'Ghiscari Justice - Skahaz Mo Kandaq': {
+    name: 'Ghiscari Justice - Skahaz Mo Kandaq',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-skahaz-mo-kandaq-ts-t4.jpg',
+    imageUrlBack: '',
+  },
 };
 
 export default cardData;

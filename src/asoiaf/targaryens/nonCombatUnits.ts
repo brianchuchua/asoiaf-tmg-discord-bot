@@ -37,6 +37,30 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-xaro-xhoan-daxos-mpoq.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-xaro-xhoan-daxos-mpoq-back.png',
   },
+  'Hizdahr Zo Loraq - Fourteenth Of that Noble Name': {
+    name: 'Hizdahr Zo Loraq - Fourteenth Of that Noble Name',
+    type: CardTypes.NonCombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn-back.jpg',
+  },
+  'Mirri Maz Duur - Godswife': {
+    name: 'Mirri Maz Duur - Godswife',
+    type: CardTypes.NonCombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g-back.jpg',
+  },
+  'Missandei - Scribe': {
+    name: 'Missandei - Scribe',
+    type: CardTypes.NonCombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s-back.jpg',
+  },
+  'Quaithe - Of The Shadow': {
+    name: 'Quaithe - Of The Shadow',
+    type: CardTypes.NonCombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots-back.jpg',
+  },
 };
 
 export default cardData;
