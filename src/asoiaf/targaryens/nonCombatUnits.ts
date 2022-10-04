@@ -37,8 +37,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-xaro-xhoan-daxos-mpoq.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-xaro-xhoan-daxos-mpoq-back.png',
   },
-  'Hizdahr Zo Loraq - Fourteenth Of that Noble Name': {
-    name: 'Hizdahr Zo Loraq - Fourteenth Of that Noble Name',
+  'Hizdahr Zo Loraq - Fourteenth Of That Noble Name': {
+    name: 'Hizdahr Zo Loraq - Fourteenth Of That Noble Name',
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn.jpg',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn-back.jpg',
