@@ -67,6 +67,7 @@ Available card types:
 - \`t:tacticscard\` _(shorthand: \`t:tactics\`, \`t:tactic\`, \`t:tc\`, \`t:t\`)_
 - \`t:tacticszone\` _(shorthand: \`t:tz\`)_
 - \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
+- \`t:gamemode\` _(shorthand: \`t:gm\`)_
 
 You can also just ask for the front or back of a card:
 
@@ -181,6 +182,7 @@ Available card types:
 - \`t:tacticscard\` _(shorthand: \`t:tactics\`, \`t:tactic\`, \`t:tc\`, \`t:t\`)_
 - \`t:tacticszone\` _(shorthand: \`t:tz\`)_
 - \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
+- \`t:gamemode\` _(shorthand: \`t:gm\`)_
 
 _(Tip: Try \`!a help\` to see a list of commands.)_
 `);
