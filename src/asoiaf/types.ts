@@ -9,6 +9,8 @@ export enum CardTypes {
   TacticsZone = 'Tactics Zone',
   InformationCard = 'Information Card',
   GameMode = 'Game Mode',
+  Mission = 'Mission',
+  Objective = 'Objective',
 }
 
 export const TYPE_PREFIX = 't:';
@@ -24,6 +26,8 @@ type CardTypeCommands = {
   [CardTypes.TacticsZone]: string[];
   [CardTypes.InformationCard]: string[];
   [CardTypes.GameMode]: string[];
+  [CardTypes.Mission]: string[];
+  [CardTypes.Objective]: string[];
 };
 
 export const cardTypeCommands: CardTypeCommands = {
@@ -36,6 +40,8 @@ export const cardTypeCommands: CardTypeCommands = {
   [CardTypes.TacticsZone]: ['tacticszone', 'tz'],
   [CardTypes.InformationCard]: ['informationcard', 'info', 'i'],
   [CardTypes.GameMode]: ['gamemode', 'gm'],
+  [CardTypes.Mission]: ['mission', 'm'],
+  [CardTypes.Objective]: ['objective', 'ob'],
 };
 
 export interface Card {

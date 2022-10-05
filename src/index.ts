@@ -68,6 +68,8 @@ Available card types:
 - \`t:tacticszone\` _(shorthand: \`t:tz\`)_
 - \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
 - \`t:gamemode\` _(shorthand: \`t:gm\`)_
+- \`t:mission\` _(shorthand: \`t:m\`)_
+- \`t:objective\` _(shorthand: \`t:ob\`)_
 
 You can also just ask for the front or back of a card:
 
@@ -183,6 +185,8 @@ Available card types:
 - \`t:tacticszone\` _(shorthand: \`t:tz\`)_
 - \`t:informationcard\` _(shorthand: \`t:info\`, \`t:i\`)_
 - \`t:gamemode\` _(shorthand: \`t:gm\`)_
+- \`t:mission\` _(shorthand: \`t:m\`)_
+- \`t:objective\` _(shorthand: \`t:ob\`)_
 
 _(Tip: Try \`!a help\` to see a list of commands.)_
 `);
@@ -253,7 +257,7 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
       return;
     }
     if (cards.length > 1) {
-      const MAX_CARDS = 10;
+      const MAX_CARDS = 13;
       const firstFewCards = cards.slice(0, MAX_CARDS);
       const cardNames = firstFewCards
         .map((card) => `${card.name} _(Type: ${card.isCommander ? 'Commander / ' : ''}${card.type})_`)
