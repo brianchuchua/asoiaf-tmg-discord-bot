@@ -50,6 +50,7 @@ export interface Card {
   imageUrl: string;
   imageUrlBack?: string;
   isCommander?: boolean;
+  tacticsCardGroupUrl?: string;
 }
 
 export interface CardData {

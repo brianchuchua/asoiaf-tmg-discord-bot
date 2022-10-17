@@ -54,6 +54,8 @@ const cardData: CardData = {
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-mag-the-mighty.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-mag-the-mighty-back.png',
+    isCommander: true,
+    tacticsCardGroupUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-mag-the-mighty-tactics.png',
   },
   'Savage Giant': {
     name: 'Savage Giant',
