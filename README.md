@@ -55,6 +55,10 @@ If I get hit by a bus or something, you can take over this project by:
 - For running on the cloud, just ensure DISCORD_TOKEN is set to your bot's token in your cloud provider's environment variables
 - Even non-coders can update the data pretty easily -- it's in the src/asoiaf folder and broken up logically by faction and card type.
 
+### Updating Images
+
+- If you update an existing image URL with a new file, also update IMAGE_CACHE_SUFFIX to be the date of the change to ensure the cache is cleared.
+
 ## Credits
 
 - Eric Lang, Michael Shinall, and the rest of the CMON team for a beautiful design
