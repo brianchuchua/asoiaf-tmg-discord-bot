@@ -49,8 +49,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-rhllor-lightbringers.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-rhllor-lightbringers-back.png',
   },
-  "R'hllor Queens Men": {
-    name: "R'hllor Queens Men",
+  "R'hllor Queen's Men": {
+    name: "R'hllor Queen's Men",
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-rhllor-queens-men.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-rhllor-queens-men-back.png',
