@@ -2,6 +2,11 @@ import { ChannelType, Client, GatewayIntentBits } from 'discord.js';
 import CardData from './asoiaf/data';
 import { cardTypeCommands, CardTypes, TYPE_PREFIX } from './asoiaf/types';
 
+const getCachedImageUrl = (imageUrl: string) => {
+  const IMAGE_CACHE_SUFFIX = '?v=2022-10-15';
+  return imageUrl + IMAGE_CACHE_SUFFIX;
+};
+
 try {
   const COMMAND_PREFIX = process.env.NODE_ENV === 'production' ? '!asoiaf' : '!devtest';
   const SHORT_COMMAND_PREFIX = process.env.NODE_ENV === 'production' ? '!a' : '!d';
@@ -99,9 +104,9 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
       const serFriendZone = Object.values(CardData).filter((card) => card.name.toLowerCase().includes('jorah mormont - the exiled knight'));
 
       if (serFriendZone) {
-        message.channel.send(serFriendZone[0].imageUrl);
+        message.channel.send(getCachedImageUrl(serFriendZone[0].imageUrl));
         if (serFriendZone[0].imageUrlBack) {
-          message.channel.send(serFriendZone[0].imageUrlBack);
+          message.channel.send(getCachedImageUrl(serFriendZone[0].imageUrlBack));
         }
         return;
       }
@@ -117,9 +122,9 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
       const butcheredCharacter = Object.values(CardData).filter((card) => card.name.toLowerCase().includes('jon snow - "lord snow"'));
 
       if (butcheredCharacter) {
-        message.channel.send(butcheredCharacter[0].imageUrl);
+        message.channel.send(getCachedImageUrl(butcheredCharacter[0].imageUrl));
         if (butcheredCharacter[0].imageUrlBack) {
-          message.channel.send(butcheredCharacter[0].imageUrlBack);
+          message.channel.send(getCachedImageUrl(butcheredCharacter[0].imageUrlBack));
         }
         return;
       }
@@ -135,9 +140,9 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
       );
 
       if (subvertedExpectation) {
-        message.channel.send(subvertedExpectation[0].imageUrl);
+        message.channel.send(getCachedImageUrl(subvertedExpectation[0].imageUrl));
         if (subvertedExpectation[0].imageUrlBack) {
-          message.channel.send(subvertedExpectation[0].imageUrlBack);
+          message.channel.send(getCachedImageUrl(subvertedExpectation[0].imageUrlBack));
         }
         return;
       }
@@ -151,7 +156,7 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
     // ##################################
 
     if (command.toLowerCase() === 'dark star' || command.toLowerCase().includes('darkstar')) {
-      message.channel.send('https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/darkstar.gif');
+      message.channel.send(getCachedImageUrl('https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/darkstar.gif'));
       return;
     }
 
@@ -279,10 +284,10 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
     const card = cards[0];
 
     if (!backOnly) {
-      message.channel.send(`${card.imageUrl}`);
+      message.channel.send(getCachedImageUrl(card.imageUrl));
     }
     if (card.imageUrlBack && !frontOnly && !allCommanderTacticsCards) {
-      message.channel.send(`${card.imageUrlBack}`);
+      message.channel.send(getCachedImageUrl(card.imageUrlBack));
     }
     if (allCommanderTacticsCards) {
       const commanderNameFragments = card.name.split(' - ');
@@ -301,7 +306,7 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
       }
 
       commanderTacticsCards.forEach((commanderTacticsCard) => {
-        message.channel.send(`${commanderTacticsCard.imageUrl}`);
+        message.channel.send(getCachedImageUrl(commanderTacticsCard.imageUrl));
       });
     }
     if (backOnly && !card.imageUrlBack) {
