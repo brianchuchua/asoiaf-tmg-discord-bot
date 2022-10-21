@@ -34,9 +34,23 @@ Available card types:
 - `t:noncombatunit` _(shorthand: `t:ncu`, `t:nc`, `t:n`)_
 - `t:opponentattachment` _(shorthand: `t:oa`, `t:o`)_
 - `t:tacticscard` _(shorthand: `t:tactics`, `t:tactic`, `t:tc`, `t:t`)_
+- `t:tacticszone` _(shorthand: t:tz)_
+- `t:informationcard` _(shorthand: t:info, t:i)_
+- `t:gamemode` _(shorthand: t:gm)_
+- `t:mission` _(shorthand: t:m)_
+- `t:objective` _(shorthand: t:ob)_
 
 Example: `!a Eddard t:a` for all attachments that include "Eddard" in their name
 
+You can also just ask for the front or back of a card:
+
+`!a [search parameter] -front` or `!a [search parameter] -f`
+`!a [search parameter] -back` or `!a [search parameter] -b`
+
+You can also request every tactics card along with the commander.
+
+`!a [search parameter] -all`
+`!a jaime -all` will bring up Jaime's commander card and all of his tactics cards
 
 ## Issues
 
@@ -51,7 +65,7 @@ If I get hit by a bus or something, you can take over this project by:
 - Go to the OAuth2 section, General, create a random redirect url (it's required but not used anywhere)
 - Go to URL Generator, check "Bot", then check "Read Messages/View Channels" and "Send Messages"
 - Click Copy to copy the URL and use it to add the bot to your server
-- For running locally, clone .env.sample as .env and set the value if DISCORD_TOKEN to your Discord token (double-quotes around it)
+- For running locally, clone .env.sample as .env and set the value of DISCORD_TOKEN to your Discord token (double-quotes around it) -- note that you use `!d` for local commands instead of `!a`.
 - For running on the cloud, just ensure DISCORD_TOKEN is set to your bot's token in your cloud provider's environment variables
 - Even non-coders can update the data pretty easily -- it's in the src/asoiaf folder and broken up logically by faction and card type.
 
