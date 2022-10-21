@@ -75,6 +75,7 @@ Available card types:
 - \`t:gamemode\` _(shorthand: \`t:gm\`)_
 - \`t:mission\` _(shorthand: \`t:m\`)_
 - \`t:objective\` _(shorthand: \`t:ob\`)_
+- \`t:terrain\` _(shorthand: \`t:tr\`)_
 
 You can also just ask for the front or back of a card:
 
@@ -192,6 +193,7 @@ Available card types:
 - \`t:gamemode\` _(shorthand: \`t:gm\`)_
 - \`t:mission\` _(shorthand: \`t:m\`)_
 - \`t:objective\` _(shorthand: \`t:ob\`)_
+- \`t:terrain\` _(shorthand: \`t:tr\`)_
 
 _(Tip: Try \`!a help\` to see a list of commands.)_
 `);

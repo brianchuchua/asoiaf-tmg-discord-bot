@@ -11,6 +11,7 @@ export enum CardTypes {
   GameMode = 'Game Mode',
   Mission = 'Mission',
   Objective = 'Objective',
+  Terrain = 'Terrain',
 }
 
 export const TYPE_PREFIX = 't:';
@@ -28,6 +29,7 @@ type CardTypeCommands = {
   [CardTypes.GameMode]: string[];
   [CardTypes.Mission]: string[];
   [CardTypes.Objective]: string[];
+  [CardTypes.Terrain]: string[];
 };
 
 export const cardTypeCommands: CardTypeCommands = {
@@ -42,6 +44,7 @@ export const cardTypeCommands: CardTypeCommands = {
   [CardTypes.GameMode]: ['gamemode', 'gm'],
   [CardTypes.Mission]: ['mission', 'm'],
   [CardTypes.Objective]: ['objective', 'ob'],
+  [CardTypes.Terrain]: ['terrain', 'tr'],
 };
 
 export interface Card {

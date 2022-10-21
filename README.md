@@ -39,12 +39,14 @@ Available card types:
 - `t:gamemode` _(shorthand: t:gm)_
 - `t:mission` _(shorthand: t:m)_
 - `t:objective` _(shorthand: t:ob)_
+- `t:terrain` _(shorthand: t:tr)_
 
 Example: `!a Eddard t:a` for all attachments that include "Eddard" in their name
 
 You can also just ask for the front or back of a card:
 
 `!a [search parameter] -front` or `!a [search parameter] -f`
+
 `!a [search parameter] -back` or `!a [search parameter] -b`
 
 You can also request every tactics card along with the commander.
