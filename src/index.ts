@@ -3,7 +3,7 @@ import CardData from './asoiaf/data';
 import { cardTypeCommands, CardTypes, TYPE_PREFIX } from './asoiaf/types';
 
 const getCachedImageUrl = (imageUrl: string) => {
-  const IMAGE_CACHE_SUFFIX = '?v=2022-10-16';
+  const IMAGE_CACHE_SUFFIX = '?v=2023-03-01';
   return imageUrl + IMAGE_CACHE_SUFFIX;
 };
 
@@ -88,6 +88,8 @@ You can also request every tactics card along with the commander.
 \`!a jaime -all\` will bring up Jaime's commander card and all of his tactics cards
 
 To report bugs, typos, missing cards, or missing artwork, please go here: <https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues>
+
+(Or just ping me, @Manath, on the Discord server)
     `);
       return;
     }
