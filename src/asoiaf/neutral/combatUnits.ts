@@ -79,6 +79,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-mercenaries.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-mercenaries-back.png',
   },
+  'Lysene Sellswords': {
+    name: 'Lysene Sellswords',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-lysene-sellswords.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-lysene-sellswords-back.png',
+  },
 };
 
 export default cardData;

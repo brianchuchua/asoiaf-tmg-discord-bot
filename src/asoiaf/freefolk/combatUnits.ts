@@ -111,6 +111,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-wun-wun.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-wun-wun-back.png',
   },
+  'Frozen Shore Hunters': {
+    name: 'Frozen Shore Hunters',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-frozen-shore-hunters.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-frozen-shore-hunters-back.png',
+  },
 };
 
 export default cardData;

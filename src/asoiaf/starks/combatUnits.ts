@@ -97,6 +97,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-summer.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-summer-back.png',
   },
+  'Crannogman Bog Devils': {
+    name: 'Crannogman Bog Devils',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-crannogman-bog-devils.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-crannogman-bog-devils-back.png',
+  },
 };
 
 export default cardData;

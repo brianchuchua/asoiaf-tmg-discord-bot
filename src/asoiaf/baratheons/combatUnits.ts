@@ -79,6 +79,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-thorn-watch.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-thorn-watch-back.png',
   },
+  'Rainbow Guard': {
+    name: 'Rainbow Guard',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-rainbow-guard.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-rainbow-guard-back.png',
+  },
 };
 
 export default cardData;

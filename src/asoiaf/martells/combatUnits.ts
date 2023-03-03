@@ -25,6 +25,24 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-sunspear-royal-guard.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-sunspear-royal-guard-back.png',
   },
+  'Dune Vipers': {
+    name: 'Dune Vipers',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-dune-vipers.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-dune-vipers-back.png',
+  },
+  'Starfall Outriders': {
+    name: 'Starfall Outriders',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-starfall-outriders.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-starfall-outriders-back.png',
+  },
+  'Starfall Knights': {
+    name: 'Starfall Knights',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-starfall-knights.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-starfall-knights-back.png',
+  },
 };
 
 export default cardData;

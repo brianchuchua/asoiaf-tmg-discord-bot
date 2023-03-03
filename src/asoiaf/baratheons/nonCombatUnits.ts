@@ -61,6 +61,18 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-shyra-errol-lohh.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-shyra-errol-lohh-back.png',
   },
+  'Cressen - Maester at Dragonstone': {
+    name: 'Cressen - Maester at Dragonstone',
+    type: CardTypes.NonCombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-cressen-mad.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-cressen-mad-back.png',
+  },
+  'Patchface - Patches': {
+    name: 'Patchface - Patches',
+    type: CardTypes.NonCombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-patchface-p.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-patchface-p-back.png',
+  },
 };
 
 export default cardData;

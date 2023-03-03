@@ -91,6 +91,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-stormcrow-mercenaries.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-stormcrow-mercenaries-back.png',
   },
+  'Brazen Beasts': {
+    name: 'Brazen Beasts',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-brazen-beasts.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-brazen-beasts-back.png',
+  },
 };
 
 export default cardData;

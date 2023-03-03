@@ -229,6 +229,60 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-andrew-estermont-fotkm-t3.png',
     imageUrlBack: '',
   },
+  'Muster - Stannis Baratheon (King at the Wall)': {
+    name: 'Muster - Stannis Baratheon (King at the Wall)',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-stannis-baratheon-katw-t1.png',
+    imageUrlBack: '',
+  },
+  'On the Double! - Stannis Baratheon (King at the Wall)': {
+    name: 'On the Double! - Stannis Baratheon (King at the Wall)',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-stannis-baratheon-katw-t2.png',
+    imageUrlBack: '',
+  },
+  'Ride Them Down! - Stannis Baratheon (King at the Wall)': {
+    name: 'Ride Them Down! - Stannis Baratheon (King at the Wall)',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-stannis-baratheon-katw-t3.png',
+    imageUrlBack: '',
+  },
+  'Regroup and Reform - Justin Massey (The Smiler)': {
+    name: 'Regroup and Reform - Justin Massey (The Smiler)',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-justin-massey-ts-t1.png',
+    imageUrlBack: '',
+  },
+  'Sudden Retreat - Justin Massey (The Smiler)': {
+    name: 'Sudden Retreat - Justin Massey (The Smiler)',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-justin-massey-ts-t2.png',
+    imageUrlBack: '',
+  },
+  'Precious Supplies - Justin Massey (The Smiler)': {
+    name: 'Precious Supplies - Justin Massey (The Smiler)',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-justin-massey-ts-t3.png',
+    imageUrlBack: '',
+  },
+  'Overconfidence - Renly Baratheon (King in the South)': {
+    name: 'Overconfidence - Renly Baratheon (King in the South)',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-renly-baratheon-kits-t1.png',
+    imageUrlBack: '',
+  },
+  'Knights of Summer - Renly Baratheon (King in the South)': {
+    name: 'Knights of Summer - Renly Baratheon (King in the South)',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-renly-baratheon-kits-t2.png',
+    imageUrlBack: '',
+  },
+  'Lavish Encampment - Renly Baratheon (King in the South)': {
+    name: 'Lavish Encampment - Renly Baratheon (King in the South)',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-renly-baratheon-kits-t3.png',
+    imageUrlBack: '',
+  },
 };
 
 export default cardData;

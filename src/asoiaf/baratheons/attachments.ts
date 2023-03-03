@@ -143,6 +143,87 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-thorn-watch-sentinel.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-thorn-watch-sentinel-back.png',
   },
+  'Stannis Baratheon - King at the Wall': {
+    name: 'Stannis Baratheon - King at the Wall',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-stannis-baratheon-katw.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-stannis-baratheon-katw-back.png',
+    isCommander: true,
+  },
+  "Bryen Farring - King's Squire": {
+    name: "Bryen Farring - King's Squire",
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-bryen-farring-ks.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-bryen-farring-ks-back.png',
+  },
+  'Justin Massey - Cunning Follower': {
+    name: 'Justin Massey - Cunning Follower',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-justin-massey-cf.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-justin-massey-cf-back.png',
+  },
+  'Justin Massey - The Smiler': {
+    name: 'Justin Massey - The Smiler',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-justin-massey-ts.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-justin-massey-ts-back.png',
+    isCommander: true,
+  },
+  'Dale Seaworth - Captain of the Wraith': {
+    name: 'Dale Seaworth - Captain of the Wraith',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-dale-seaworth-cotw.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-dale-seaworth-cotw-back.png',
+  },
+  'Renly Baratheon - King in the South': {
+    name: 'Renly Baratheon - King in the South',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-renly-baratheon-kits.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-renly-baratheon-kits-back.png',
+    isCommander: true,
+  },
+  'Loras Tyrell - Lord Commander of the Rainbow Guard': {
+    name: 'Loras Tyrell - Lord Commander of the Rainbow Guard',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-loras-tyrell-lcotrg.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-loras-tyrell-lcotrg-back.png',
+  },
+  'Bryce Caron - Bryce the Orange': {
+    name: 'Bryce Caron - Bryce the Orange',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-bryce-caron-bto.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-bryce-caron-bto-back.png',
+  },
+  'Brienne - Rainbow Guard': {
+    name: 'Brienne - Rainbow Guard',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-brienne-rg.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-brienne-rg-back.png',
+  },
+  'Parmen Crane - Parmen the Purple': {
+    name: 'Parmen Crane - Parmen the Purple',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-parmen-crane-ptp.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-parmen-crane-ptp-back.png',
+  },
+  'Emmon Cuy - Emmon the Yellow': {
+    name: 'Emmon Cuy - Emmon the Yellow',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-emmon-cuy-ety.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-emmon-cuy-ety-back.png',
+  },
+  'Robar Royce - Robar the Red': {
+    name: 'Robar Royce - Robar the Red',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-robar-royce-rtr.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-robar-royce-rtr-back.png',
+  },
+  'Guyard Morrigen - Guyard the Green': {
+    name: 'Guyard Morrigen - Guyard the Green',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-guyard-morrigen-gtg.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-guyard-morrigen-gtg-back.png',
+  },
 };
 
 export default cardData;
