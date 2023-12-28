@@ -4,6 +4,18 @@
 
 This is a Discord bot that will display images for most cards in the game A Song of Ice and Fire: The Tabletop Miniatures Game.
 
+## Updating the Bot
+
+Unfortunately I'm no longer playing ASOIAF TMG, but I'm still happy to help the community keep it up to date.
+
+If you'd like to add new cards, please follow these steps:
+* Fork this repository
+* Make your changes to your fork -- it's just editing data in `src\asoiaf`
+* Create a pull request to merge your changes into this repository's `master` branch
+* Attach a link to a zip file with your updated images -- I'll upload these to the S3 server that hosts the other images
+* I'll review and merge your changes pretty quickly, within a day or two at most
+* Once I merge your changes to `master`, the bot will automatically update itself and restart within a few minutes
+
 ## Installation
 
 Follow this link to add the bot to your server: 
