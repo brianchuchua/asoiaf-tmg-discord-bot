@@ -25,20 +25,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-t4.png',
     imageUrlBack: '',
   },
-  'Swift Reposition - Stark': {
-    name: 'Swift Reposition - Stark',
+  'Winter Is Coming - Stark': {
+    name: 'Winter Is Coming - Stark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-t5.png',
     imageUrlBack: '',
   },
-  'Assault Orders - Stark': {
-    name: 'Assault Orders - Stark',
+  'Swift Reposition - Stark': {
+    name: 'Swift Reposition - Stark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-t6.png',
     imageUrlBack: '',
   },
-  'Winter Is Coming - Stark': {
-    name: 'Winter Is Coming - Stark',
+  'Assault Orders - Stark': {
+    name: 'Assault Orders - Stark',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-t7.png',
     imageUrlBack: '',
