@@ -236,26 +236,26 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-jorah-mormont-wt-t4.png',
     imageUrlBack: '',
   },
-  'Devastating Impact - Marselen': {
-    name: 'Devastating Impact - Marselen',
+  'Devotees Of The Dragon - Marselen': {
+    name: 'Devotees Of The Dragon - Marselen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t1.jpg',
     imageUrlBack: '',
   },
-  'Devotees Of The Dragon - Marselen': {
-    name: 'Devotees Of The Dragon - Marselen',
+  'Devastating Impact - Marselen': {
+    name: 'Devastating Impact - Marselen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t2.jpg',
     imageUrlBack: '',
   },
-  'Supply Aid - Marselen': {
-    name: 'Supply Aid - Marselen',
+  'War Cry - Marselen': {
+    name: 'War Cry - Marselen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t3.jpg',
     imageUrlBack: '',
   },
-  'War Cry - Marselen': {
-    name: 'War Cry - Marselen',
+  'Supply Aid - Marselen': {
+    name: 'Supply Aid - Marselen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t4.jpg',
     imageUrlBack: '',

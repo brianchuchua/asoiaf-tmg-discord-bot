@@ -43,20 +43,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-t7.png',
     imageUrlBack: '',
   },
-  "Viper's Infamy - Oberyn Martell": {
-    name: "Viper's Infamy - Oberyn Martell",
+  'Unexpected Exhaustion - Oberyn Martell': {
+    name: 'Unexpected Exhaustion - Oberyn Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-pod-t1.png',
     imageUrlBack: '',
   },
-  'Unexpected Exhaustion - Oberyn Martell': {
-    name: 'Unexpected Exhaustion - Oberyn Martell',
+  'Intercept Orders - Oberyn Martell': {
+    name: 'Intercept Orders - Oberyn Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-pod-t2.png',
     imageUrlBack: '',
   },
-  'Intercept Orders - Oberyn Martell': {
-    name: 'Intercept Orders - Oberyn Martell',
+  "Viper's Infamy - Oberyn Martell": {
+    name: "Viper's Infamy - Oberyn Martell",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-pod-t3.png',
     imageUrlBack: '',

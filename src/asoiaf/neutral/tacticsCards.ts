@@ -1,8 +1,8 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'Tactical Approach - Neutral': {
-    name: 'Tactical Approach - Neutral',
+  'Planning and Insight - Neutral': {
+    name: 'Planning and Insight - Neutral',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-t1.png',
     imageUrlBack: '',

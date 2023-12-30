@@ -14,11 +14,11 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-pod-back.png',
     isCommander: true,
   },
-  'Oberyn Martell - Red Viper': {
-    name: 'Oberyn Martell - Red Viper',
+  'Oberyn Martell - The Snake': {
+    name: 'Oberyn Martell - The Snake',
     type: CardTypes.Attachment,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-rv.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-rv-back.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-ts.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-ts-back.png',
   },
   Spearlord: {
     name: 'Spearlord',

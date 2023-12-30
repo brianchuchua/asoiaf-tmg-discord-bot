@@ -20,11 +20,11 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-doran-martell-los-back.png',
     isCommander: true,
   },
-  'Oberyn Martell - Prince of Dorne': {
-    name: 'Oberyn Martell - Prince of Dorne',
+  'Oberyn Martell - Red Viper': {
+    name: 'Oberyn Martell - Red Viper',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-podn.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-podn-back.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-rv.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-rv-back.png',
   },
   "Tyene Sand - Septa's Daughter": {
     name: "Tyene Sand - Septa's Daughter",
