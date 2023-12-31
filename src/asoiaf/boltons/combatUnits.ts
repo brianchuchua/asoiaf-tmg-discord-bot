@@ -23,13 +23,13 @@ const cardData: CardData = {
     name: 'Dreadfort Archers',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-archers.png',
-    imageUrlBack: '',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-archers-back.png',
   },
   'Dreadfort Spearmen': {
     name: 'Dreadfort Spearmen',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-spearmen.png',
-    imageUrlBack: '',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-spearmen-back.png',
   },
   'Flayed Men': {
     name: 'Flayed Men',
