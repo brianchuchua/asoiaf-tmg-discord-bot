@@ -60,7 +60,7 @@ const cardData: CardData = {
     name: 'Chieftain Of The Giants',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-cotg.png',
-    imageUrlBack: '',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-cotg-back.png',
     isCommander: true,
   },
   'Mance Rayder - King Beyond The Wall': {
