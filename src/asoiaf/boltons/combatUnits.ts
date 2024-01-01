@@ -5,19 +5,19 @@ const cardData: CardData = {
     name: "Bastard's Girls",
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-bastards-girls.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-bastards-girls-back.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-bastards-girls-back.png',
   },
   'Blackguards': {
     name: 'Blackguards',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-blackguards.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-blackguards-back.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-blackguards-back.png',
   },
   'Cutthroats': {
     name: 'Cutthroats',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-cutthroats.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-cutthroats-back.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-cutthroats-back.png',
   },
   'Dreadfort Archers': {
     name: 'Dreadfort Archers',
@@ -35,7 +35,7 @@ const cardData: CardData = {
     name: 'Flayed Men',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-flayed-men.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-flayed-men-back.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-flayed-men-back.png',
   },
 };
 
