@@ -154,6 +154,12 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyr-sixskins-ms-rules-back.png',
     isCommander: true,
   },
+  "Varamyr's Eagle": {
+    name: "Varamyr's Eagle",
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyrs-eagle.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyrs-eagle-back.png',
+  },
   'Walrus Clan Chieftain': {
     name: 'Walrus Clan Chieftain',
     type: CardTypes.Attachment,
