@@ -11,7 +11,7 @@ const cardData: CardData = {
     name: 'Bolton Flayer',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-bolton-flayer.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-bolton-flayer-back.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-bolton-flayer-back.png',
   },
   "Damon Dance-For-Me - Bastard's Boy": {
     name: "Damon Dance-For-Me - Bastard's Boy",
@@ -23,7 +23,7 @@ const cardData: CardData = {
     name: 'Dreadfort Captain',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-captain.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-dreadfort-captain-back.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-captain-back.png',
   },
   "Grunt - Bastard's Boy": {
     name: "Grunt - Bastard's Boy",
