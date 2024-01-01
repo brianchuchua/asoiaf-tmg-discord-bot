@@ -7,8 +7,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ben-bones-k.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ben-bones-k-back.png',
   },
-  'Bolton Flayer': {
-    name: 'Bolton Flayer',
+  'Bolton Flayer (Bolton)': {
+    name: 'Bolton Flayer (Bolton)',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-bolton-flayer.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-bolton-flayer-back.png',
@@ -19,8 +19,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-damon-dance-for-me-bb.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-damon-dance-for-me-bb-back.png',
   },
-  'Dreadfort Captain': {
-    name: 'Dreadfort Captain',
+  'Dreadfort Captain (Bolton)': {
+    name: 'Dreadfort Captain (Bolton)',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-captain.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-captain-back.png',
@@ -31,8 +31,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-grunt-bb.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-grunt-bb-back.png',
   },
-  'Ramsay Snow - Sadist': {
-    name: 'Ramsay Snow - Sadist',
+  'Ramsay Snow - Sadist (Bolton)': {
+    name: 'Ramsay Snow - Sadist (Bolton)',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ramsay-snow-s.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ramsay-snow-s-back.png',
@@ -74,7 +74,7 @@ const cardData: CardData = {
     name: 'Steelshanks Walton - Relentless Soldier',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-rs.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-rs-back.png'
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-rs-back.png',
   },
 };
 
