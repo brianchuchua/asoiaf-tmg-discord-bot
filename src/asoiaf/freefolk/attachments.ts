@@ -151,7 +151,7 @@ const cardData: CardData = {
     name: 'Varamyr Sixskins',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyr-sixskins-ms-rules.png',
-    imageUrlBack: '',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyr-sixskins-ms-rules-back.png',
     isCommander: true,
   },
   'Walrus Clan Chieftain': {
