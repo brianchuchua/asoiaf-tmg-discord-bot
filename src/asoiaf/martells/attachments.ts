@@ -13,6 +13,13 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-bog.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-bog-back.png',
   },
+  'Daemon Sand - Vengeful Knight': {
+    name: 'Daemon Sand - Vengeful Knight',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-vk.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-vk-back.png',
+    isCommander: true,
+  },
   'Dervish Captain': {
     name: 'Dervish Captain',
     type: CardTypes.Attachment,
@@ -24,6 +31,13 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-edric-dayne-los.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-edric-dayne-los-back.png',
+  },
+  'Gerold Dayne - Darkstar': {
+    name: 'Gerold Dayne - Darkstar',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-gerold-dayne-d.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-gerold-dayne-d-back.png',
+    isCommander: true,
   },
   'Gerold Dayne - Knight of High Hermitage': {
     name: 'Gerold Dayne - Knight of High Hermitage',
