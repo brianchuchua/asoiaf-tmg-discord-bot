@@ -1,6 +1,12 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
+  'Darkstar Retinue': {
+    name: 'Darkstar Retinue',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-darkstar-retinue.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-darkstar-retinue-back.png',
+  },
   'Martell Spearmen': {
     name: 'Martell Spearmen',
     type: CardTypes.CombatUnit,

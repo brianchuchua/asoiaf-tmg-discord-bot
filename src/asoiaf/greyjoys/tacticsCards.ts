@@ -31,16 +31,16 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-t5.png',
     imageUrlBack: '',
   },
-  'Bless With Stone, Bless With Steel - Greyjoy': {
-    name: 'Bless With Stone, Bless With Steel - Greyjoy',
-    type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-t7.png',
-    imageUrlBack: '',
-  },
   'Raiding Call - Greyjoy': {
     name: 'Raiding Call - Greyjoy',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-t6.png',
+    imageUrlBack: '',
+  },
+  'Bless With Stone, Bless With Steel - Greyjoy': {
+    name: 'Bless With Stone, Bless With Steel - Greyjoy',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-t7.png',
     imageUrlBack: '',
   },
   'Ironborn Mettle - Asha Greyjoy': {
@@ -103,14 +103,14 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-erik-ironmaker-ab-t1.png',
     imageUrlBack: '',
   },
-  "Gold's Allure - Erik Ironmaker": {
-    name: "Gold's Allure - Erik Ironmaker",
+  "Steel's Might - Erik Ironmaker": {
+    name: "Steel's Might - Erik Ironmaker",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-erik-ironmaker-ab-t2.png',
     imageUrlBack: '',
   },
-  "Steel's Might - Erik Ironmaker": {
-    name: "Steel's Might - Erik Ironmaker",
+  "Gold's Allure - Erik Ironmaker": {
+    name: "Gold's Allure - Erik Ironmaker",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-erik-ironmaker-ab-t3.png',
     imageUrlBack: '',
@@ -151,20 +151,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-theon-greyjoy-pow-t3.png',
     imageUrlBack: '',
   },
-  'Coordination Tactics - Dagmer Cleftjaw': {
-    name: 'Coordination Tactics - Dagmer Cleftjaw',
+  'Lust For Glory - Dagmer Cleftjaw': {
+    name: 'Lust For Glory - Dagmer Cleftjaw',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-dagmer-cleftjaw-maa-t1.png',
     imageUrlBack: '',
   },
-  'Knowledge Paid In Iron - Dagmer Cleftjaw': {
-    name: 'Knowledge Paid In Iron - Dagmer Cleftjaw',
+  'Coordination Tactics - Dagmer Cleftjaw': {
+    name: 'Coordination Tactics - Dagmer Cleftjaw',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-dagmer-cleftjaw-maa-t2.png',
     imageUrlBack: '',
   },
-  'Lust For Glory - Dagmer Cleftjaw': {
-    name: 'Lust For Glory - Dagmer Cleftjaw',
+  'Knowledge Paid In Iron - Dagmer Cleftjaw': {
+    name: 'Knowledge Paid In Iron - Dagmer Cleftjaw',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-dagmer-cleftjaw-maa-t3.png',
     imageUrlBack: '',

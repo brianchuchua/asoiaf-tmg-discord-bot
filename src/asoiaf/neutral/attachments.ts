@@ -1,6 +1,18 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
+  'Arya Stark - Fugitive Princess': {
+    name: 'Arya Stark - Fugitive Princess',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-arya-stark-fp.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-arya-stark-fp-back.png',
+  },
+  "Biter - Rorge's Mad Dog": {
+    name: "Biter - Rorge's Mad Dog",
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-biter-rmd.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-biter-rmd-back.png',
+  },
   'Bolton Flayer': {
     name: 'Bolton Flayer',
     type: CardTypes.Attachment,
@@ -62,6 +74,25 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-jaqen-hghar-u.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-jaqen-hghar-u-back.png',
   },
+  'Jokin - Archer Captain': {
+    name: 'Jokin - Archer Captain',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-jokin-ac.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-jokin-ac-back.png',
+  },
+  'Jokin - Stormcrow Captain': {
+    name: 'Jokin - Stormcrow Captain',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-jokin-sc.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-jokin-sc-back.png',
+    isCommander: true,
+  },
+  'Lysene Bosun': {
+    name: 'Lysene Bosun',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-lysene-bosun.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-lysene-bosun-back.png',
+  },
   'Ramsay Snow - Sadist': {
     name: 'Ramsay Snow - Sadist',
     type: CardTypes.Attachment,
@@ -82,6 +113,18 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-roose-bolton-tll-back.png',
     isCommander: true,
   },
+  'Rorge - The Mad Dog Of Saltpans': {
+    name: 'Rorge - The Mad Dog Of Saltpans',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-rorge-tmdos.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-rorge-tmdos-back.png',
+  },
+  'Sandor Clegane - Fugitive Bodyguard': {
+    name: 'Sandor Clegane - Fugitive Bodyguard',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-sandor-clegane-fb.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-sandor-clegane-fb-back.png',
+  },
   'Stormcrow Lieutenant (Neutral)': {
     name: 'Stormcrow Lieutenant (Neutral)',
     type: CardTypes.Attachment,
@@ -93,6 +136,18 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-theon-greyjoy-r.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-theon-greyjoy-r-back.png',
+  },
+  'The Widower - Stormcrow Captain': {
+    name: 'The Widower - Stormcrow Captain',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-the-widower-sc.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-the-widower-sc-back.png',
+  },
+  'The Widower - Second In Command': {
+    name: 'The Widower - Second In Command',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-the-widower-sic.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-the-widower-sic-back.png',
   },
   'Vargo Hoat - The Crippler': {
     name: 'Vargo Hoat - The Crippler',

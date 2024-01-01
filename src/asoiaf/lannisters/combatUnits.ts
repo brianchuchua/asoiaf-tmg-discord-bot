@@ -13,6 +13,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-clegane-brigands.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-clegane-brigands-back.png',
   },
+  'Gold Cloaks': {
+    name: 'Gold Cloaks',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-gold-cloaks.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-gold-cloaks-back.png',
+  },
   'Gregor Clegane - The Mountain That Rides': {
     name: 'Gregor Clegane - The Mountain That Rides',
     type: CardTypes.CombatUnit,

@@ -73,20 +73,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-daenerys-targaryen-qom-t1.png',
     imageUrlBack: '',
   },
-  'Subjugation of Power - Daenerys Targaryen (Queen of Meereen)': {
-    name: 'Subjugation of Power - Daenerys Targaryen (Queen of Meereen)',
+  'Counterplot - Daenerys Targaryen (Queen of Meereen)': {
+    name: 'Counterplot - Daenerys Targaryen (Queen of Meereen)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-daenerys-targaryen-qom-t2.png',
     imageUrlBack: '',
   },
-  'Remorseless Examples - Daenerys Targaryen (Queen of Meereen)': {
-    name: 'Remorseless Examples - Daenerys Targaryen (Queen of Meereen)',
+  'Subjugation of Power - Daenerys Targaryen (Queen of Meereen)': {
+    name: 'Subjugation of Power - Daenerys Targaryen (Queen of Meereen)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-daenerys-targaryen-qom-t3.png',
     imageUrlBack: '',
   },
-  'Counterplot - Daenerys Targaryen (Queen of Meereen)': {
-    name: 'Counterplot - Daenerys Targaryen (Queen of Meereen)',
+  'Remorseless Examples - Daenerys Targaryen (Queen of Meereen)': {
+    name: 'Remorseless Examples - Daenerys Targaryen (Queen of Meereen)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-daenerys-targaryen-qom-t4.png',
     imageUrlBack: '',
@@ -139,30 +139,31 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-daenerys-targaryen-mod-t4.png',
     imageUrlBack: '',
   },
+ 'Issue Commands - Grey Worm': {
+    name: 'Issue Commands - Grey Worm',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-grey-worm-uc-t1.png',
+    imageUrlBack: '',
+  },
   'Lash Out - Grey Worm': {
     name: 'Lash Out - Grey Worm',
     type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-grey-worm-uc-t1.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-grey-worm-uc-t2.png',
     imageUrlBack: '',
   },
   'Battle Endurance - Grey Worm': {
     name: 'Battle Endurance - Grey Worm',
     type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-grey-worm-uc-t2.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-grey-worm-uc-t3.png',
     imageUrlBack: '',
   },
   'Retribution of The Dragon - Grey Worm': {
     name: 'Retribution of The Dragon - Grey Worm',
     type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-grey-worm-uc-t3.png',
-    imageUrlBack: '',
-  },
-  'Issue Commands - Grey Worm': {
-    name: 'Issue Commands - Grey Worm',
-    type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-grey-worm-uc-t4.png',
     imageUrlBack: '',
   },
+  
   'Sellsword Negotiations - Daario Naharis (Targaryen)': {
     name: 'Sellsword Negotiations - Daario Naharis (Targaryen)',
     type: CardTypes.TacticsCard,
@@ -235,26 +236,26 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-jorah-mormont-wt-t4.png',
     imageUrlBack: '',
   },
-  'Devastating Impact - Marselen': {
-    name: 'Devastating Impact - Marselen',
+  'Devotees Of The Dragon - Marselen': {
+    name: 'Devotees Of The Dragon - Marselen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t1.jpg',
     imageUrlBack: '',
   },
-  'Devotees Of The Dragon - Marselen': {
-    name: 'Devotees Of The Dragon - Marselen',
+  'Devastating Impact - Marselen': {
+    name: 'Devastating Impact - Marselen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t2.jpg',
     imageUrlBack: '',
   },
-  'Supply Aid - Marselen': {
-    name: 'Supply Aid - Marselen',
+  'War Cry - Marselen': {
+    name: 'War Cry - Marselen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t3.jpg',
     imageUrlBack: '',
   },
-  'War Cry - Marselen': {
-    name: 'War Cry - Marselen',
+  'Supply Aid - Marselen': {
+    name: 'Supply Aid - Marselen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-marselen-mmc-t4.jpg',
     imageUrlBack: '',

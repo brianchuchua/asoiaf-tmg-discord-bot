@@ -50,6 +50,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-clegane-butcher.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-clegane-butcher-back.png',
   },
+  'Gate Warden': {
+    name: 'Gate Warden',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-gate-warden.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-gate-warden-back.png',
+  },
   "Gregor Clegane - Lord Tywin's Mad Dog": {
     name: "Gregor Clegane - Lord Tywin's Mad Dog",
     type: CardTypes.Attachment,
