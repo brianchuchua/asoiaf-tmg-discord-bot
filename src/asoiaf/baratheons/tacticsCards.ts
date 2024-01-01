@@ -1,20 +1,20 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'Ours is the Fury! - Baratheon': {
-    name: 'Ours is the Fury! - Baratheon',
+  'Baratheon Justice - Baratheon': {
+    name: 'Baratheon Justice - Baratheon',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-t1.png',
     imageUrlBack: '',
   },
-  'Oath of Duty - Baratheon': {
-    name: 'Oath of Duty - Baratheon',
+  "Stag's Wit - Baratheon": {
+    name: "Stag's Wit - Baratheon",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-t2.png',
     imageUrlBack: '',
   },
-  "Stag's Wit - Baratheon": {
-    name: "Stag's Wit - Baratheon",
+  'Ours is the Fury! - Baratheon': {
+    name: 'Ours is the Fury! - Baratheon',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-t3.png',
     imageUrlBack: '',
@@ -25,20 +25,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-t4.png',
     imageUrlBack: '',
   },
-  'Final Strike - Baratheon': {
-    name: 'Final Strike - Baratheon',
+  'Baratheon Conviction - Baratheon': {
+    name: 'Baratheon Conviction - Baratheon',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-t5.png',
     imageUrlBack: '',
   },
-  'Baratheon Conviction - Baratheon': {
-    name: 'Baratheon Conviction - Baratheon',
+  'Final Strike - Baratheon': {
+    name: 'Final Strike - Baratheon',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-t6.png',
     imageUrlBack: '',
   },
-  'Baratheon Justice - Baratheon': {
-    name: 'Baratheon Justice - Baratheon',
+  'Oath of Duty - Baratheon': {
+    name: 'Oath of Duty - Baratheon',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-t7.png',
     imageUrlBack: '',
@@ -115,26 +115,26 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-loras-tyrell-tkof-t3.png',
     imageUrlBack: '',
   },
+  'Flea Bottom Tricks - Davos Seaworth': {
+    name: 'Flea Bottom Tricks - Davos Seaworth',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-davos-seaworth-hob-t1.png',
+    imageUrlBack: '',
+  },
   '"Everything" - Davos Seaworth': {
     name: '"Everything" - Davos Seaworth',
     type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-davos-seaworth-hob-t1.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-davos-seaworth-hob-t2.png',
     imageUrlBack: '',
   },
   'Fealty to The Crown - Davos Seaworth': {
     name: 'Fealty to The Crown - Davos Seaworth',
     type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-davos-seaworth-hob-t2.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-davos-seaworth-hob-t3.png',
     imageUrlBack: '',
   },
   'Parlay - Davos Seaworth': {
     name: 'Parlay - Davos Seaworth',
-    type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-davos-seaworth-hob-t3.png',
-    imageUrlBack: '',
-  },
-  'Flea Bottom Tricks - Davos Seaworth': {
-    name: 'Flea Bottom Tricks - Davos Seaworth',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-davos-seaworth-hob-t4.png',
     imageUrlBack: '',

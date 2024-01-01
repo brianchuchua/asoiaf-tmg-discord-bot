@@ -49,6 +49,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-jorah-mormont-twk.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-jorah-mormont-twk-back.png',
   },
+  'Pit Fighters': {
+    name: 'Pit Fighters',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-pit-fighters.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-pit-fighters-back.png',
+  },
   Rhaegal: {
     name: 'Rhaegal',
     type: CardTypes.CombatUnit,

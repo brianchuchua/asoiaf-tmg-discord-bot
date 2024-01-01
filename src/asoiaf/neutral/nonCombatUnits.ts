@@ -25,6 +25,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-roose-bolton-cac.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-roose-bolton-cac-back.png',
   },
+  'Shae - Hidden In Court': {
+    name: 'Shae - Hidden In Court',
+    type: CardTypes.NonCombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-shae-hic.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-shae-hic-back.png',
+  },
   'Tycho Nestoris - Iron Banker': {
     name: 'Tycho Nestoris - Iron Banker',
     type: CardTypes.NonCombatUnit,

@@ -3,7 +3,7 @@ import CardData from './asoiaf/data';
 import { cardTypeCommands, CardTypes, TYPE_PREFIX } from './asoiaf/types';
 
 const getCachedImageUrl = (imageUrl: string) => {
-  const IMAGE_CACHE_SUFFIX = '?v=2023-03-04';
+  const IMAGE_CACHE_SUFFIX = '?v=2023-12-30';
   return imageUrl + IMAGE_CACHE_SUFFIX;
 };
 
@@ -158,7 +158,7 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
     // # Start special request nonsense #
     // ##################################
 
-    if (command.toLowerCase() === 'dark star' || command.toLowerCase().includes('darkstar')) {
+    if (command.toLowerCase() === 'dork star' || command.toLowerCase().includes('dorkstar')) {
       message.channel.send(getCachedImageUrl('https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/darkstar.gif'));
       return;
     }

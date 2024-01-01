@@ -40,6 +40,12 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-cortnay-penrose-cose-back.png',
     isCommander: true,
   },
+  'Cortnay Penrose - Loyal Tactician': {
+    name: 'Cortnay Penrose - Loyal Tactician',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-cortnay-penrose-lt.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-cortnay-penrose-lt-back.png',
+  },
   'Davos Seaworth - Hero Of Blackwater': {
     name: 'Davos Seaworth - Hero Of Blackwater',
     type: CardTypes.Attachment,

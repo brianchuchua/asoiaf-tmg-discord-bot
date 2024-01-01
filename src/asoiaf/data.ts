@@ -1,4 +1,5 @@
 import Baratheons from './baratheons';
+import Boltons from './boltons';
 import Freefolk from './freefolk';
 import Greyjoys from './greyjoys';
 import Lannisters from './lannisters';
@@ -13,6 +14,7 @@ import { CardData } from './types';
 // Some cards have the same name but for different factions. Ex. Counterplot. If found, rename them to unique names.
 const checkForDuplicates = () => {
   const keys = Object.keys(Baratheons).concat(
+    Object.keys(Boltons),
     Object.keys(Freefolk),
     Object.keys(Lannisters),
     Object.keys(NightsWatch),
@@ -31,15 +33,16 @@ const checkForDuplicates = () => {
 checkForDuplicates();
 
 const cardData: CardData = {
-  ...Starks,
-  ...Lannisters,
-  ...Freefolk,
   ...Baratheons,
+  ...Boltons,
+  ...Freefolk,
+  ...Greyjoys,
+  ...Lannisters,
+  ...Martells,
   ...NightsWatch,
   ...Neutral,
+  ...Starks,
   ...Targaryens,
-  ...Greyjoys,
-  ...Martells,
   ...Rules,
 };
 

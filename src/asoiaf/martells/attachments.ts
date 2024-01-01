@@ -1,11 +1,55 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
+  'Arys Oakheart - The White Knight': {
+    name: 'Arys Oakheart - The White Knight',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-arys-oakheart-twk.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-arys-oakheart-twk-back.png',
+  },
+  'Daemon Sand - Bastard of Godsgrace': {
+    name: 'Daemon Sand - Bastard of Godsgrace',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-bog.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-bog-back.png',
+  },
+  'Daemon Sand - Vengeful Knight': {
+    name: 'Daemon Sand - Vengeful Knight',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-vk.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-vk-back.png',
+    isCommander: true,
+  },
   'Dervish Captain': {
     name: 'Dervish Captain',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-dervish-captain.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-dervish-captain-back.png',
+  },
+  'Edric Dayne - Lord of Starfall': {
+    name: 'Edric Dayne - Lord of Starfall',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-edric-dayne-los.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-edric-dayne-los-back.png',
+  },
+  'Gerold Dayne - Darkstar': {
+    name: 'Gerold Dayne - Darkstar',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-gerold-dayne-d.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-gerold-dayne-d-back.png',
+    isCommander: true,
+  },
+  'Gerold Dayne - Knight of High Hermitage': {
+    name: 'Gerold Dayne - Knight of High Hermitage',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-gerold-dayne-kohh.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-gerold-dayne-kohh-back.png',
+  },
+  'High Hermitage Sentinel': {
+    name: 'High Hermitage Sentinel',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-high-hermitage-sentinel.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-high-hermitage-sentinel-back.png',
   },
   'Oberyn Martell - Prince Of Dorne': {
     name: 'Oberyn Martell - Prince Of Dorne',
@@ -14,11 +58,11 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-pod-back.png',
     isCommander: true,
   },
-  'Oberyn Martell - Red Viper': {
-    name: 'Oberyn Martell - Red Viper',
+  'Oberyn Martell - The Snake': {
+    name: 'Oberyn Martell - The Snake',
     type: CardTypes.Attachment,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-rv.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-rv-back.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-ts.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-oberyn-martell-ts-back.png',
   },
   Spearlord: {
     name: 'Spearlord',
@@ -82,6 +126,12 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-ss.jpg',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-ss-back.jpg',
+  },
+  'Quentyn Martell - Prince of Dorne': {
+    name: 'Quentyn Martell - Prince of Dorne',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-quentyn-martell-pod.jpg',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-quentyn-martell-pod-back.jpg',
   },
 };
 
