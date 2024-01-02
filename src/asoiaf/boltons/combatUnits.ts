@@ -1,20 +1,20 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  "Bastard's Girls": {
-    name: "Bastard's Girls",
+  "Bastard's Girls (Bolton)": {
+    name: "Bastard's Girls (Bolton)",
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-bastards-girls.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-bastards-girls-back.png',
   },
-  'Blackguards': {
-    name: 'Blackguards',
+  'Blackguards (Bolton)': {
+    name: 'Blackguards (Bolton)',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-blackguards.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-blackguards-back.png',
   },
-  'Cutthroats': {
-    name: 'Cutthroats',
+  'Cutthroats (Bolton)': {
+    name: 'Cutthroats (Bolton)',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-cutthroats.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-cutthroats-back.png',
@@ -31,8 +31,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-spearmen.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-spearmen-back.png',
   },
-  'Flayed Men': {
-    name: 'Flayed Men',
+  'Flayed Men (Bolton)': {
+    name: 'Flayed Men (Bolton)',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-flayed-men.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-flayed-men-back.png',
