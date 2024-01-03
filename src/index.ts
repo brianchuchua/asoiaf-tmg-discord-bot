@@ -10,8 +10,7 @@ const getCachedImageUrl = (imageUrl: string) => {
 try {
   const COMMAND_PREFIX = process.env.NODE_ENV === 'production' ? '!asoiaf' : '!devtest';
   const SHORT_COMMAND_PREFIX = process.env.NODE_ENV === 'production' ? '!a' : '!d';
-  const FRONT_OF_CARD_FLAG = '-front';
-  const SHORT_FRONT_OF_CARD_FLAG = '-f';
+  const BOTH_CARD_SIDES_FLAG = '-both';
   const BACK_OF_CARD_FLAG = '-back';
   const SHORT_BACK_OF_CARD_FLAG = '-b';
   const ALL_COMMANDER_CARDS_FLAG = '-all';
@@ -77,9 +76,9 @@ Available card types:
 - \`t:objective\` _(shorthand: \`t:ob\`)_
 - \`t:terrain\` _(shorthand: \`t:tr\`)_
 
-You can also just ask for the front or back of a card:
+You can also ask for both sides of a card or just the back:
 
-\`!a [search parameter] -front\` or \`!a [search parameter] -f\`
+\`!a [search parameter] -both\`
 \`!a [search parameter] -back\` or \`!a [search parameter] -b\`
 
 You can also request every tactics card along with the commander.
@@ -89,7 +88,7 @@ You can also request every tactics card along with the commander.
 
 To report bugs, typos, missing cards, or missing artwork, please go here: <https://github.com/brianchuchua/asoiaf-tmg-discord-bot/issues>
 
-(Or just ping me, @Manath, on the Discord server)
+(Or just ping me, @Manath, or @willybunks on the Discord server)
     `);
       return;
     }
@@ -203,19 +202,19 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
       }
     }
 
-    let frontOnly = false;
+    //Requests are frontOnly by default - zz_NRW 2024/01/02
+    let frontOnly = true;
     let backOnly = false;
     let allCommanderTacticsCards = false;
-    if (command.includes(FRONT_OF_CARD_FLAG)) {
-      frontOnly = true;
-      command = command.replace(FRONT_OF_CARD_FLAG, '').trim();
-    } else if (command.includes(SHORT_FRONT_OF_CARD_FLAG)) {
-      frontOnly = true;
-      command = command.replace(SHORT_FRONT_OF_CARD_FLAG, '').trim();
+    if (command.includes(BOTH_CARD_SIDES_FLAG)) {
+      frontOnly = false;
+      command = command.replace(BOTH_CARD_SIDES_FLAG, '').trim();
     } else if (command.includes(BACK_OF_CARD_FLAG)) {
+      frontOnly = false;
       backOnly = true;
       command = command.replace(BACK_OF_CARD_FLAG, '').trim();
     } else if (command.includes(SHORT_BACK_OF_CARD_FLAG)) {
+      frontOnly = false;
       backOnly = true;
       command = command.replace(SHORT_BACK_OF_CARD_FLAG, '').trim();
     }
