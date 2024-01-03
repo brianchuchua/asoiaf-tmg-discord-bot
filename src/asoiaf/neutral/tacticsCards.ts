@@ -43,20 +43,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-t7.png',
     imageUrlBack: '',
   },
-  'Sellsword Negotiations - Daario Naharis (Neutral)': {
-    name: 'Sellsword Negotiations - Daario Naharis (Neutral)',
+  'Sellsword Negotiations - Daario Naharis': {
+    name: 'Sellsword Negotiations - Daario Naharis',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-sc-t1.png',
     imageUrlBack: '',
   },
-  'Sellsword Bravado - Daario Naharis (Neutral)': {
-    name: 'Sellsword Bravado - Daario Naharis (Neutral)',
+  'Sellsword Bravado - Daario Naharis': {
+    name: 'Sellsword Bravado - Daario Naharis',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-sc-t2.png',
     imageUrlBack: '',
   },
-  'Reckless Strikes - Daario Naharis (Neutral)': {
-    name: 'Reckless Strikes - Daario Naharis (Neutral)',
+  'Reckless Strikes - Daario Naharis': {
+    name: 'Reckless Strikes - Daario Naharis',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-sc-t3.png',
     imageUrlBack: '',
