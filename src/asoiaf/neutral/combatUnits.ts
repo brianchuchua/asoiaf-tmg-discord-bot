@@ -38,19 +38,19 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-hedge-knights-back.png',
   },
   "House Bolton Bastard's Girls": {
-    name: "House Bolton Bastard's Girls (Neutral)",
+    name: "House Bolton Bastard's Girls",
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-bastards-girls.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-bastards-girls-back.png',
   },
   'House Bolton Blackguards': {
-    name: 'House Bolton Blackguards (Neutral)',
+    name: 'House Bolton Blackguards',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-blackguards.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-blackguards-back.png',
   },
   'House Bolton Cutthroats': {
-    name: 'House Bolton Cutthroats (Neutral)',
+    name: 'House Bolton Cutthroats',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-cutthroats.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-cutthroats-back.png',
