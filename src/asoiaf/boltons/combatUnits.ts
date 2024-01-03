@@ -14,7 +14,7 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-blackguards-back.png',
   },
   'Cutthroats': {
-    name: 'Cutthroats (Bolton)',
+    name: 'Cutthroats',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-cutthroats.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-cutthroats-back.png',
@@ -32,7 +32,7 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-dreadfort-spearmen-back.png',
   },
   'Flayed Men': {
-    name: 'Flayed Men (Bolton)',
+    name: 'Flayed Men',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-flayed-men.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-flayed-men-back.png',
