@@ -37,8 +37,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-rm.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-rm-back.png',
   },
-  'Daario Naharis - Stormcrow Captain (Neutral)': {
-    name: 'Daario Naharis - Stormcrow Captain (Neutral)',
+  'Daario Naharis - Stormcrow Captain': {
+    name: 'Daario Naharis - Stormcrow Captain',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-sc.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-sc-back.png',
@@ -125,8 +125,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-sandor-clegane-fb.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-sandor-clegane-fb-back.png',
   },
-  'Stormcrow Lieutenant (Neutral)': {
-    name: 'Stormcrow Lieutenant (Neutral)',
+  'Stormcrow Lieutenant': {
+    name: 'Stormcrow Lieutenant',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-lieutenant.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-lieutenant-back.png',
