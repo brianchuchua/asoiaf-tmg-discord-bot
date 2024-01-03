@@ -38,19 +38,19 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-hedge-knights-back.png',
   },
   "House Bolton Bastard's Girls": {
-    name: "House Bolton Bastard's Girls",
+    name: "House Bolton Bastard's Girls (Neutral)",
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-bastards-girls.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-bastards-girls-back.png',
   },
   'House Bolton Blackguards': {
-    name: 'House Bolton Blackguards',
+    name: 'House Bolton Blackguards (Neutral)',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-blackguards.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-blackguards-back.png',
   },
   'House Bolton Cutthroats': {
-    name: 'House Bolton Cutthroats',
+    name: 'House Bolton Cutthroats (Neutral)',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-cutthroats.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-cutthroats-back.png',
@@ -61,20 +61,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-flayed-men.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-flayed-men-back.png',
   },
-  'Stormcrow Archers (Neutral)': {
-    name: 'Stormcrow Archers (Neutral)',
+  'Stormcrow Archers': {
+    name: 'Stormcrow Archers',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-archers.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-archers-back.png',
   },
-  'Stormcrow Dervishes (Neutral)': {
-    name: 'Stormcrow Dervishes (Neutral)',
+  'Stormcrow Dervishes': {
+    name: 'Stormcrow Dervishes',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-dervishes.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-dervishes-back.png',
   },
-  'Stormcrow Mercenaries (Neutral)': {
-    name: 'Stormcrow Mercenaries (Neutral)',
+  'Stormcrow Mercenaries': {
+    name: 'Stormcrow Mercenaries',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-mercenaries.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stormcrow-mercenaries-back.png',
