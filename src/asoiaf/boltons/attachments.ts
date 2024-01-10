@@ -76,6 +76,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-rs.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-rs-back.png',
   },
+  'Theon Greyjoy - Reek (Bolton)': {
+    name: 'Theon Greyjoy - Reek (Bolton)',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-theon-greyjoy-r.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-theon-greyjoy-r-back.png',
+  },
 };
 
 export default cardData;
