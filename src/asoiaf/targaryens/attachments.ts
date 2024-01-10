@@ -27,6 +27,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-cohollo-b.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-cohollo-b-back.png',
   },
+  'Daario Naharis - Reckless Mercenary (Targaryen)': {
+    name: 'Daario Naharis - Reckless Mercenary (Targaryen)',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-daario-naharis-rm.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-daario-naharis-rm-back.png',
+  },
   'Daario Naharis - Stormcrow Captain (Targaryen)': {
     name: 'Daario Naharis - Stormcrow Captain (Targaryen)',
     type: CardTypes.Attachment,
