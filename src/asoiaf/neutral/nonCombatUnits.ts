@@ -19,8 +19,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-petyr-baelish-l.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-petyr-baelish-l-back.png',
   },
-  'Roose Bolton - Calculating And Cruel': {
-    name: 'Roose Bolton - Calculating And Cruel',
+  'Roose Bolton - Calculating And Cruel (Neutral)': {
+    name: 'Roose Bolton - Calculating And Cruel (Neutral)',
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-roose-bolton-cac.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-roose-bolton-cac-back.png',
