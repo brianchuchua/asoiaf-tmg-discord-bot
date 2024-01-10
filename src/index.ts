@@ -102,7 +102,10 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
     // #############################################################################################
     // # Nickname nonsense starts here -- I'll move it to a separate file once it gets out of hand #
     // #############################################################################################
-    if (command.toLowerCase().includes('friendzone') || command.toLowerCase().includes('friend zone')) {
+    if (
+	  command.toLowerCase().includes('friendzone') || 
+	  command.toLowerCase().includes('friend zone')
+	) {
       const serFriendZone = Object.values(CardData).filter((card) => card.name.toLowerCase().includes('jorah mormont - the exiled knight'));
 
       if (serFriendZone) {
@@ -149,6 +152,20 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
         return;
       }
     }
+	
+	if (
+	  command.toLowerCase().includes('spear thrower') || 
+	  command.toLowerCase().includes('spearthrower')
+	) {
+      const walkingBallista = Object.values(CardData).filter((card) => card.name.toLowerCase().includes('builder scorpion crew'));
+
+      if (walkingBallista) {
+        message.channel.send(getCachedImageUrl(walkingBallista[0].imageUrl));
+        return;
+      }
+    }
+
+
     // ###########################################################################################
     // # Nickname nonsense ends here -- I'll move it to a separate file once it gets out of hand #
     // ###########################################################################################
