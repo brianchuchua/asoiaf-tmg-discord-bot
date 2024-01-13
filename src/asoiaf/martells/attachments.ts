@@ -7,8 +7,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-arys-oakheart-twk.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-arys-oakheart-twk-back.png',
   },
-  'Daemon Sand - Bastard of Godsgrace': {
-    name: 'Daemon Sand - Bastard of Godsgrace',
+  'Daemon Sand - Bastard Of Godsgrace': {
+    name: 'Daemon Sand - Bastard Of Godsgrace',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-bog.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-daemon-sand-bog-back.png',
@@ -26,8 +26,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-dervish-captain.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-dervish-captain-back.png',
   },
-  'Edric Dayne - Lord of Starfall': {
-    name: 'Edric Dayne - Lord of Starfall',
+  'Edric Dayne - Lord Of Starfall': {
+    name: 'Edric Dayne - Lord Of Starfall',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-edric-dayne-los.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-edric-dayne-los-back.png',
@@ -39,8 +39,8 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-gerold-dayne-d-back.png',
     isCommander: true,
   },
-  'Gerold Dayne - Knight of High Hermitage': {
-    name: 'Gerold Dayne - Knight of High Hermitage',
+  'Gerold Dayne - Knight Of High Hermitage': {
+    name: 'Gerold Dayne - Knight Of High Hermitage',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-gerold-dayne-kohh.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-gerold-dayne-kohh-back.png',
@@ -89,8 +89,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-elia-sand-ss.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-elia-sand-ss-back.png',
   },
-  'Harmen Uller - Lord of Hellholt': {
-    name: 'Harmen Uller - Lord of Hellholt',
+  'Harmen Uller - Lord Of Hellholt': {
+    name: 'Harmen Uller - Lord Of Hellholt',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-harmen-uller-loh.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-harmen-uller-loh-back.png',
@@ -127,8 +127,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-ss.jpg',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-ss-back.jpg',
   },
-  'Quentyn Martell - Prince of Dorne': {
-    name: 'Quentyn Martell - Prince of Dorne',
+  'Quentyn Martell - Prince Of Dorne': {
+    name: 'Quentyn Martell - Prince Of Dorne',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-quentyn-martell-pod.jpg',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-quentyn-martell-pod-back.jpg',

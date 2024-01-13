@@ -44,8 +44,8 @@ const cardData: CardData = {
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ramsay-snow-sh-back.png',
     isCommander: true,
   },
-  'Roose Bolton - Lord of the Dreadfort': {
-    name: 'Roose Bolton - Lord of the Dreadfort',
+  'Roose Bolton - Lord Of The Dreadfort': {
+    name: 'Roose Bolton - Lord Of The Dreadfort',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-roose-bolton-lotd.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-roose-bolton-lotd-back.png',
@@ -63,8 +63,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-sour-alyn-bb.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-sour-alyn-bb-back.png',
   },
-  'Steelshanks Walton - Captain of the Guard': {
-    name: 'Steelshanks Walton - Captain of the Guard',
+  'Steelshanks Walton - Captain Of The Guard': {
+    name: 'Steelshanks Walton - Captain Of The Guard',
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-cotg.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-cotg-back.png',
