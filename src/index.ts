@@ -284,9 +284,9 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
       const MAX_CARDS = 13;
       const firstFewCards = cards.slice(0, MAX_CARDS);
       const cardNames = firstFewCards
-//Re-write return list in a format that can be copied & pasted (common problem observed on the Main Discord), zz_NRW 240116
+//Re-write return list in a format that can be copied & pasted (common problem observed on the Main Discord), zz_NRW 240120
 //      .map((card) => `${card.name} _(Type: ${card.isCommander ? 'Commander / ' : ''}${card.type})_`)
-        .map((card) => `${card.name} _t:${card.isCommander ? 'Commander' : ${card.type}}_`)
+        .map((card) => `${card.name} _t:${card.isCommander ? 'commander' : card.type.replace(/\s/g, '').toLowerCase()}_`)
         .join('\n- ');
       const cardCount = cards.length;
       const cardCountString = cardCount === 1 ? 'card' : 'cards';
