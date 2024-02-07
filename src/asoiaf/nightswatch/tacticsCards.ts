@@ -1,26 +1,26 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  "The Sword in the Darkness - Night's Watch": {
-    name: "The Sword in the Darkness - Night's Watch",
+  "The Sword In The Darkness - Night's Watch": {
+    name: "The Sword In The Darkness - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-t1.png',
     imageUrlBack: '',
   },
-  "the Fire That Burns Against The Cold - Night's Watch": {
-    name: "the Fire That Burns Against The Cold - Night's Watch",
+  "The Fire That Burns Against The Cold - Night's Watch": {
+    name: "The Fire That Burns Against The Cold - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-t2.png',
     imageUrlBack: '',
   },
-  "The Shield of the Realms of Men - Night's Watch": {
-    name: "The Shield of the Realms of Men - Night's Watch",
+  "The Shield Of The Realms Of Men - Night's Watch": {
+    name: "The Shield Of The Realms Of Men - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-t3.png',
     imageUrlBack: '',
   },
-  "The Watcher on the Wall - Night's Watch": {
-    name: "The Watcher on the Wall - Night's Watch",
+  "The Watcher On The Wall - Night's Watch": {
+    name: "The Watcher On The Wall - Night's Watch",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-t4.png',
     imageUrlBack: '',
@@ -59,6 +59,24 @@ const cardData: CardData = {
     name: 'Night Gathers - Jeor Mormont',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-jeor-mormont-9lc-t3.png',
+    imageUrlBack: '',
+  },
+  'It Shall Not End Until My Death! - Jon Snow': {
+    name: 'It Shall Not End Until My Death! - Jon Snow',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-jon-snow-9lc-t1.png',
+    imageUrlBack: '',
+  },
+  'Stand United, Brothers! - Jon Snow': {
+    name: 'Stand United, Brothers! - Jon Snow',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-jon-snow-9lc-t2.png',
+    imageUrlBack: '',
+  },
+  'For The Watch! - Jon Snow': {
+    name: 'For The Watch! - Jon Snow',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-jon-snow-9lc-t3.png',
     imageUrlBack: '',
   },
   'Honed Enhancement - Othell Yarwyck': {
@@ -113,24 +131,6 @@ const cardData: CardData = {
     name: 'Price of Failure - Alliser Thorne',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-alliser-thorne-maa-t3.png',
-    imageUrlBack: '',
-  },
-  'It Shall Not End Until My Death! - Jon Snow': {
-    name: 'It Shall Not End Until My Death! - Jon Snow',
-    type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-jon-snow-9lc-t1.png',
-    imageUrlBack: '',
-  },
-  'Stand United, Brothers! - Jon Snow': {
-    name: 'Stand United, Brothers! - Jon Snow',
-    type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-jon-snow-9lc-t2.png',
-    imageUrlBack: '',
-  },
-  'For the Watch! - Jon Snow': {
-    name: 'For the Watch! - Jon Snow',
-    type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/nw-jon-snow-9lc-t3.png',
     imageUrlBack: '',
   },
   'Hit And Run - Benjen Stark': {
