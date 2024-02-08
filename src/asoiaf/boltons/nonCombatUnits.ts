@@ -1,8 +1,8 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'Jeyne Poole - Arya Stark, Bride of Bolton': {
-    name: 'Jeyne Poole - Arya Stark, Bride of Bolton',
+  'Jeyne Poole - Arya Stark, Bride Of Bolton': {
+    name: 'Jeyne Poole - Arya Stark, Bride Of Bolton',
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-jeyne-poole-asbob.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-jeyne-poole-asbob-back.png',
@@ -13,14 +13,14 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ramsay-snow-rh.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ramsay-snow-rh-back.png',
   },
-  'Roose Bolton - Calculating and Cruel (Bolton)': {
-    name: 'Roose Bolton - Calculating and Cruel (Bolton)',
+  'Roose Bolton - Calculating And Cruel (Bolton)': {
+    name: 'Roose Bolton - Calculating And Cruel (Bolton)',
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-roose-bolton-cac.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-roose-bolton-cac-back.png',
   },
-  'Tybald - Maester of the Dreadfort': {
-    name: 'Tybald - Maester of the Dreadfort',
+  'Tybald - Maester Of The Dreadfort': {
+    name: 'Tybald - Maester Of The Dreadfort',
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-tybald-motd.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-tybald-motd-back.png',

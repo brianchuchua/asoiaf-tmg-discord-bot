@@ -36,7 +36,7 @@ export const cardTypeCommands: CardTypeCommands = {
   [CardTypes.Commander]: ['commander', 'cm', 'c'],
   [CardTypes.CombatUnit]: ['combatunit', 'cu'],
   [CardTypes.Attachment]: ['attachment', 'a'],
-  [CardTypes.NonCombatUnit]: ['noncombatunit', 'ncu', 'nc', 'n'],
+  [CardTypes.NonCombatUnit]: ['noncombatunit', 'non-combatunit', 'ncu', 'nc', 'n'],
   [CardTypes.OpponentAttachment]: ['opponentattachment', 'oa', 'o'],
   [CardTypes.TacticsCard]: ['tacticscard', 'tactics', 'tactic', 'tc', 't'],
   [CardTypes.TacticsZone]: ['tacticszone', 'tz'],

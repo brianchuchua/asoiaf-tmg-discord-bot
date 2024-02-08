@@ -43,20 +43,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-t7.png',
     imageUrlBack: '',
   },
-  'Sellsword Negotiations - Daario Naharis': {
-    name: 'Sellsword Negotiations - Daario Naharis',
+  'Sellsword Negotiations - Daario Naharis (Neutral)': {
+    name: 'Sellsword Negotiations - Daario Naharis (Neutral)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-sc-t1.png',
     imageUrlBack: '',
   },
-  'Sellsword Bravado - Daario Naharis': {
-    name: 'Sellsword Bravado - Daario Naharis',
+  'Sellsword Bravado - Daario Naharis (Neutral)': {
+    name: 'Sellsword Bravado - Daario Naharis (Neutral)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-sc-t2.png',
     imageUrlBack: '',
   },
-  'Reckless Strikes - Daario Naharis': {
-    name: 'Reckless Strikes - Daario Naharis',
+  'Reckless Strikes - Daario Naharis (Neutral)': {
+    name: 'Reckless Strikes - Daario Naharis (Neutral)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-daario-naharis-sc-t3.png',
     imageUrlBack: '',
@@ -97,20 +97,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-ramsay-snow-tbob-t3.png',
     imageUrlBack: '',
   },
-  'A Flayed Man has No Secrets - Roose Bolton': {
-    name: 'A Flayed Man has No Secrets - Roose Bolton',
+  'A Flayed Man has No Secrets - Roose Bolton (The Leech Lord)': {
+    name: 'A Flayed Man has No Secrets - Roose Bolton (The Leech Lord)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-roose-bolton-tll-t1.png',
     imageUrlBack: '',
   },
-  'Fear Keeps A Man Alive - Roose Bolton': {
-    name: 'Fear Keeps A Man Alive - Roose Bolton',
+  'Fear Keeps A Man Alive - Roose Bolton (The Leech Lord)': {
+    name: 'Fear Keeps A Man Alive - Roose Bolton (The Leech Lord)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-roose-bolton-tll-t2.png',
     imageUrlBack: '',
   },
-  'Whispered Threats - Roose Bolton': {
-    name: 'Whispered Threats - Roose Bolton',
+  'Whispered Threats - Roose Bolton (The Leech Lord)': {
+    name: 'Whispered Threats - Roose Bolton (The Leech Lord)',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-roose-bolton-tll-t3.png',
     imageUrlBack: '',

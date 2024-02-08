@@ -67,6 +67,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-house-umber-greataxes.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-house-umber-greataxes-back.png',
   },
+  'House Umber Ravagers': {
+    name: 'House Umber Ravagers',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-house-umber-ravagers.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-house-umber-ravagers-back.png',
+  },
   Shaggydog: {
     name: 'Shaggydog',
     type: CardTypes.CombatUnit,

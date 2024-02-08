@@ -1,14 +1,14 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'Cunning Ploy - Martell': {
-    name: 'Cunning Ploy - Martell',
+  'Superior Positioning - Martell': {
+    name: 'Superior Positioning - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-t1.png',
     imageUrlBack: '',
   },
-  'Dune Tactics - Martell': {
-    name: 'Dune Tactics - Martell',
+  'Unbowed, Unbent, Unbroken - Martell': {
+    name: 'Unbowed, Unbent, Unbroken - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-t2.png',
     imageUrlBack: '',
@@ -19,26 +19,26 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-t3.png',
     imageUrlBack: '',
   },
-  'Rising Temperatures - Martell': {
-    name: 'Rising Temperatures - Martell',
+  'Sand Diplomacy - Martell': {
+    name: 'Sand Diplomacy - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-t4.png',
     imageUrlBack: '',
   },
-  'Sand Diplomacy - Martell': {
-    name: 'Sand Diplomacy - Martell',
+  'Rising Temperatures - Martell': {
+    name: 'Rising Temperatures - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-t5.png',
     imageUrlBack: '',
   },
-  'Superior Positioning - Martell': {
-    name: 'Superior Positioning - Martell',
+  'Cunning Ploy - Martell': {
+    name: 'Cunning Ploy - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-t6.png',
     imageUrlBack: '',
   },
-  'Unbowed, Unbent, Unbroken - Martell': {
-    name: 'Unbowed, Unbent, Unbroken - Martell',
+  'Dune Tactics - Martell': {
+    name: 'Dune Tactics - Martell',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-t7.png',
     imageUrlBack: '',
@@ -115,8 +115,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-areo-hotah-cotg-t3.png',
     imageUrlBack: '',
   },
-  'Desert Preparation - Obara Sand': {
-    name: 'Desert Preparation - Obara Sand',
+  'Sustained Assault - Obara Sand': {
+    name: 'Sustained Assault - Obara Sand',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-es-t1.png',
     imageUrlBack: '',
@@ -127,8 +127,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-es-t2.png',
     imageUrlBack: '',
   },
-  'Sustained Assault - Obara Sand': {
-    name: 'Sustained Assault - Obara Sand',
+  'Desert Preparation - Obara Sand': {
+    name: 'Desert Preparation - Obara Sand',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-es-t3.png',
     imageUrlBack: '',

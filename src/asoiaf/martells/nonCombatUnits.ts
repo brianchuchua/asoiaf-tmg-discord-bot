@@ -1,8 +1,8 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'Arianne Martell - Heiress to Dorne': {
-    name: 'Arianne Martell - Heiress to Dorne',
+  'Arianne Martell - Heiress To Dorne': {
+    name: 'Arianne Martell - Heiress To Dorne',
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-arianne-martell-htd.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-arianne-martell-htd-back.png',

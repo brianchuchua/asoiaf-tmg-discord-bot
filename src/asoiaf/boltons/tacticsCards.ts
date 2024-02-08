@@ -43,20 +43,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-t7.png',
     imageUrlBack: '',
   },
-  'Skin Collection - Ramsay Snow (Spiteful Heir)': {
-    name: 'Skin Collection - Ramsay Snow (Spiteful Heir)',
+  'Skin Collection - Ramsay Snow': {
+    name: 'Skin Collection - Ramsay Snow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ramsay-snow-sh-t1.png',
     imageUrlBack: '',
   },
-  'Opportunist - Ramsay Snow (Spiteful Heir)': {
-    name: 'Opportunist - Ramsay Snow (Spiteful Heir)',
+  'Opportunist - Ramsay Snow': {
+    name: 'Opportunist - Ramsay Snow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ramsay-snow-sh-t2.png',
     imageUrlBack: '',
   },
-  'Spoils In Flesh - Ramsay Snow (Spiteful Heir)': {
-    name: 'Spoils In Flesh - Ramsay Snow (Spiteful Heir)',
+  'Spoils In Flesh - Ramsay Snow': {
+    name: 'Spoils In Flesh - Ramsay Snow',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-ramsay-snow-sh-t3.png',
     imageUrlBack: '',
@@ -79,20 +79,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-roose-bolton-lotd-t3.png',
     imageUrlBack: '',
   },
-  'Price of Fear - Steelshanks Walton (Captain of the Guard)': {
-    name: 'Price of Fear - Steelshanks Walton (Captain of the Guard)',
+  'Price of Fear - Steelshanks Walton': {
+    name: 'Price of Fear - Steelshanks Walton',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-cotg-t1.png',
     imageUrlBack: '',
   },
-  'Rush of Aggression - Steelshanks Walton (Captain of the Guard)': {
-    name: 'Rush of Aggression - Steelshanks Walton (Captain of the Guard)',
+  'Rush of Aggression - Steelshanks Walton': {
+    name: 'Rush of Aggression - Steelshanks Walton',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-cotg-t2.png',
     imageUrlBack: '',
   },
-  'Taunt - Steelshanks Walton (Captain of the Guard)': {
-    name: 'Taunt - Steelshanks Walton (Captain of the Guard)',
+  'Taunt - Steelshanks Walton': {
+    name: 'Taunt - Steelshanks Walton',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-steelshanks-walton-cotg-t3.png',
     imageUrlBack: '',

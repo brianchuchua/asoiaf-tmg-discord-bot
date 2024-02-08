@@ -102,7 +102,10 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
     // #############################################################################################
     // # Nickname nonsense starts here -- I'll move it to a separate file once it gets out of hand #
     // #############################################################################################
-    if (command.toLowerCase().includes('friendzone') || command.toLowerCase().includes('friend zone')) {
+    if (
+	  command.toLowerCase().includes('friendzone') || 
+	  command.toLowerCase().includes('friend zone')
+	) {
       const serFriendZone = Object.values(CardData).filter((card) => card.name.toLowerCase().includes('jorah mormont - the exiled knight'));
 
       if (serFriendZone) {
@@ -149,6 +152,20 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
         return;
       }
     }
+	
+	if (
+	  command.toLowerCase().includes('spear thrower') || 
+	  command.toLowerCase().includes('spearthrower')
+	) {
+      const walkingBallista = Object.values(CardData).filter((card) => card.name.toLowerCase().includes('builder scorpion crew'));
+
+      if (walkingBallista) {
+        message.channel.send(getCachedImageUrl(walkingBallista[0].imageUrl));
+        return;
+      }
+    }
+
+
     // ###########################################################################################
     // # Nickname nonsense ends here -- I'll move it to a separate file once it gets out of hand #
     // ###########################################################################################
@@ -267,7 +284,9 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
       const MAX_CARDS = 13;
       const firstFewCards = cards.slice(0, MAX_CARDS);
       const cardNames = firstFewCards
-        .map((card) => `${card.name} _(Type: ${card.isCommander ? 'Commander / ' : ''}${card.type})_`)
+//Re-write return list in a format that can be copied & pasted (common problem observed on the Main Discord), zz_NRW 240120
+//      .map((card) => `${card.name} _(Type: ${card.isCommander ? 'Commander / ' : ''}${card.type})_`)
+        .map((card) => `${card.name} _t:${card.isCommander ? 'commander' : card.type.replace(/\s/g, '').toLowerCase()}_`)
         .join('\n- ');
       const cardCount = cards.length;
       const cardCountString = cardCount === 1 ? 'card' : 'cards';

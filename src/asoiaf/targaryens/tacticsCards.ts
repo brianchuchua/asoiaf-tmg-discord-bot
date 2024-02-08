@@ -19,8 +19,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-t3.png',
     imageUrlBack: '',
   },
-  'Fire and Blood - Targaryen': {
-    name: 'Fire and Blood - Targaryen',
+  'Fire And Blood - Targaryen': {
+    name: 'Fire And Blood - Targaryen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-t4.png',
     imageUrlBack: '',
@@ -37,8 +37,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-t6.png',
     imageUrlBack: '',
   },
-  'Blood of the Dragon - Targaryen': {
-    name: 'Blood of the Dragon - Targaryen',
+  'Blood Of The Dragon - Targaryen': {
+    name: 'Blood Of The Dragon - Targaryen',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-t7.png',
     imageUrlBack: '',
@@ -49,20 +49,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-khal-drogo-tgk-t1.png',
     imageUrlBack: '',
   },
-  'Lead by Example - Khal Drogo': {
-    name: 'Lead by Example - Khal Drogo',
+  'Ride-By Attack - Khal Drogo': {
+    name: 'Ride-By Attack - Khal Drogo',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-khal-drogo-tgk-t2.png',
     imageUrlBack: '',
   },
-  'Ride-By Attack - Khal Drogo': {
-    name: 'Ride-By Attack - Khal Drogo',
+  'Assault Orders - Khal Drogo': {
+    name: 'Assault Orders - Khal Drogo',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-khal-drogo-tgk-t3.png',
     imageUrlBack: '',
   },
-  'Assault Orders - Khal Drogo': {
-    name: 'Assault Orders - Khal Drogo',
+  'Lead By Example - Khal Drogo': {
+    name: 'Lead By Example - Khal Drogo',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-khal-drogo-tgk-t4.png',
     imageUrlBack: '',

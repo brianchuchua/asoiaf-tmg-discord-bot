@@ -1,6 +1,12 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
+  'Baratheon Halberdiers': {
+    name: 'Baratheon Halberdiers',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-baratheon-halberdiers.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-baratheon-halberdiers-back.png',
+  },
   'Baratheon Sentinels': {
     name: 'Baratheon Sentinels',
     type: CardTypes.CombatUnit,

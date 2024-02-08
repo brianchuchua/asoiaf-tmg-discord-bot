@@ -1,28 +1,34 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
-  'A Clash of Kings': {
-    name: 'A Clash of Kings',
+  'A Clash Of Kings': {
+    name: 'A Clash Of Kings',
     type: CardTypes.GameMode,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-a-clash-of-kings.png',
     imageUrlBack: '',
   },
-  'A Dance with Dragons': {
-    name: 'A Dance with Dragons',
+  'A Dance With Dragons': {
+    name: 'A Dance With Dragons',
     type: CardTypes.GameMode,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-a-dance-with-dragons.png',
     imageUrlBack: '',
   },
-  'A Feast for Crows': {
-    name: 'A Feast for Crows',
+  'A Feast For Crows': {
+    name: 'A Feast For Crows',
     type: CardTypes.GameMode,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-a-feast-for-crows.png',
     imageUrlBack: '',
   },
-  'A Game of Thrones': {
-    name: 'A Game of Thrones',
+  'A Game Of Thrones': {
+    name: 'A Game Of Thrones',
     type: CardTypes.GameMode,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-a-game-of-thrones.png',
+    imageUrlBack: '',
+  },
+  'Banners & Butchery': {
+    name: 'Banners & Butchery',
+    type: CardTypes.GameMode,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-s04-banners-and-butchery.png',
     imageUrlBack: '',
   },
   'Dark Wings, Dark Words': {
@@ -31,8 +37,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-dark-wings-dark-words.png',
     imageUrlBack: '',
   },
-  'Fire and Blood': {
-    name: 'Fire and Blood',
+  'Fire And Blood': {
+    name: 'Fire And Blood',
     type: CardTypes.GameMode,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-fire-and-blood.png',
     imageUrlBack: '',
@@ -43,20 +49,20 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-here-we-stand.png',
     imageUrlBack: '',
   },
-  'Honed and Ready': {
-    name: 'Honed and Ready',
+  'Honed And Ready': {
+    name: 'Honed And Ready',
     type: CardTypes.GameMode,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-honed-and-ready.png',
     imageUrlBack: '',
   },
-  'Storm of Swords': {
-    name: 'Storm of Swords',
+  'Storm Of Swords': {
+    name: 'Storm Of Swords',
     type: CardTypes.GameMode,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-storm-of-swords.png',
     imageUrlBack: '',
   },
-  'Winds of Winter': {
-    name: 'Winds of Winter',
+  'Winds Of Winter': {
+    name: 'Winds Of Winter',
     type: CardTypes.GameMode,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-winds-of-winter.png',
     imageUrlBack: '',
