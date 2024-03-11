@@ -74,7 +74,7 @@ const cardData: CardData = {
     imageUrlBack: '',
   },
   'Stalwart Mercenaries - Jokin': {
-    name: 'Brothers In Arms - Jokin',
+    name: 'Stalwart Mercenaries - Jokin',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-jokin-sc-t3.png',
     imageUrlBack: '',
