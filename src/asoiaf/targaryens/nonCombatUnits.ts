@@ -40,8 +40,8 @@ const cardData: CardData = {
   'Hizdahr Zo Loraq - Fourteenth Of That Noble Name': {
     name: 'Hizdahr Zo Loraq - Fourteenth Of That Noble Name',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn-back.png',
   },
   'Mirri Maz Duur - Godswife': {
     name: 'Mirri Maz Duur - Godswife',
