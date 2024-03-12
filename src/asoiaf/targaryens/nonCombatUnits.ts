@@ -52,14 +52,14 @@ const cardData: CardData = {
   'Missandei - Scribe': {
     name: 'Missandei - Scribe',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s-back.png',
   },
   'Quaithe - Of The Shadow': {
     name: 'Quaithe - Of The Shadow',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots-back.png',
   },
 };
 
