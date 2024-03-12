@@ -46,8 +46,8 @@ const cardData: CardData = {
   'Mirri Maz Duur - Godswife': {
     name: 'Mirri Maz Duur - Godswife',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g-back.png',
   },
   'Missandei - Scribe': {
     name: 'Missandei - Scribe',
