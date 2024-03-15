@@ -211,6 +211,24 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-mag-the-mighty-t10.png',
     imageUrlBack: '',
   },
+  'Summon Companions - Varamyr Sixskins': {
+    name: 'Summon Companions - Varamyr Sixskins',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyr-sixskins-ms-t1.png',
+    imageUrlBack: '',
+  },
+  'Bonded Guardians - Varamyr Sixskins': {
+    name: 'Bonded Guardians - Varamyr Sixskins',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyr-sixskins-ms-t2.png',
+    imageUrlBack: '',
+  },
+  'Bonded Command - Varamyr Sixskins': {
+    name: 'Bonded Command - Varamyr Sixskins',
+    type: CardTypes.TacticsCard,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyr-sixskins-ms-t3.png',
+    imageUrlBack: '',
+  },
   'Battle Endurance - The Great Walrus': {
     name: 'Battle Endurance - The Great Walrus',
     type: CardTypes.TacticsCard,
@@ -227,24 +245,6 @@ const cardData: CardData = {
     name: "Walrus' Strength - The Great Walrus",
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-the-great-walrus-lotfs-t3.png',
-    imageUrlBack: '',
-  },
-  'Bonded Guardians - Varamyr Sixskins': {
-    name: 'Bonded Guardians - Varamyr Sixskins',
-    type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyr-sixskins-ms-t1.png',
-    imageUrlBack: '',
-  },
-  'Bonded Command - Varamyr Sixskins': {
-    name: 'Bonded Command - Varamyr Sixskins',
-    type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyr-sixskins-ms-t2.png',
-    imageUrlBack: '',
-  },
-  'Summon Companions - Varamyr Sixskins': {
-    name: 'Summon Companions - Varamyr Sixskins',
-    type: CardTypes.TacticsCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-varamyr-sixskins-ms-t3.png',
     imageUrlBack: '',
   },
 };

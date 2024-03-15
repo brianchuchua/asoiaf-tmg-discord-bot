@@ -40,26 +40,26 @@ const cardData: CardData = {
   'Hizdahr Zo Loraq - Fourteenth Of That Noble Name': {
     name: 'Hizdahr Zo Loraq - Fourteenth Of That Noble Name',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-hizdahr-zo-loraq-fotnn-back.png',
   },
   'Mirri Maz Duur - Godswife': {
     name: 'Mirri Maz Duur - Godswife',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-mirri-maz-duur-g-back.png',
   },
   'Missandei - Scribe': {
     name: 'Missandei - Scribe',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-missandei-s-back.png',
   },
   'Quaithe - Of The Shadow': {
     name: 'Quaithe - Of The Shadow',
     type: CardTypes.NonCombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots-back.png',
   },
 };
 

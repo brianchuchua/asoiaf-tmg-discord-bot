@@ -80,7 +80,7 @@ const cardData: CardData = {
   'Areo Hotah - Dutiful Juggernaut': {
     name: 'Areo Hotah - Dutiful Juggernaut',
     type: CardTypes.Attachment,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-areo-hotah-dj.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-areo-hotah-dj.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-areo-hotah-dj-back.png',
   },
   'Elia Sand - Sand Snake': {
@@ -112,26 +112,26 @@ const cardData: CardData = {
   'Nymeria Sand - Sand Snake': {
     name: 'Nymeria Sand - Sand Snake',
     type: CardTypes.Attachment,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-nymeria-sand-ss.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-nymeria-sand-ss-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-nymeria-sand-ss.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-nymeria-sand-ss-back.png',
   },
   'Harmen Uller - Dornish Envoy': {
     name: 'Harmen Uller - Dornish Envoy',
     type: CardTypes.Attachment,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-harmen-uller-de.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-harmen-uller-de-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-harmen-uller-de.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-harmen-uller-de-back.png',
   },
   'Obara Sand - Sand Snake': {
     name: 'Obara Sand - Sand Snake',
     type: CardTypes.Attachment,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-ss.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-ss-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-ss.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-obara-sand-ss-back.png',
   },
   'Quentyn Martell - Prince Of Dorne': {
     name: 'Quentyn Martell - Prince Of Dorne',
     type: CardTypes.Attachment,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-quentyn-martell-pod.jpg',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-quentyn-martell-pod-back.jpg',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-quentyn-martell-pod.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-quentyn-martell-pod-back.png',
   },
 };
 

@@ -49,6 +49,14 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-frozen-shore-chariots.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-frozen-shore-chariots-back.png',
   },
+  'Giant Spear Throwers': {
+    name: 'Giant Spear Throwers',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-giant-spear-throwers.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-giant-spear-throwers-back.png',
+    isCommander: true,
+    tacticsCardGroupUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-mag-the-mighty-tactics.png',
+  },
   'Mag The Mighty': {
     name: 'Mag The Mighty',
     type: CardTypes.CombatUnit,
