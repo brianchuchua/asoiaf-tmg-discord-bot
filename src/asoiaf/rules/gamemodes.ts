@@ -37,8 +37,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-dark-wings-dark-words.png',
     imageUrlBack: '',
   },
-  'Fire And Blood': {
-    name: 'Fire And Blood',
+  'Fire & Blood': {
+    name: 'Fire & Blood',
     type: CardTypes.GameMode,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/game-mode-2021-s01-fire-and-blood.png',
     imageUrlBack: '',
