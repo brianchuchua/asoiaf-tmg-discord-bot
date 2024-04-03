@@ -109,6 +109,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-reaver-captain.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-reaver-captain-back.png',
   },
+  'Sunset Sea Brave': {
+    name: 'Sunset Sea Brave',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-sunset-sea-brave.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-sunset-sea-brave-back.png',
+  },
   'Theon Greyjoy - Kinslayer': {
     name: 'Theon Greyjoy - Kinslayer',
     type: CardTypes.Attachment,
