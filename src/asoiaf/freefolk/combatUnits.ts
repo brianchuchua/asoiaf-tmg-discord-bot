@@ -54,8 +54,6 @@ const cardData: CardData = {
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-giant-spear-throwers.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-giant-spear-throwers-back.png',
-    isCommander: true,
-    tacticsCardGroupUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-mag-the-mighty-tactics.png',
   },
   'Mag The Mighty': {
     name: 'Mag The Mighty',
