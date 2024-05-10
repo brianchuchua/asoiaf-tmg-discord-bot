@@ -174,6 +174,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-umber-champion.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-umber-champion-back.png',
   },
+  'Winterfell Champion': {
+    name: 'Winterfell Champion',
+    type: CardTypes.Attachment,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-winterfell-champion.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-winterfell-champion-back.png',
+  },
   'Winterfell Guardian': {
     name: 'Winterfell Guardian',
     type: CardTypes.Attachment,
