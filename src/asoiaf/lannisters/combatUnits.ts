@@ -85,6 +85,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-red-cloaks.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-red-cloaks-back.png',
   },
+  'Stone Crows (Lannister)': {
+    name: 'Stone Crows (Lannister)',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-stone-crows.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hl-stone-crows-back.png',
+  },
   "The Warrior's Sons": {
     name: "The Warrior's Sons",
     type: CardTypes.CombatUnit,
