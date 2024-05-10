@@ -75,13 +75,13 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-savage-giant.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-savage-giant-back.png',
   },
-  'Shadowcat': {
+  Shadowcat: {
     name: 'Shadowcat',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-shadowcat.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-shadowcat-back.png',
   },
-  'Spearwives': {
+  Spearwives: {
     name: 'Spearwives',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-spearwives.png',
