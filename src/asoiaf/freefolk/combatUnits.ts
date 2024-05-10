@@ -54,8 +54,12 @@ const cardData: CardData = {
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-giant-spear-throwers.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-giant-spear-throwers-back.png',
-    isCommander: true,
-    tacticsCardGroupUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-mag-the-mighty-tactics.png',
+  },
+  "Harma's Vanguard": {
+    name: "Harma's Vanguard",
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-harmas-vanguard.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-harmas-vanguard-back.png',
   },
   'Mag The Mighty': {
     name: 'Mag The Mighty',
@@ -71,13 +75,13 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-savage-giant.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-savage-giant-back.png',
   },
-  Shadowcat: {
+  'Shadowcat': {
     name: 'Shadowcat',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-shadowcat.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-shadowcat-back.png',
   },
-  Spearwives: {
+  'Spearwives': {
     name: 'Spearwives',
     type: CardTypes.CombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-spearwives.png',
