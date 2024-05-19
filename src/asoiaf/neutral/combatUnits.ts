@@ -61,6 +61,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-flayed-men.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-house-bolton-flayed-men-back.png',
   },
+  'Stone Crows (Neutral)': {
+    name: 'Stone Crows (Neutral)',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stone-crows.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/n-stone-crows-back.png',
+  },
   'Stormcrow Archers (Neutral)': {
     name: 'Stormcrow Archers (Neutral)',
     type: CardTypes.CombatUnit,

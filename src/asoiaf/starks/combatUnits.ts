@@ -1,6 +1,12 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
+  'Crannogman Bog Devils': {
+    name: 'Crannogman Bog Devils',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-crannogman-bog-devils.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-crannogman-bog-devils-back.png',
+  },
   'Crannogman Trackers': {
     name: 'Crannogman Trackers',
     type: CardTypes.CombatUnit,
@@ -103,11 +109,11 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-summer.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-summer-back.png',
   },
-  'Crannogman Bog Devils': {
-    name: 'Crannogman Bog Devils',
+  'Winterfell Guard': {
+    name: 'Winterfell Guard',
     type: CardTypes.CombatUnit,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-crannogman-bog-devils.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-crannogman-bog-devils-back.png',
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-winterfell-guard.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hs-winterfell-guard-back.png',
   },
 };
 

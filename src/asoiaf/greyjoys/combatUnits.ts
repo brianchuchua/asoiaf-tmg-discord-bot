@@ -49,6 +49,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-silenced-men.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-silenced-men-back.png',
   },
+  'Stony Shore Pillagers': {
+    name: 'Stony Shore Pillagers',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-stony-shore-pillagers.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-stony-shore-pillagers-back.png',
+  },
 };
 
 export default cardData;

@@ -5,7 +5,7 @@ const cardData: CardData = {
     name: 'Inner Circle',
     type: CardTypes.InformationCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-inner-circle.png',
-    imageUrlBack: '',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hbo-inner-circle-back.png',
   },
 };
 
