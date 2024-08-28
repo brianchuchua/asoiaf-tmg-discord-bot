@@ -157,8 +157,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-dagmer-cleftjaw-maa-t1.png',
     imageUrlBack: '',
   },
-  'Coordination Tactics - Dagmer Cleftjaw': {
-    name: 'Coordination Tactics - Dagmer Cleftjaw',
+  'Iron Envy - Dagmer Cleftjaw': {
+    name: 'Iron Envy - Dagmer Cleftjaw',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-dagmer-cleftjaw-maa-t2.png',
     imageUrlBack: '',
