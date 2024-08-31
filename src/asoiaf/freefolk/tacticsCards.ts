@@ -61,8 +61,8 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-tormund-giantsbane-t-t3.png',
     imageUrlBack: '',
   },
-  'Final Strike - Styr': {
-    name: 'Final Strike - Styr',
+  'Bitter Demise - Styr': {
+    name: 'Bitter Demise - Styr',
     type: CardTypes.TacticsCard,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ff-styr-mot-t1.png',
     imageUrlBack: '',
