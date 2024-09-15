@@ -43,6 +43,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-ironmakers.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-ironmakers-back.png',
   },
+  'Iron Victory Crew': {
+    name: 'Iron Victory Crew',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-iron-victory-crew.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-iron-victory-crew-back.png',
+  },
   'Silenced Men': {
     name: 'Silenced Men',
     type: CardTypes.CombatUnit,
