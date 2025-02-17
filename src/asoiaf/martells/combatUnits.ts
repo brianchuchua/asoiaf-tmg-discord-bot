@@ -19,6 +19,12 @@ const cardData: CardData = {
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-sand-skirmishers.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-sand-skirmishers-back.png',
   },
+  'Skyreach Bowmen': {
+    name: 'Skyreach Bowmen',
+    type: CardTypes.CombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-skyreach-bowmen.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-skyreach-bowmen-back.png',
+  },
   'Sunspear Dervishes': {
     name: 'Sunspear Dervishes',
     type: CardTypes.CombatUnit,
