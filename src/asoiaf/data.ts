@@ -1,5 +1,6 @@
 import Baratheons from './baratheons';
 import Boltons from './boltons';
+import BrotherhoodWithoutBanners from './brotherhoodwithoutbanners';
 import Freefolk from './freefolk';
 import Greyjoys from './greyjoys';
 import Lannisters from './lannisters';
@@ -15,6 +16,7 @@ import { CardData } from './types';
 const checkForDuplicates = () => {
   const keys = Object.keys(Baratheons).concat(
     Object.keys(Boltons),
+	Object.keys(BrotherhoodWithoutBanners),
     Object.keys(Freefolk),
     Object.keys(Lannisters),
     Object.keys(NightsWatch),
@@ -35,6 +37,7 @@ checkForDuplicates();
 const cardData: CardData = {
   ...Baratheons,
   ...Boltons,
+  ...BrotherhoodWithoutBanners,
   ...Freefolk,
   ...Greyjoys,
   ...Lannisters,
