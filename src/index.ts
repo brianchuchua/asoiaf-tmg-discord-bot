@@ -3,7 +3,7 @@ import CardData from './asoiaf/data';
 import { cardTypeCommands, CardTypes, TYPE_PREFIX } from './asoiaf/types';
 
 const getCachedImageUrl = (imageUrl: string) => {
-  const IMAGE_CACHE_SUFFIX = '?v=2023-12-30';
+  const IMAGE_CACHE_SUFFIX = '?v=2025-02-18';
   return imageUrl + IMAGE_CACHE_SUFFIX;
 };
 
@@ -102,10 +102,7 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
     // #############################################################################################
     // # Nickname nonsense starts here -- I'll move it to a separate file once it gets out of hand #
     // #############################################################################################
-    if (
-	  command.toLowerCase().includes('friendzone') || 
-	  command.toLowerCase().includes('friend zone')
-	) {
+    if (command.toLowerCase().includes('friendzone') || command.toLowerCase().includes('friend zone')) {
       const serFriendZone = Object.values(CardData).filter((card) => card.name.toLowerCase().includes('jorah mormont - the exiled knight'));
 
       if (serFriendZone) {
@@ -206,7 +203,7 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
       }
     }
 
-    //Requests are frontOnly by default - zz_NRW 2024/01/02
+    // Requests are frontOnly by default - zz_NRW 2024/01/02
     let frontOnly = true;
     let backOnly = false;
     let allCommanderTacticsCards = false;
@@ -271,8 +268,8 @@ _(Tip: Try \`!a help\` to see a list of commands.)_
       const MAX_CARDS = 13;
       const firstFewCards = cards.slice(0, MAX_CARDS);
       const cardNames = firstFewCards
-//Re-write return list in a format that can be copied & pasted (common problem observed on the Main Discord), zz_NRW 240120
-//      .map((card) => `${card.name} _(Type: ${card.isCommander ? 'Commander / ' : ''}${card.type})_`)
+        // Re-write return list in a format that can be copied & pasted (common problem observed on the Main Discord), zz_NRW 240120
+        //      .map((card) => `${card.name} _(Type: ${card.isCommander ? 'Commander / ' : ''}${card.type})_`)
         .map((card) => `${card.name} _t:${card.isCommander ? 'commander' : card.type.replace(/\s/g, '').toLowerCase()}_`)
         .join('\n- ');
       const cardCount = cards.length;

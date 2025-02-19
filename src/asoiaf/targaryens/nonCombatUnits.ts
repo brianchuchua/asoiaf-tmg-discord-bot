@@ -1,6 +1,12 @@
 import { CardData, CardTypes } from '../types';
 
 const cardData: CardData = {
+  'Alicent Hightower - Dowager Queen': {
+    name: 'Alicent Hightower - Dowager Queen',
+    type: CardTypes.NonCombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-alicent-hightower-dq.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-alicent-hightower-dq-back.png',
+  },
   'Barristan Selmy - Advisor To The Dragon': {
     name: 'Barristan Selmy - Advisor To The Dragon',
     type: CardTypes.NonCombatUnit,
@@ -60,6 +66,12 @@ const cardData: CardData = {
     type: CardTypes.NonCombatUnit,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-quaithe-ots-back.png',
+  },
+  'Rhaenyra Targaryen - Dragon Queen': {
+    name: 'Rhaenyra Targaryen - Dragon Queen',
+    type: CardTypes.NonCombatUnit,
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-rhaenyra-targaryen-dq.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/ht-rhaenyra-targaryen-dq-back.png',
   },
 };
 
