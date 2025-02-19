@@ -12,7 +12,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/bwb-catelyn-stark-ls.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/bwb-catelyn-stark-ls-back.png',
-	isCommander: true,
+    isCommander: true,
   },
   'Beric Dondarrion - Azor Ahai': {
     name: 'Beric Dondarrion - Azor Ahai',
@@ -25,7 +25,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/bwb-beric-dondarrion-ll.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/bwb-beric-dondarrion-ll-back.png',
-	isCommander: true,
+    isCommander: true,
   },
   'Edric Dayne - Loyal Squire': {
     name: 'Edric Dayne - Loyal Squire',
@@ -62,7 +62,7 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/bwb-thoros-of-myr-trw.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/bwb-thoros-of-myr-trw-back.png',
-	isCommander: true,
+    isCommander: true,
   },
   "Tom Sevenstringers - O'Sevens": {
     name: "Tom Sevenstringers - O'Sevens",

@@ -16,7 +16,7 @@ import { CardData } from './types';
 const checkForDuplicates = () => {
   const keys = Object.keys(Baratheons).concat(
     Object.keys(Boltons),
-	Object.keys(BrotherhoodWithoutBanners),
+    Object.keys(BrotherhoodWithoutBanners),
     Object.keys(Freefolk),
     Object.keys(Lannisters),
     Object.keys(NightsWatch),
