@@ -24,7 +24,7 @@ https://discord.com/api/oauth2/authorize?client_id=1011134218786574416&permissio
 
 ## Usage
 
-First, add the bot to your server uses the step(s) above.
+First, add the bot to your server using the step(s) above.
 
 Then, just type the following command in any public chat:
 
