@@ -3,7 +3,7 @@ import CardData from './asoiaf/data';
 import { cardTypeCommands, CardTypes, TYPE_PREFIX } from './asoiaf/types';
 
 const getCachedImageUrl = (imageUrl: string) => {
-  const IMAGE_CACHE_SUFFIX = '?v=2025-02-18';
+  const IMAGE_CACHE_SUFFIX = '?v=2025-06-23';
   return imageUrl + IMAGE_CACHE_SUFFIX;
 };
 
