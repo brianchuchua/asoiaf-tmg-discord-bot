@@ -4,7 +4,7 @@ const cardData: CardData = {
   'Raiders of the Iron Islands': {
     name: 'Raiders of the Iron Islands',
     type: CardTypes.InformationCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hg-rotii.png',
+    imageUrl: 'https://asoiaf-bot.brianchuchua.com/images/hg-rotii.png',
     imageUrlBack: '',
   },
 };

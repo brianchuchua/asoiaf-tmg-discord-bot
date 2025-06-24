@@ -159,7 +159,7 @@ To report bugs, typos, missing cards, or missing artwork, please go here: <https
     // ##################################
 
     if (command.toLowerCase() === 'dork star' || command.toLowerCase().includes('dorkstar')) {
-      message.channel.send(getCachedImageUrl('https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/darkstar.gif'));
+      message.channel.send(getCachedImageUrl('https://asoiaf-bot.brianchuchua.com/images/darkstar.gif'));
       return;
     }
 

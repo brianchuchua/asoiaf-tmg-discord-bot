@@ -4,8 +4,8 @@ const cardData: CardData = {
   'Unending Vengeance': {
     name: 'Unending Vengeance',
     type: CardTypes.InformationCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/bwb-unending-vengeance.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/bwb-unending-vengeance-back.png',
+    imageUrl: 'https://asoiaf-bot.brianchuchua.com/images/bwb-unending-vengeance.png',
+    imageUrlBack: 'https://asoiaf-bot.brianchuchua.com/images/bwb-unending-vengeance-back.png',
   },
 };
 

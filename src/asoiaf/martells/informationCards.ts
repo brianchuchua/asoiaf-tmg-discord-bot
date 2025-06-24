@@ -4,7 +4,7 @@ const cardData: CardData = {
   'Lord of Sunspear': {
     name: 'Lord of Sunspear',
     type: CardTypes.InformationCard,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hm-lord-of-sunspear.png',
+    imageUrl: 'https://asoiaf-bot.brianchuchua.com/images/hm-lord-of-sunspear.png',
     imageUrlBack: '',
   },
 };
